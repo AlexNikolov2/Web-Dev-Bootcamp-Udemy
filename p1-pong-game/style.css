@@ -1,0 +1,65 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  max-width: 20rem;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 15px;
+}
+.container img {
+  max-width: 20rem;
+  border-radius: 33px 33px 0px 0px;
+  object-fit: contain;
+}
+.container .result .top {
+  font-size: 1.3em;
+  text-align: center;
+}
+.container .result .scoreline {
+  text-align: center;
+  font-size: 2.5em;
+  padding-bottom: 30px;
+}
+.container .result .scoreline span {
+  margin: 1em;
+}
+.container .result .scoreline #blue,
+.container .result .scoreline #red {
+  color: black;
+}
+.container .controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex: 1 1 33%;
+}
+.container .controls #add-blue {
+  background-color: blue;
+  padding: 10px 30px;
+  color: beige;
+  border: none;
+  border-radius: 0px 0px 0px 13px;
+}
+.container .controls #add-red {
+  background-color: red;
+  padding: 10px 30px;
+  color: beige;
+  border: none;
+  border-radius: 0px 0px 0px 0px;
+}
+.container .controls #reset {
+  background-color: dimgray;
+  padding: 10px 30px;
+  color: beige;
+  border: none;
+  border-radius: 0px 0px 13px 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
