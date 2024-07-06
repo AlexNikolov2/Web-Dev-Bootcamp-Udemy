@@ -23,6 +23,12 @@ function addtoBlue() {
   } else {
     blue.innerHTML++;
   }
+  setTimeout(() => {
+    blue.style.color = "blue";
+    setTimeout(() => {
+      blue.style.color = "black";
+    }, 3000);
+  }, 0);
   winCondition();
 }
 function addtoRed() {
@@ -32,6 +38,12 @@ function addtoRed() {
   } else {
     red.innerHTML++;
   }
+  setTimeout(() => {
+    red.style.color = "red";
+    setTimeout(() => {
+      red.style.color = "black";
+    }, 3000);
+  }, 0);
   winCondition();
 }
 function resetGame() {

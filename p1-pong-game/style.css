@@ -32,7 +32,7 @@
 }
 .container .result .scoreline #blue,
 .container .result .scoreline #red {
-  color: black;
+  transition: 3s color;
 }
 .container .controls {
   display: flex;
