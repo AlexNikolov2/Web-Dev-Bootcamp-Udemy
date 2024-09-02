@@ -22,8 +22,11 @@ app.get("/", (req, res) => {
   res.send("Welcome");
 });
 
-app.get("/dog", (req, res) => {
-  res.send("WOOF");
+app.get("/products", async (req, res) => {
+  const products = await Product.find({});
+  products.forEach((product) => {
+    res.send(`${product.name}, ${product.price}, ${product.category}`);
+  });
 });
 
 app.listen(3000, () => {
