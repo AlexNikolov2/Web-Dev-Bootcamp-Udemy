@@ -3,11 +3,13 @@ const app = express();
 const path = require("path");
 const mongoose = require("mongoose");
 
+const Product = require("./models/product");
+
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 mongoose
-  .connect("mongodb://localhost:27017/testApp")
+  .connect("mongodb://localhost:27017/farmApp")
   .then(() => {
     console.log("OPEN CONNECTION!");
   })
