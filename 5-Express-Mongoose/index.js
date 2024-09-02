@@ -24,9 +24,7 @@ app.get("/", (req, res) => {
 
 app.get("/products", async (req, res) => {
   const products = await Product.find({});
-  products.forEach((product) => {
-    res.send(`${product.name}, ${product.price}, ${product.category}`);
-  });
+  res.render("products/index", { products });
 });
 
 app.listen(3000, () => {
