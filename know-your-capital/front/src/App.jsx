@@ -1,9 +1,12 @@
 import "./App.css";
 
+import { HeaderComponent } from "./components/Header";
+
 function App() {
   return (
     <>
-      <h1>Know the Capital</h1>
+      <HeaderComponent />
+      <h1>Know The Capital</h1>
     </>
   );
 }
