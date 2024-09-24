@@ -6,10 +6,15 @@
     <title>Create new</title>
   </head>
   <body>
-    <form action="">
-      <input type="text" placeholder="Enter name" />
-      <input type="text" placeholder="Enter price" />
-      <select name="" id=""></select>
+    <form action="/products" method="POST">
+      <input type="text" name="name" id="name" placeholder="Enter name" />
+      <input type="number" name="price" id="price" placeholder="Enter price" />
+      <select name="category" id="category">
+        <option value="fruit">Fruit</option>
+        <option value="vegetable">Vegetable</option>
+        <option value="dairy">Dairy</option>
+      </select>
+      <button>Submit</button>
     </form>
   </body>
 </html>
