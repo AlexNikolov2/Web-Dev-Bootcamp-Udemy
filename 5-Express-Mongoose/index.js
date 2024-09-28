@@ -47,6 +47,15 @@ app.get("/products/:id", async (req, res) => {
   res.render(`products/product`, { product });
 });
 
+app.get("/products/:id/edit", async (req, res) => {
+  const id = req.params.id;
+  const product = await Product.findById(id);
+
+  res.render('products/update', {product});
+})
+
+
+
 app.listen(3000, () => {
   console.log("App is listening on 3000");
 });
