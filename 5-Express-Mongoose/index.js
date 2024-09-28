@@ -56,7 +56,6 @@ app.get("/products/:id/edit", async (req, res) => {
 
 app.post("/products/:id/edit", async (req, res) => {
   const newProduct = new Product(req.body);
-
   
   await newProduct.save();
   res.redirect(`/products/${newProduct._id}`);
