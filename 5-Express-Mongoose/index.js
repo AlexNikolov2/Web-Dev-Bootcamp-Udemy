@@ -54,6 +54,13 @@ app.get("/products/:id/edit", async (req, res) => {
   res.render('products/update', {product});
 })
 
+app.post("/products/:id/edit", async (req, res) => {
+  const newProduct = new Product(req.body);
+
+  
+  await newProduct.save();
+  res.redirect(`/products/${newProduct._id}`);
+})
 
 
 app.listen(3000, () => {
