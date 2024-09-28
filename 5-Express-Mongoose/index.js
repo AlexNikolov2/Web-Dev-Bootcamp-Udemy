@@ -54,12 +54,20 @@ app.get("/products/:id/edit", async (req, res) => {
   res.render('products/update', {product});
 })
 
-app.post("/products/:id/edit", async (req, res) => {
+app.put("/products/:id/edit", async (req, res) => {
   const newProduct = new Product(req.body);
   
   await newProduct.save();
   res.redirect(`/products/${newProduct._id}`);
 })
+
+
+app.delete('/products/:id', async (req, res) => {
+  const { id } = req.params;
+  const deletedProduct = await Product.findByIdAndDelete(id);
+  res.redirect('/products');
+})
+
 
 
 app.listen(3000, () => {
