@@ -9,13 +9,13 @@ export const HeaderComponent = () => {
       <nav>
         <ul>
           <li>
-            <a href="">Play</a>
+            <a href="/">Play</a>
           </li>
           <li>
-            <a href="">Learn</a>
+            <a href="/">Learn</a>
           </li>
           <li>
-            <a href="">User</a>
+            <a href="/">User</a>
           </li>
         </ul>
       </nav>
