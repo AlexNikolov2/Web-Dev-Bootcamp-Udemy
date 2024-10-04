@@ -1,3 +1,27 @@
 header {
   background-color: #5886cb;
+  margin: 0 auto;
+  display: flex;
+  color: white;
+  padding: 0.6rem 0;
+}
+.left h2 {
+  font-size: 2rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+ul li {
+  list-style-type: none;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
 }

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Luckiest Guy", cursive, normal;
   line-height: 1.5;
   font-weight: 400;
 
@@ -12,4 +12,9 @@
 
   --primary: #5886cb;
   --secondary: #f7f6f6;
+}
+*,
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
 }
