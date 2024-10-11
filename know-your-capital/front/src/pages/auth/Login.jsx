@@ -1,1 +1,3 @@
-export function Login() {}
+export function Login() {
+  return <section className="form login"></section>;
+}
