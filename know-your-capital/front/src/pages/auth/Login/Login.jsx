@@ -11,6 +11,7 @@ export function Login() {
           <label htmlFor="password">Pasword</label>
           <input type="password" placeholder="Enter your password" />
         </section>
+        <button>Log in!</button>
       </form>
     </section>
   );
