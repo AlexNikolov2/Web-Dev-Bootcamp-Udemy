@@ -1,5 +1,28 @@
+/*@import url('./index.css');*/
+
 #root {
   /*max-width: 1280px;*/
   margin: 0 auto;
   text-align: center;
+}
+main{
+  font-size: 2rem;
+  height:auto;
+}
+main .buttons a{
+  display: block;
+  max-width: 600px;
+  padding: 10px 15px;
+  border-radius: 26px;
+  border: 4px solid var(--primary);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+main .title h1{
+  font-size: 2em;
+  max-width: 550px;
+}
+main .title p{
+  font-size: 1em;
+  max-width: 550px;
 }
