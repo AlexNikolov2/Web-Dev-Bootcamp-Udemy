@@ -16,7 +16,6 @@ function App() {
           <a href="/">Play Mode - Guess All Capitals</a>
           <a href="/">Learn Mode - Learn The Capitals</a>
         </section>
-
       </main>
       <FooterComponent />
     </>

@@ -2,13 +2,17 @@
 
 #root {
   /*max-width: 1280px;*/
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 main{
   font-size: 2rem;
-  height:auto;
   color: var(--primary);
+  margin: auto;
 }
 main .buttons a{
   display: block;
