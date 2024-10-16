@@ -5,6 +5,9 @@ import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import './index.css';
 import { PlayMode } from './pages/game/PlayMode/PlayMode.jsx';
 import { LearnMode } from './pages/game/LearnMode/LearnMode.jsx';
+import { Login } from './pages/auth/Login/Login.jsx';
+import { Register } from './pages/auth/Register/Register.jsx';
+
 
 const router = createBrowserRouter([
   {
@@ -22,6 +25,20 @@ const router = createBrowserRouter([
       {
         path: "learn-mode",
         element: <LearnMode />,
+      }
+    ]
+  },
+  {
+    path: "/auth",
+    element: <Outlet />,
+    children: [
+      {
+        path: "login",
+        element: <Login />,
+      },
+      {
+        path: "register",
+        element: <Register />,
       }
     ]
   }
