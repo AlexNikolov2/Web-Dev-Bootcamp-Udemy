@@ -2,7 +2,7 @@ import "./App.css";
 
 import { HeaderComponent } from "./components/Header/Header";
 import { FooterComponent } from "./components/Footer/Footer";
-
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
           <p>Learn and Know the capitals of all the countries in the world!</p>
         </section>
         <section className="buttons">
-          <a href="/play-mode">Play Mode - Guess All Capitals</a>
-          <a href="/learn-mode">Learn Mode - Learn The Capitals</a>
+          <Link to="/game/play-mode">Play Mode - Guess All Capitals</Link>
+          <Link to="/game/learn-mode">Learn Mode - Learn The Capitals</Link>
         </section>
       </main>
       <FooterComponent />
