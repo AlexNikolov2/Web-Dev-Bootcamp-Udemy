@@ -4,6 +4,7 @@ import App from './App.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import { PlayMode } from './pages/game/PlayMode/PlayMode.jsx';
+import { LearnMode } from './pages/game/LearnMode/LearnMode.jsx';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,8 @@ const router = createBrowserRouter([
     element: <PlayMode />,
   },
   {
-    path: "/learn-mode"
+    path: "/learn-mode",
+    element: <LearnMode />,
   }
 ]);
 

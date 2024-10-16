@@ -15,7 +15,7 @@ function App() {
         </section>
         <section className="buttons">
           <a href="/play-mode">Play Mode - Guess All Capitals</a>
-          <a href="/">Learn Mode - Learn The Capitals</a>
+          <a href="/learn-mode">Learn Mode - Learn The Capitals</a>
         </section>
       </main>
       <FooterComponent />
