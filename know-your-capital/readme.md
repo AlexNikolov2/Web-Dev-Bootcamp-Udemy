@@ -3,11 +3,11 @@
 FRONTEND
 
 - React, Vite-based
-- Material UI
+- CSS for styling
 
 BACKEND
 
-- Express
+- NestJS
 - MongoDB
 
 Components
