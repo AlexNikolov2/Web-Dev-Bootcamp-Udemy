@@ -23,7 +23,6 @@ function App() {
           </section>
         )}
 
-        {/* This Outlet will render child routes */}
         <Outlet />
       </main>
       <FooterComponent />
