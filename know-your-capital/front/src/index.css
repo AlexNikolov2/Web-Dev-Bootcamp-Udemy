@@ -12,16 +12,18 @@
 
   --primary: #5886cb;
   --secondary: #f7f6f6;
+  --font: "Luckiest Guy", cursive, normal;
 }
 *,
 body {
   margin: 0 auto;
   box-sizing: border-box;
 }
-a{
+a {
   text-decoration: none;
 }
-html, body {
+html,
+body {
   margin: auto;
   padding: 0;
   height: 100%;
