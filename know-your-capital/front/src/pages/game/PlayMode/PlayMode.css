@@ -1,0 +1,13 @@
+button {
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 1rem 2rem;
+  border-radius: 26px;
+  font-family: var(--font);
+  border: none;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+button:hover {
+  font-size: 1.5rem;
+}
