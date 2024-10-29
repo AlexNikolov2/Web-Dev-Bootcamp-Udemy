@@ -39,6 +39,12 @@ form {
   border-radius: 26px;
   padding: 2rem;
   margin: 1rem;
+  min-width: 30rem;
+}
+@media screen and (max-width: 768px) {
+  form {
+    min-width: fit-content;
+  }
 }
 .field {
   display: flex;
