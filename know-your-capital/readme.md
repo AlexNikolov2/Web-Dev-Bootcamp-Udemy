@@ -15,3 +15,9 @@ Components
 - Game
 - User
 - Learn
+
+# TO DO
+
+- Implement functionality
+- Create Play Mode
+- Create Learn Mode
