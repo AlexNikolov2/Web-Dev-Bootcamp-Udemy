@@ -1,6 +1,7 @@
 import "./PlayMode.css";
 
 export function PlayMode() {
+  let isCorrect = true
   return (
     <>
 
@@ -10,7 +11,16 @@ export function PlayMode() {
         <button>Start</button>
       </section>
 
-      <section className="play-mode"></section>
+      <section className="play-mode">
+        <section className="result">
+          {isCorrect ? "Correct answer" : "Incorrect answer!"}
+        </section>
+        <section className="country">
+          <img src="flag.jpg" alt="Country Flag" />
+          <h2>Country Name</h2>
+          <input type="text" placeholder="Type the country capital" />
+        </section>
+      </section>
     </>
   );
 }
