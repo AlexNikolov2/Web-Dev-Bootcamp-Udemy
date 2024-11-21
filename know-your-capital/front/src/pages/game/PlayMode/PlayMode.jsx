@@ -4,16 +4,9 @@ import { useState } from "react";
 export function PlayMode() {
   let isCorrect = true
   let [isBannerClicked, setIsBannerClicked] = useState(false);
-  let banner = document.getElementById('banner');
-  let game = document.getElementById('play-mode');
 
   const startGame = () => {
     setIsBannerClicked(true);
-  }
-
-  if (isBannerClicked) {
-    banner.style.display = 'none';
-    game.style.display = 'block';
   }
 
   return (
