@@ -1,3 +1,7 @@
 export function LearnMode() {
-    return "Learn Mode works!";
+    return (
+        <>
+            <p>Learn mode works</p>
+        </>
+    )
 }
