@@ -1,11 +1,13 @@
+import { Result } from "./Result";
+
 export const Country = () => {
     let isCorrect = true;
 
     return (
         <section className="play-mode" id="play-mode">
-            <section className="result">
+            <Result className="result" isCorrect={isCorrect}>
                 {isCorrect ? "Correct answer" : "Incorrect answer!"}
-            </section>
+            </Result>
             <section className="country">
                 {/*<img src="flag.jpg" alt="Country Flag" />*/}
                 <h2>Country Name</h2>
