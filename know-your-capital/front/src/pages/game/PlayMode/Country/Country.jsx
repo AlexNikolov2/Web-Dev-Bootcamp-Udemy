@@ -5,7 +5,11 @@ import TextField from "@mui/material/TextField";
 
 
 export const Country = () => {
-    let isCorrect = true;
+    let isCorrect = false;
+
+    const handleAnswer = () => {
+
+    }
 
     return (
         <section className="play-mode" id="play-mode">
@@ -31,6 +35,7 @@ export const Country = () => {
                         'input': { color: 'var(--secondary)' },
                     }}
                     fullWidth />
+                <button onClick={handleAnswer}>Submit</button>
             </section>
         </section>
     )
