@@ -12,6 +12,12 @@
 
   --primary: #5886cb;
   --secondary: #f7f6f6;
+
+  --correct: #2dd147;
+  --correct-darker: #299f3c;
+  --incorrect: #f92727;
+  --incorrect-darker: #9f2929;
+
   --font: "Luckiest Guy", cursive, normal;
 }
 *,
