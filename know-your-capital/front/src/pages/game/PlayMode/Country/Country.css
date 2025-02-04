@@ -8,8 +8,15 @@
 .country img {
   width: 275px;
   border-radius: 16px;
+  border: 2px solid var(--secondary);
 }
 .country p {
   font-size: 1.6rem;
   padding-bottom: 15px;
+}
+.country button {
+  background-color: var(--secondary);
+  color: var(--primary);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
