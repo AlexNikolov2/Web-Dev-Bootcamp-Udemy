@@ -7,17 +7,16 @@ FRONTEND
 
 BACKEND
 
-- NestJS
-- MongoDB
+- Express
+- Mongo DB
 
-Components
+DESIGN
 
-- Game
-- User
-- Learn
+- Figma
 
-# TO DO
+# Main technical features
 
-- Implement functionality
-- Create Play Mode
-- Create Learn Mode
+- - Using ChatGPT for data generation
+- - Figma for design
+- - Full MERN stack
+- - Trello for project management
