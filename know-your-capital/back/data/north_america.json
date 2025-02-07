@@ -78,5 +78,13 @@
     "flag": "https://flagcdn.com/w320/ht.png",
     "capitalPopulation": 987310,
     "capitalYearFounded": 1749
+  },
+  {
+    "country": "Costa Rica",
+    "capital": "San Jose",
+    "capitalInfo": "San Jos\u00e9, the capital of Costa Rica, is the cultural and economic hub of the country, known for its museums, theaters, and vibrant street life. San José is notable among Latin American cities for its high quality of life, security, level of globalization, environmental performance, public service, and recognized institutions.",
+    "flag": "https://flagcdn.com/w320/cr.png",
+    "capitalPopulation": 352381,
+    "capitalYearFounded": 1736
   }
 ]
