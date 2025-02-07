@@ -10,14 +10,9 @@ BACKEND
 - NestJS
 - MongoDB
 
-Components
+# Main technical features
 
-- Game
-- User
-- Learn
-
-# TO DO
-
-- Implement functionality
-- Create Play Mode
-- Create Learn Mode
+- - Using ChatGPT for data generation
+- - Figma for design
+- - Full MERN stack
+- - Trello for project management
