@@ -1,0 +1,82 @@
+[
+  {
+    "country": "Canada",
+    "capital": "Ottawa",
+    "capitalInfo": "Ottawa, the capital of Canada, is known for its beautiful architecture, vibrant cultural scene, and historical landmarks like Parliament Hill.",
+    "flag": "https://flagcdn.com/w320/ca.png",
+    "capitalPopulation": 1017449,
+    "capitalYearFounded": 1826
+  },
+  {
+    "country": "United States",
+    "capital": "Washington, D.C.",
+    "capitalInfo": "Washington, D.C., the capital of the United States, is home to iconic monuments, museums, and government institutions, including the White House.",
+    "flag": "https://flagcdn.com/w320/us.png",
+    "capitalPopulation": 712816,
+    "capitalYearFounded": 1790
+  },
+  {
+    "country": "Mexico",
+    "capital": "Mexico City",
+    "capitalInfo": "Mexico City, the capital of Mexico, is a sprawling metropolis known for its rich history, vibrant culture, and landmarks like the Z\u00f3calo and ancient Aztec ruins.",
+    "flag": "https://flagcdn.com/w320/mx.png",
+    "capitalPopulation": 9209944,
+    "capitalYearFounded": 1325
+  },
+  {
+    "country": "Guatemala",
+    "capital": "Guatemala City",
+    "capitalInfo": "Guatemala City, the capital of Guatemala, is the largest city in Central America, known for its rich history, vibrant markets, and cultural landmarks.",
+    "flag": "https://flagcdn.com/w320/gt.png",
+    "capitalPopulation": 1029030,
+    "capitalYearFounded": 1776
+  },
+  {
+    "country": "Cuba",
+    "capital": "Havana",
+    "capitalInfo": "Havana, the capital of Cuba, is famous for its colorful colonial architecture, vintage cars, and vibrant music scene.",
+    "flag": "https://flagcdn.com/w320/cu.png",
+    "capitalPopulation": 2135498,
+    "capitalYearFounded": 1519
+  },
+  {
+    "country": "Honduras",
+    "capital": "Tegucigalpa",
+    "capitalInfo": "Tegucigalpa, the capital of Honduras, is nestled in a mountainous region and known for its colonial architecture and cultural institutions.",
+    "flag": "https://flagcdn.com/w320/hn.png",
+    "capitalPopulation": 1126534,
+    "capitalYearFounded": 1578
+  },
+  {
+    "country": "Panama",
+    "capital": "Panama City",
+    "capitalInfo": "Panama City, the capital of Panama, is a modern city known for its impressive skyline, historic Casco Viejo district, and the famous Panama Canal.",
+    "flag": "https://flagcdn.com/w320/pa.png",
+    "capitalPopulation": 880691,
+    "capitalYearFounded": 1519
+  },
+  {
+    "country": "Costa Rica",
+    "capital": "San Jos\u00e9",
+    "capitalInfo": "San Jos\u00e9, the capital of Costa Rica, is the cultural and economic hub of the country, known for its museums, theaters, and vibrant street life.",
+    "flag": "https://flagcdn.com/w320/cr.png",
+    "capitalPopulation": 342188,
+    "capitalYearFounded": 1738
+  },
+  {
+    "country": "Jamaica",
+    "capital": "Kingston",
+    "capitalInfo": "Kingston, the capital of Jamaica, is the cultural heart of the island, famous for its reggae music, vibrant street life, and historic landmarks.",
+    "flag": "https://flagcdn.com/w320/jm.png",
+    "capitalPopulation": 670000,
+    "capitalYearFounded": 1692
+  },
+  {
+    "country": "Haiti",
+    "capital": "Port-au-Prince",
+    "capitalInfo": "Port-au-Prince, the capital of Haiti, is known for its colorful art scene, historic architecture, and as the economic center of the country.",
+    "flag": "https://flagcdn.com/w320/ht.png",
+    "capitalPopulation": 987310,
+    "capitalYearFounded": 1749
+  }
+]
