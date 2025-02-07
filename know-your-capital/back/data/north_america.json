@@ -80,6 +80,14 @@
     "capitalYearFounded": 1749
   },
   {
+    "country": "Nicaragua",
+    "capital": "Managua",
+    "capitalInfo": "Managua is the capital and largest city of Nicaragua, and one of the largest cities in Central America. Located on the shores of Lake Managua, the city is a major economic hub for both the country and Central America.",
+    "flag": "https://flagcdn.com/w320/ni.png",
+    "capitalPopulation": 1061054,
+    "capitalYearFounded": 1819
+  },
+  {
     "country": "Costa Rica",
     "capital": "San Jose",
     "capitalInfo": "San Jos\u00e9, the capital of Costa Rica, is the cultural and economic hub of the country, known for its museums, theaters, and vibrant street life. San José is notable among Latin American cities for its high quality of life, security, level of globalization, environmental performance, public service, and recognized institutions.",
