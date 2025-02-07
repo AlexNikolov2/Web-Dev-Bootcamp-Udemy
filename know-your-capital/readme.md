@@ -7,8 +7,12 @@ FRONTEND
 
 BACKEND
 
-- NestJS
-- MongoDB
+- Express
+- Mongo DB
+
+DESIGN
+
+- Figma
 
 # Main technical features
 
