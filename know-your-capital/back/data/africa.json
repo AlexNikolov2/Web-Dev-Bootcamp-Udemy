@@ -1,0 +1,386 @@
+[
+  {
+    "country": "Algeria",
+    "capital": "Algiers",
+    "capitalInfo": "Algiers, Algeria's capital and largest city, is a historic Mediterranean port city with distinctive white-painted buildings cascading down hillsides towards the sea. The city's Casbah, a UNESCO World Heritage site, is a maze of narrow streets and traditional houses dating back to the Ottoman period. The city seamlessly blends French colonial architecture with Islamic influences, featuring notable landmarks like the Notre-Dame d'Afrique basilica and the Great Mosque. As a cultural and economic hub, Algiers hosts numerous museums, including the National Museum of Fine Arts, and serves as the country's administrative center.",
+    "flag": "https://flagcdn.com/w320/dz.png",
+    "capitalPopulation": 3415811,
+    "capitalYearFounded": 944
+  },
+  {
+    "country": "Egypt",
+    "capital": "Cairo",
+    "capitalInfo": "Cairo, the capital of Egypt, stands as the largest city in the Arab world and Africa's most populous metropolitan area. The city seamlessly blends ancient history with modern urban life, with the iconic Pyramids of Giza visible from many parts of the city. Its historic Islamic Cairo district, a UNESCO World Heritage site, features countless medieval mosques and madrasas. The Egyptian Museum houses the world's largest collection of ancient Egyptian antiquities, while the modern downtown area showcases 19th-century architecture. The city serves as Egypt's cultural, educational, and economic center, with the ancient Nile River flowing through its heart.",
+    "flag": "https://flagcdn.com/w320/eg.png",
+    "capitalPopulation": 9539000,
+    "capitalYearFounded": 969
+  },
+  {
+    "country": "South Africa",
+    "capital": "Pretoria",
+    "capitalInfo": "Pretoria, South Africa's administrative capital, is known for its beautiful jacaranda trees that bloom purple each spring, earning it the nickname 'Jacaranda City'. The city serves as the executive branch seat of government and hosts numerous diplomatic missions. Notable landmarks include the Union Buildings, an iconic symbol of democracy and the official seat of the South African government, and the Voortrekker Monument, which commemorates the Pioneer history of South Africa. The city combines historical architecture with modern developments, hosting several universities, research institutes, and government departments. Its rich cultural heritage is reflected in its museums, including the Pretoria Art Museum and the National Cultural History Museum.",
+    "flag": "https://flagcdn.com/w320/za.png",
+    "capitalPopulation": 741651,
+    "capitalYearFounded": 1855
+  },
+  {
+    "country": "Nigeria",
+    "capital": "Abuja",
+    "capitalInfo": "Abuja, Nigeria's purpose-built capital city since 1991, represents modern African urban planning and architecture. Located in the geographical center of Nigeria, the city features wide boulevards, impressive government buildings, and the iconic Aso Rock, a 400-meter monolith that overlooks the city. The National Assembly complex, National Mosque, and Nigerian National Christian Center showcase the city's religious diversity and political importance. As one of Africa's wealthiest and most developed planned cities, Abuja hosts numerous international organizations, embassies, and cultural institutions. The city's master plan includes extensive green spaces and parks, making it one of Africa's few purpose-built capitals that has largely stuck to its original design.",
+    "flag": "https://flagcdn.com/w320/ng.png",
+    "capitalPopulation": 3464123,
+    "capitalYearFounded": 1976
+  },
+  {
+    "country": "Kenya",
+    "capital": "Nairobi",
+    "capitalInfo": "Nairobi, Kenya's capital and largest city, stands as East Africa's most dynamic and influential hub. Known as the 'Green City in the Sun', it uniquely features a national park within its boundaries where wildlife roams freely against a backdrop of urban skyscrapers. The city serves as a major business and technology center, earning the nickname 'Silicon Savannah' due to its growing tech industry. Notable landmarks include the Kenyatta International Convention Centre, the National Museum, and the Railway Museum. Nairobi's diverse neighborhoods range from the historic CBD to the upscale Westlands and Karen areas, while cultural sites like the Bomas of Kenya showcase the country's rich traditional heritage.",
+    "flag": "https://flagcdn.com/w320/ke.png",
+    "capitalPopulation": 4397073,
+    "capitalYearFounded": 1899
+  },
+  {
+    "country": "Morocco",
+    "capital": "Rabat",
+    "capitalInfo": "Rabat, Morocco's capital city, elegantly combines modern urban planning with rich historical heritage along the Atlantic coast. The city's old medina and Kasbah of the Udayas are UNESCO World Heritage sites, featuring stunning Islamic and French colonial architecture. The Hassan Tower, an incomplete 12th-century minaret, and the modern Mohammed VI Museum of Contemporary Art represent the city's historical and cultural spectrum. As the political and administrative center, Rabat hosts royal palaces, government institutions, and diplomatic missions, while maintaining a more relaxed atmosphere than its larger neighbor Casablanca.",
+    "flag": "https://flagcdn.com/w320/ma.png",
+    "capitalPopulation": 577827,
+    "capitalYearFounded": 1146
+  },
+  {
+    "country": "Ethiopia",
+    "capital": "Addis Ababa",
+    "capitalInfo": "Addis Ababa, founded in 1886, stands as Africa's diplomatic capital and Ethiopia's cultural and economic heart. The city hosts the African Union headquarters and numerous international organizations. Known as the 'New Flower' in Amharic, it combines traditional Ethiopian heritage with modern African diplomacy. Notable landmarks include the National Museum, housing the remains of early hominid Lucy, the Holy Trinity Cathedral, and the Entoto Hills, offering panoramic views of the city. As one of the highest capitals in the world at 2,355 meters, it enjoys a moderate climate and serves as a major conference destination for Africa.",
+    "flag": "https://flagcdn.com/w320/et.png",
+    "capitalPopulation": 3040740,
+    "capitalYearFounded": 1886
+  },
+  {
+    "country": "Ghana",
+    "capital": "Accra",
+    "capitalInfo": "Accra, Ghana's vibrant capital, serves as the country's economic and administrative hub along the Gulf of Guinea. The city seamlessly blends traditional markets like Makola with modern shopping malls and business districts. Historical landmarks include Jamestown's lighthouse, the Kwame Nkrumah Memorial Park, and the National Museum. As a major center for business, technology, and entertainment in West Africa, Accra features distinctive architecture ranging from colonial-era buildings to contemporary structures. The city's cultural scene thrives with art galleries, music venues, and the famous Labadi Beach, while traditional ceremonies and festivals maintain strong cultural connections.",
+    "flag": "https://flagcdn.com/w320/gh.png",
+    "capitalPopulation": 2388000,
+    "capitalYearFounded": 1877
+  },
+  {
+    "country": "Tanzania",
+    "capital": "Dodoma",
+    "capitalInfo": "Dodoma, Tanzania's centrally located capital since 1974, represents a planned city designed to serve as the nation's political center. The city features distinctive architecture, including the modern Parliament building and the University of Dodoma, one of East Africa's largest universities. Known for its semi-arid climate and vineyard cultivation, Dodoma combines government functionality with traditional Tanzanian culture. The city's layout incorporates wide streets, public spaces, and residential areas planned around government complexes. While smaller than Dar es Salaam, Dodoma continues to develop as Tanzania's administrative heart, with growing infrastructure and urban development projects.",
+    "flag": "https://flagcdn.com/w320/tz.png",
+    "capitalPopulation": 410956,
+    "capitalYearFounded": 1907
+  },
+  {
+    "country": "Cameroon",
+    "capital": "Yaoundé",
+    "capitalInfo": "Yaoundé, Cameroon's capital since 1922, is built upon seven hills in the country's southern region. The city blends colonial architecture with modern developments, featuring landmarks such as the Notre Dame des Victoires cathedral and the distinctive Mary Queen of the Apostles basilica. As both an administrative and educational center, it hosts the University of Yaoundé and numerous research institutions. The city's layout includes significant green spaces and parks, earning it the nickname 'the city of seven hills'. Notable sites include the National Museum, the presidential palace, and the Mvog-Betsi Zoo. The city's elevated position provides a cooler climate compared to other major Cameroonian cities.",
+    "flag": "https://flagcdn.com/w320/cm.png",
+    "capitalPopulation": 2765568,
+    "capitalYearFounded": 1888
+  },
+  {
+    "country": "Côte d'Ivoire",
+    "capital": "Yamoussoukro",
+    "capitalInfo": "Yamoussoukro, the political capital of Côte d'Ivoire since 1983, is most famous for the Basilica of Our Lady of Peace, the world's largest church building. The city, birthplace of the country's first president Félix Houphouët-Boigny, was transformed from a small village into a planned capital city. Notable features include the presidential palace, the Félix Houphouët-Boigny National Polytechnic Institute, and artificial lakes inhabited by sacred crocodiles. The city's wide boulevards and modern infrastructure contrast with traditional villages on its outskirts. Despite its political status, many government offices remain in Abidjan, the economic capital.",
+    "flag": "https://flagcdn.com/w320/ci.png",
+    "capitalPopulation": 355573,
+    "capitalYearFounded": 1960
+  },
+  {
+    "country": "Angola",
+    "capital": "Luanda",
+    "capitalInfo": "Luanda, Angola's capital and largest city, is a major port city on the Atlantic coast. The city combines Portuguese colonial architecture with modern skyscrapers, particularly in the Baixa de Luanda (lower Luanda) district. Historical sites include the 16th-century Fortress of São Miguel and the Iron Palace, designed by Gustave Eiffel. The city experienced rapid growth following Angola's independence and civil war, becoming one of Africa's most expensive cities. Notable features include the Ilha do Cabo peninsula, with its beaches and restaurants, the National Museum of Natural History, and the Mausoleum of Agostinho Neto.",
+    "flag": "https://flagcdn.com/w320/ao.png",
+    "capitalPopulation": 2571861,
+    "capitalYearFounded": 1576
+  },
+  {
+    "country": "Uganda",
+    "capital": "Kampala",
+    "capitalInfo": "Kampala, Uganda's capital and largest city, is built across seven hills, each holding historical significance. The city blends modern urban development with traditional Buganda kingdom heritage, exemplified by the Kasubi Tombs, a UNESCO World Heritage site. The city center features the Uganda Museum, the National Theatre, and the distinctive Independence Monument. Religious landmarks include the Gaddafi National Mosque and the Namirembe Cathedral. As East Africa's cultural hub, Kampala is known for its vibrant nightlife, arts scene, and bustling markets like Owino. The city's structure reflects both planned colonial design and organic urban growth, with distinct neighborhoods ranging from upscale Kololo to the historic Mengo district.",
+    "flag": "https://flagcdn.com/w320/ug.png",
+    "capitalPopulation": 1680600,
+    "capitalYearFounded": 1890
+  },
+  {
+    "country": "Sudan",
+    "capital": "Khartoum",
+    "capitalInfo": "Khartoum, situated at the confluence of the Blue and White Nile rivers, serves as Sudan's political and commercial heart. The city's unique geography creates a distinctive three-part metropolis including Khartoum, Omdurman, and Bahri. Historical landmarks include the Presidential Palace, the National Museum housing ancient artifacts, and the Great Mosque of Khartoum. The city's architecture reflects its colonial past and Islamic influence, while modern developments include the Burj Al-Fateh Hotel. Omdurman, the old capital, houses the historic Mahdi's Tomb and the largest traditional suq (market) in Sudan. The city's educational importance is marked by the University of Khartoum, Sudan's oldest university.",
+    "flag": "https://flagcdn.com/w320/sd.png",
+    "capitalPopulation": 5274321,
+    "capitalYearFounded": 1821
+  },
+  {
+    "country": "Mozambique",
+    "capital": "Maputo",
+    "capitalInfo": "Maputo, Mozambique's capital and largest city, showcases a unique blend of Portuguese colonial architecture, African tradition, and modernist design. The city is known for its acacia-lined avenues, Mediterranean-style buildings, and the distinctive Maputo Railway Station, considered one of the world's most beautiful stations. The downtown area features the Independence Square, the neo-classical City Hall, and the iconic FEIMA craft market. Cultural highlights include the National Art Museum and the Natural History Museum. The waterfront Marginal avenue, with its restaurants and cafes, reflects the city's coastal charm, while the Tunduru Botanical Gardens provide a peaceful retreat from urban life.",
+    "flag": "https://flagcdn.com/w320/mz.png",
+    "capitalPopulation": 1191613,
+    "capitalYearFounded": 1782
+  },
+  {
+    "country": "Madagascar",
+    "capital": "Antananarivo",
+    "capitalInfo": "Antananarivo, Madagascar's capital city, is perched on a series of hills, creating a distinctive cityscape of terraced architecture. Known locally as 'Tana,' the city combines French colonial heritage with traditional Malagasy culture. The Upper Town, dominated by the Queen's Palace (Rova) complex, offers panoramic views of the city. The historic district features winding streets, traditional houses, and colonial-era buildings. As the country's economic center, it hosts the famous Analakely Market, numerous universities, and the Independence Avenue. The city's unique architecture reflects both European influence and traditional Merina design, while sacred hills and lakes maintain cultural significance.",
+    "flag": "https://flagcdn.com/w320/mg.png",
+    "capitalPopulation": 1391433,
+    "capitalYearFounded": 1625
+  },
+  {
+    "country": "Senegal",
+    "capital": "Dakar",
+    "capitalInfo": "Dakar, situated on the Cap-Vert peninsula, is West Africa's westernmost city and Senegal's vibrant capital. The city combines French colonial architecture with modern African urbanism, exemplified by the African Renaissance Monument, one of Africa's tallest statues. Notable landmarks include the Grande Mosquée, Dakar Cathedral, and the IFAN Museum of African Arts. The historic Gorée Island, a former slave trade center, lies just offshore. As a cultural hub, Dakar hosts numerous festivals, including the World Festival of Black Arts, and is renowned for its music scene. The city's markets, particularly Marché Sandaga, showcase traditional crafts and textiles.",
+    "flag": "https://flagcdn.com/w320/sn.png",
+    "capitalPopulation": 3140000,
+    "capitalYearFounded": 1857
+  },
+  {
+    "country": "Zimbabwe",
+    "capital": "Harare",
+    "capitalInfo": "Harare, Zimbabwe's capital and largest city, is known for its tree-lined streets and modern architecture. The city center features the African Unity Square, surrounded by colonial buildings and modern towers. Notable landmarks include the National Archives, the National Gallery, and the distinctive Eastgate Centre, known for its innovative ecological design. The National Botanic Gardens showcase indigenous flora, while the Kopje, a granite hill, offers panoramic views of the city. Cultural institutions include the University of Zimbabwe and the National Heroes Acre monument. The city's markets, particularly Mbare Musika, represent important commercial and cultural spaces.",
+    "flag": "https://flagcdn.com/w320/zw.png",
+    "capitalPopulation": 1485231,
+    "capitalYearFounded": 1890
+  },
+  {
+    "country": "Rwanda",
+    "capital": "Kigali",
+    "capitalInfo": "Kigali, Rwanda's capital since independence, is known as one of Africa's cleanest and most organized cities. Built across several hills, the city combines modern architecture with green initiatives, earning recognition for its environmental consciousness. The Kigali Genocide Memorial serves as a powerful reminder of the 1994 genocide, while the Presidential Palace Museum showcases the country's political history. The city's Convention Centre, with its distinctive architectural design, symbolizes Rwanda's economic transformation. Notable features include the Muslim Quarter, the Nyamirambo Women's Center, and the KN 3 Road, a bustling commercial district. The city's master plan emphasizes sustainable urban development and green spaces.",
+    "flag": "https://flagcdn.com/w320/rw.png",
+    "capitalPopulation": 1132686,
+    "capitalYearFounded": 1907
+  },
+  {
+    "country": "Mali",
+    "capital": "Bamako",
+    "capitalInfo": "Bamako, Mali's capital and largest city, stretches along the Niger River banks, serving as the nation's administrative and economic center. The city features the Grand Mosque with its striking modern architecture, the National Museum housing artifacts from Mali's ancient empires, and the vibrant Grande Marché market. The Point G hill offers panoramic views of the city and the Niger River. Cultural highlights include the National Library, the Artisan Market in Medina Coura, and the Tower of Africa. The city's infrastructure blends colonial-era buildings with modern developments, while maintaining traditional Malian cultural elements through its music venues and art galleries.",
+    "flag": "https://flagcdn.com/w320/ml.png",
+    "capitalPopulation": 2009109,
+    "capitalYearFounded": 1640
+  },
+  {
+    "country": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "capitalInfo": "Ouagadougou, often called 'Ouaga', is the capital of Burkina Faso and a major cultural center in West Africa. The city is renowned for hosting FESPACO, Africa's largest film festival, and features the distinctive National Museum and the striking Cathedral of Ouagadougou. The Craft Market and the Grand Marché showcase traditional crafts and local commerce. Notable landmarks include the Monument des Héros Nationaux and the modernist architecture of the Place des Cinéastes. The city's layout combines French colonial influence with traditional Mossi architecture, while cultural spaces like the Maison du Peuple preserve local performing arts traditions.",
+    "flag": "https://flagcdn.com/w320/bf.png",
+    "capitalPopulation": 2200000,
+    "capitalYearFounded": 1441
+  },
+  {
+    "country": "Zambia",
+    "capital": "Lusaka",
+    "capitalInfo": "Lusaka, Zambia's capital and largest city, is a rapidly growing metropolitan center in southern Africa. The city features the Freedom Statue commemorating independence, the University of Zambia, and the distinctive Kenneth Kaunda International Conference Centre. The Lusaka National Museum showcases the country's cultural heritage, while the Agricultural Society Showgrounds host important national events. Modern shopping centers like Manda Hill coexist with traditional markets such as Soweto Market. The city's architecture reflects both colonial influence and post-independence development, with growing business districts and residential areas expanding into the surrounding plains.",
+    "flag": "https://flagcdn.com/w320/zm.png",
+    "capitalPopulation": 2731696,
+    "capitalYearFounded": 1905
+  },
+  {
+    "country": "Chad",
+    "capital": "N'Djamena",
+    "capitalInfo": "N'Djamena, Chad's capital and largest city, sits at the confluence of the Chari and Logone rivers. The city serves as Chad's administrative, economic, and cultural hub, featuring the Grand Marché central market and the Chad National Museum. Notable landmarks include the Grand Mosque of N'Djamena and Place de la Nation, the main city square. The Avenue Charles de Gaulle forms the city's main thoroughfare, lined with government buildings and commercial establishments. Despite its challenging climate, the city maintains its position as a crucial regional center, with the University of N'Djamena serving as a major educational institution.",
+    "flag": "https://flagcdn.com/w320/td.png",
+    "capitalPopulation": 1605696,
+    "capitalYearFounded": 1900
+  },
+  {
+    "country": "Somalia",
+    "capital": "Mogadishu",
+    "capitalInfo": "Mogadishu, Somalia's capital and largest city, has a rich history as an important Indian Ocean port. The city's architecture blends traditional Somali design with Arabic, Persian, and Indian influences, particularly visible in the historic Hamar Weyne district. The Arba'a Rukun Mosque and the Shanghai Old City showcase the city's historical significance. Despite recent challenges, Mogadishu maintains its role as Somalia's primary cultural and economic center. The Bakaara Market remains one of the largest open markets in Somalia, while Lido Beach represents the city's natural beauty and resilience. Modern reconstruction efforts are gradually restoring the city's infrastructure.",
+    "flag": "https://flagcdn.com/w320/so.png",
+    "capitalPopulation": 2587183,
+    "capitalYearFounded": 900
+  },
+  {
+    "country": "Guinea",
+    "capital": "Conakry",
+    "capitalInfo": "Conakry, Guinea's capital and largest city, extends along the Kaloum Peninsula into the Atlantic Ocean. The city features the Grand Mosque of Conakry, one of West Africa's largest mosques, and the National Museum showcasing Guinea's cultural heritage. The Conakry Botanical Garden and the People's Palace serve as important cultural landmarks. The city's layout includes the administrative district on Tombo Island and residential areas extending up the peninsula. Markets like Marché Madina, one of West Africa's largest markets, demonstrate the city's commercial importance. The port area highlights Conakry's role as Guinea's primary economic gateway.",
+    "flag": "https://flagcdn.com/w320/gn.png",
+    "capitalPopulation": 1667864,
+    "capitalYearFounded": 1887
+  },
+  {
+    "country": "Benin",
+    "capital": "Porto-Novo",
+    "capitalInfo": "Porto-Novo, Benin's official capital, reflects a rich blend of colonial Portuguese and traditional African architecture. The city is known for its significant historical sites, including the Musée Honmé (Royal Palace), the Ethnographic Museum, and the da Silva Museum, which showcase Afro-Brazilian heritage. The Great Mosque of Porto-Novo, originally a church, exemplifies the city's religious diversity. While serving as the administrative capital, it shares economic functions with Cotonou. The city's layout preserves much of its colonial-era planning, with traditional neighborhoods maintaining their distinct character. Academic institutions like the University of Porto-Novo contribute to its role as an educational center.",
+    "flag": "https://flagcdn.com/w320/bj.png",
+    "capitalPopulation": 267191,
+    "capitalYearFounded": 1752
+  },
+  {
+    "country": "Malawi",
+    "capital": "Lilongwe",
+    "capitalInfo": "Lilongwe, Malawi's capital since 1975, is divided into two distinct sections: the Old Town with its traditional African markets and busy commercial areas, and the New City with modern government buildings and embassies. The city features the Lilongwe Wildlife Centre, the largest wildlife sanctuary in Malawi, and the Lilongwe Nature Sanctuary, providing green spaces within the urban environment. The Parliament building and Capital Hill complex form the administrative heart of the city. Notable landmarks include the Lilongwe Mosque, the War Memorial Tower, and the Kmuzu II Base. The city's layout incorporates extensive gardens and parks, earning it the nickname 'The Garden City'.",
+    "flag": "https://flagcdn.com/w320/mw.png",
+    "capitalPopulation": 989318,
+    "capitalYearFounded": 1947
+  },
+  {
+    "country": "Botswana",
+    "capital": "Gaborone",
+    "capitalInfo": "Gaborone, Botswana's capital since independence in 1966, represents one of Africa's fastest-growing cities. The city features the iconic Three Chiefs' Statues, commemorating the three chiefs who played a crucial role in Botswana's independence. The central business district includes the Government Enclave, featuring Parliament House and the National Assembly. Notable landmarks include the Sir Seretse Khama statue, the National Museum and Art Gallery, and the University of Botswana. The Kgale Hill offers panoramic views of the city, while the Main Mall serves as the primary shopping and commercial area. The city's modern architecture reflects Botswana's economic success story.",
+    "flag": "https://flagcdn.com/w320/bw.png",
+    "capitalPopulation": 231592,
+    "capitalYearFounded": 1964
+  },
+  {
+    "country": "Gabon",
+    "capital": "Libreville",
+    "capitalInfo": "Libreville, Gabon's capital and largest city, stretches along the Atlantic coast with a blend of modern architecture and traditional African elements. The city's landmarks include the iconic L'Église St-Michel, known for its distinctive wooden architecture and glass windows, and the Presidential Palace. The National Museum houses significant cultural artifacts, while the Mont-Bouët market showcases local commerce and culture. The Arboretum de Sibang provides a glimpse of Gabon's rich biodiversity. Modern developments include the seafront Boulevard Triomphal and Omar Bongo University. The city's name, meaning 'free town' in French, reflects its historical founding by freed slaves.",
+    "flag": "https://flagcdn.com/w320/ga.png",
+    "capitalPopulation": 703904,
+    "capitalYearFounded": 1849
+  },
+  {
+    "country": "Mauritania",
+    "capital": "Nouakchott",
+    "capitalInfo": "Nouakchott, Mauritania's capital and largest city, was transformed from a small coastal village into a modern capital after independence in 1960. The city features the striking Grand Mosque, one of the largest mosques in West Africa, and the Port de Pêche, known for its colorful fishing boats and bustling fish market. The National Museum showcases Mauritanian culture and history, while the Marché Capitale serves as the city's main commercial center. Despite its desert location, the city has grown rapidly, with modern districts like Tevragh Zeina contrasting with traditional areas. The University of Nouakchott serves as the country's primary higher education institution.",
+    "flag": "https://flagcdn.com/w320/mr.png",
+    "capitalPopulation": 1195600,
+    "capitalYearFounded": 1958
+  },
+  {
+    "country": "Namibia",
+    "capital": "Windhoek",
+    "capitalInfo": "Windhoek, Namibia's capital and largest city, sits in a basin between the Khomas Highland, Auas and Eros Mountains. The city center features German colonial architecture, including the Christuskirche and the Alte Feste (Old Fortress). Independence Memorial Museum and the National Museum of Namibia showcase the country's journey to independence. Modern landmarks include the Supreme Court and the distinctive Independence Stadium. The city's layout reflects its history, with influences from German colonial urban planning still visible. Notable areas include Zoo Park, Post Street Mall, and the bustling Katutura township, which offers insight into local culture through its markets and street life.",
+    "flag": "https://flagcdn.com/w320/na.png",
+    "capitalPopulation": 431000,
+    "capitalYearFounded": 1890
+  },
+  {
+    "country": "Burundi",
+    "capital": "Gitega",
+    "capitalInfo": "Gitega, Burundi's political capital since 2019, is situated in the country's central plateau region. The city hosts the National Museum of Burundi, which houses an extensive collection of historical artifacts and traditional art. As the new seat of government, Gitega features modern administrative buildings alongside traditional architecture. The city's central market serves as a vital commercial hub for the region. Notable landmarks include the Royal Palace Museum, showcasing the history of the Burundian monarchy, and several colonial-era buildings. The surrounding hills and valleys contribute to the city's picturesque setting, while local craftsmen maintain traditional drum-making and basket-weaving practices.",
+    "flag": "https://flagcdn.com/w320/bi.png",
+    "capitalPopulation": 135000,
+    "capitalYearFounded": 1912
+  },
+  {
+    "country": "Togo",
+    "capital": "Lomé",
+    "capitalInfo": "Lomé, Togo's capital and largest city, is unique as the only African capital situated on a border, adjacent to Ghana. The city features the Grand Marché, one of West Africa's largest markets, and the distinctive Independence Monument. The National Museum showcases Togolese history and ethnography, while the Palais de Lomé, a restored colonial governor's mansion, serves as a cultural center. The city's architecture blends French colonial influences with modern African design, exemplified by government buildings and the University of Lomé campus. The coastal location provides beautiful beaches, while the Port of Lomé serves as a vital economic gateway for West Africa.",
+    "flag": "https://flagcdn.com/w320/tg.png",
+    "capitalPopulation": 837437,
+    "capitalYearFounded": 1897
+  },
+  {
+    "country": "Sierra Leone",
+    "capital": "Freetown",
+    "capitalInfo": "Freetown, Sierra Leone's capital and largest city, is nestled between mountains and the Atlantic Ocean. Founded as a settlement for freed slaves, the city features historic sites like the Cotton Tree, a symbol of freedom dating to 1792. The city's architecture includes notable colonial-era buildings such as the St. John's Maroon Church and Fourah Bay College, West Africa's oldest university. The National Museum showcases the country's cultural heritage, while the King's Gate and the Old Wharf Steps reflect the city's historical significance. Modern Freetown includes the bustling East End markets, the popular Lumley Beach, and the developing Aberdeen district.",
+    "flag": "https://flagcdn.com/w320/sl.png",
+    "capitalPopulation": 1055964,
+    "capitalYearFounded": 1792
+  },
+  {
+    "country": "Liberia",
+    "capital": "Monrovia",
+    "capitalInfo": "Monrovia, Liberia's capital and largest city, was named after U.S. President James Monroe. The city features the historic Providence Island, where freed American slaves first settled, and the Masonic Temple, one of Africa's oldest. The National Museum showcases Liberian history and culture, while the Executive Mansion serves as the presidential residence. The Waterside Market area represents the commercial heart of the city, while the Ducor Hotel, though currently closed, stands as a reminder of the city's past grandeur. The University of Liberia campus and the Free Port of Monrovia contribute to the city's role as Liberia's educational and economic center.",
+    "flag": "https://flagcdn.com/w320/lr.png",
+    "capitalPopulation": 1010970,
+    "capitalYearFounded": 1822
+  },
+  {
+    "country": "Central African Republic",
+    "capital": "Bangui",
+    "capitalInfo": "Bangui, the capital of the Central African Republic, sits on the northern banks of the Ubangi River. The city's focal point is the Place de la République, surrounded by major government buildings and the triumphal arch. The Notre-Dame Cathedral and the Central Mosque represent the city's religious diversity. The Boganda National Museum houses important cultural artifacts and historical documents. The city's layout includes the commercial center along Avenue Barthélemy Boganda, the central market, and the University of Bangui. The port area along the Ubangi River serves as a crucial transportation hub, while the surrounding hills offer panoramic views of the city.",
+    "flag": "https://flagcdn.com/w320/cf.png",
+    "capitalPopulation": 889231,
+    "capitalYearFounded": 1889
+  },
+  {
+    "country": "Republic of the Congo",
+    "capital": "Brazzaville",
+    "capitalInfo": "Brazzaville, capital of the Republic of the Congo, sits along the Congo River opposite Kinshasa. The city features distinctive modernist architecture, including the Basilique Sainte-Anne and the Nabemba Tower, Congo's tallest building. The National Museum of the Congo preserves cultural heritage, while the Poto-Poto School of Painting represents the city's artistic tradition. The Rapids Market and the Grand Marché showcase local commerce. Notable landmarks include the Pierre Savorgnan de Brazza Memorial and the Case de Gaulle. The city's layout incorporates French colonial design with modern African urban planning, while the Congo Rapids provide a dramatic natural backdrop.",
+    "flag": "https://flagcdn.com/w320/cg.png",
+    "capitalPopulation": 1696392,
+    "capitalYearFounded": 1883
+  },
+  {
+    "country": "Eritrea",
+    "capital": "Asmara",
+    "capitalInfo": "Asmara, Eritrea's capital, is renowned for its exceptional modernist architecture and was designated a UNESCO World Heritage site in 2017. The city showcases one of the world's finest collections of Art Deco buildings, constructed during the Italian colonial period. Notable landmarks include the Fiat Tagliero Building, the Cinema Impero, and the Orthodox Cathedral. The city's layout features wide palm-lined streets, Italian-style cafes, and distinctive public buildings. The Central Market area maintains its traditional character, while the Liberation Avenue serves as the main commercial thoroughfare. The city's high-altitude location provides a temperate climate unusual for the region.",
+    "flag": "https://flagcdn.com/w320/er.png",
+    "capitalPopulation": 963000,
+    "capitalYearFounded": 1890
+  },
+  {
+    "country": "Mauritius",
+    "capital": "Port Louis",
+    "capitalInfo": "Port Louis, the capital of Mauritius, combines colonial architecture with modern development along its natural harbor. The city features the UNESCO-listed Aapravasi Ghat, which commemorates the arrival of indentured laborers, and the Blue Penny Museum, housing rare stamps. The Central Market, known as Bazaar Port Louis, showcases the island's multicultural heritage. Notable landmarks include Fort Adelaide (La Citadelle), offering panoramic views, and the Champ de Mars racecourse, the oldest in the Southern Hemisphere. The Caudan Waterfront represents modern development, while China Town and the Place d'Armes reflect the city's diverse cultural influences.",
+    "flag": "https://flagcdn.com/w320/mu.png",
+    "capitalPopulation": 147066,
+    "capitalYearFounded": 1735
+  },
+  {
+    "country": "Djibouti",
+    "capital": "Djibouti City",
+    "capitalInfo": "Djibouti City, the capital of Djibouti, serves as a major port city on the Gulf of Aden. The city blends African, Arab, and French influences, visible in its architecture and culture. The European Quarter features colonial-era buildings and the Place Menelik, while the African Quarter includes the bustling Marché Central. Notable landmarks include the Presidential Palace, the Central Mosque, and the People's Palace. The Port of Djibouti forms the economic heart of the city, while the Kempinski Palace hotel represents modern luxury development. The city's strategic location makes it an important commercial and military hub for the region.",
+    "flag": "https://flagcdn.com/w320/dj.png",
+    "capitalPopulation": 624638,
+    "capitalYearFounded": 1888
+  },
+  {
+    "country": "Lesotho",
+    "capital": "Maseru",
+    "capitalInfo": "Maseru, Lesotho's capital and largest city, sits along the Caledon River bordering South Africa. The city combines modern development with traditional Basotho culture, featuring the Royal Palace, home to the King of Lesotho, and the Parliament building. The Thetsane Industrial Area represents the city's economic development, while the Maseru Market captures traditional commerce. Notable landmarks include the Catholic Cathedral of Our Lady of Victories, the State Library, and Independence Monument. The city's layout reflects its evolution from a British colonial police camp to a modern capital, with the Maseru Bridge border post serving as a crucial link to South Africa. The surrounding mountains provide a dramatic backdrop to the urban landscape.",
+    "flag": "https://flagcdn.com/w320/ls.png",
+    "capitalPopulation": 330760,
+    "capitalYearFounded": 1869
+  },
+  {
+    "country": "Eswatini",
+    "capital": "Mbabane",
+    "capitalInfo": "Mbabane, the administrative capital of Eswatini (formerly Swaziland), is nestled in the Dlangeni Hills. The city features a mix of modern buildings and traditional markets, with the Government Enclave serving as its administrative center. The Swazi National Museum provides insights into the country's cultural heritage, while the Coronation Park offers recreational space. Notable landmarks include the Parliament building, the Independence Square, and the Mall shopping center. The city's elevated position provides a cool climate, unusual for the region. Traditional markets like the Mbabane Market contrast with modern developments, while the nearby Sibebe Rock, the world's second-largest monolith, offers spectacular views.",
+    "flag": "https://flagcdn.com/w320/sz.png",
+    "capitalPopulation": 94874,
+    "capitalYearFounded": 1902
+  },
+  {
+    "country": "Guinea-Bissau",
+    "capital": "Bissau",
+    "capitalInfo": "Bissau, the capital of Guinea-Bissau, displays a unique blend of Portuguese colonial architecture and West African culture. The city's historic center, Bissau Velho, features colonial-era buildings and the Presidential Palace. The Fortaleza d'Amura, an old Portuguese fort, now houses military facilities and offers views over the city. The Port of Bissau serves as the country's main economic gateway, while the Bandim Market represents the largest commercial center. Notable landmarks include the National Arts Institute, the Catholic Cathedral, and Independence Square. The city's layout reflects its colonial past, with wide avenues lined with mango trees and colonial-style buildings.",
+    "flag": "https://flagcdn.com/w320/gw.png",
+    "capitalPopulation": 388028,
+    "capitalYearFounded": 1687
+  },
+  {
+    "country": "Equatorial Guinea",
+    "capital": "Malabo",
+    "capitalInfo": "Malabo, the capital of Equatorial Guinea, is located on the northern coast of Bioko Island. The city combines Spanish colonial architecture with modern development, featuring the Presidential Palace and the Cathedral of Santa Isabel. The National Library and the Revolution Square serve as important cultural landmarks. Modern developments include the Malabo International Conference Center and the headquarters of the Bank of Central African States. The city's historic quarter preserves colonial-era buildings, while the port area highlights its economic importance. Notable features include the Casa Verde, a historic colonial building, and the bustling Central Market.",
+    "flag": "https://flagcdn.com/w320/gq.png",
+    "capitalPopulation": 297000,
+    "capitalYearFounded": 1827
+  },
+  {
+    "country": "Comoros",
+    "capital": "Moroni",
+    "capitalInfo": "Moroni, the capital of Comoros, sits at the foot of Mount Karthala on Grande Comore island. The city features a blend of African, Arab, and French colonial influences, visible in its architecture and culture. The Old Friday Mosque, with its distinctive white coral stone construction, stands as a significant landmark. The Volo Volo Market serves as the main commercial center, while the waterfront area includes the Port of Moroni. The city's medina quarter preserves traditional Comorian architecture and narrow streets. Notable sites include the Badjanani Mosque, the National Museum, and the Place de l'Independence, showcasing the city's historical and cultural heritage.",
+    "flag": "https://flagcdn.com/w320/km.png",
+    "capitalPopulation": 111329,
+    "capitalYearFounded": 1958
+  },
+  {
+    "country": "Cape Verde",
+    "capital": "Praia",
+    "capitalInfo": "Praia, Cape Verde's capital and largest city, occupies a scenic position on Santiago Island. The historic center, Plateau, sits on a elevated area featuring colonial Portuguese architecture and government buildings. The Presidential Palace and the Nossa Senhora da Graça church are notable landmarks. The city's modern sections include the bustling Sucupira Market and the newly developed Achada de Santo António district. Cultural institutions include the Ethnographic Museum and the Municipal Market. The nearby Quebra Canela beach provides recreational space, while the Port of Praia serves as a major maritime hub. The city's layout reflects both its colonial heritage and modern development as an African capital.",
+    "flag": "https://flagcdn.com/w320/cv.png",
+    "capitalPopulation": 159050,
+    "capitalYearFounded": 1858
+  },
+  {
+    "country": "São Tomé and Príncipe",
+    "capital": "São Tomé",
+    "capitalInfo": "São Tomé, the capital of São Tomé and Príncipe, is situated on São Tomé Island in the Gulf of Guinea. The city showcases Portuguese colonial architecture, with the Presidential Palace and the São Tomé National Museum housed in the São Sebastião Fort. The Independence Square and the Municipal Market represent important public spaces. The Cathedral of São Tomé, dating from the 16th century, stands as a significant religious landmark. The city's waterfront features the Ana Chaves Bay, while colonial-era buildings like the Post Office and Treasury reflect its historical heritage. The nearby Bom Sucesso Botanical Garden showcases the island's rich biodiversity.",
+    "flag": "https://flagcdn.com/w320/st.png",
+    "capitalPopulation": 71868,
+    "capitalYearFounded": 1485
+  },
+  {
+    "country": "Seychelles",
+    "capital": "Victoria",
+    "capitalInfo": "Victoria, the capital of Seychelles, is one of the world's smallest capital cities, located on Mahé island. The city center features the iconic Victoria Clock Tower, a replica of London's Vauxhall Clock Tower, and the Sir Selwyn Selwyn-Clarke Market. The National Museum of History and the Natural History Museum showcase the islands' heritage. Notable landmarks include the Cathedral of Our Lady of Immaculate Conception and the Arul Mihu Navasakthi Vinayagar Temple. The Botanical Gardens, featuring endemic species like the coco de mer palm, provide a green oasis. The city's port serves as a vital economic hub, while the nearby Mont Fleuri district offers panoramic views.",
+    "flag": "https://flagcdn.com/w320/sc.png",
+    "capitalPopulation": 26450,
+    "capitalYearFounded": 1778
+  }
+]
