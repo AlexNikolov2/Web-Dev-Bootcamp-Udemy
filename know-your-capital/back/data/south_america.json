@@ -1,0 +1,106 @@
+[
+  {
+    "country": "Brazil",
+    "capital": "Brasília",
+    "capitalInfo": "Brasília, Brazil's modernist capital inaugurated in 1960, is a UNESCO World Heritage site designed by urban planner Lúcio Costa and architect Oscar Niemeyer. The city's airplane-shaped layout features the Monumental Axis, containing government buildings with distinctive architectural designs. Notable landmarks include the Cathedral of Brasília with its hyperboloid structure, the National Congress building with its twin towers and bowl-shaped chambers, and the Presidential Palace. The Three Powers Square symbolizes the balance of government branches, while the TV Tower offers panoramic views. Cultural institutions include the National Museum and Cultural Complex of the Republic. The artificial Paranoá Lake provides recreational spaces and moderates the dry climate.",
+    "flag": "https://flagcdn.com/w320/br.png",
+    "capitalPopulation": 3055149,
+    "capitalYearFounded": 1960
+  },
+  {
+    "country": "Argentina",
+    "capital": "Buenos Aires",
+    "capitalInfo": "Buenos Aires, Argentina's capital, combines European architectural influences with Latin American vitality. The city's historic center features the Plaza de Mayo, surrounded by the Casa Rosada presidential palace and the Metropolitan Cathedral. The colorful La Boca district and historic San Telmo neighborhood showcase the city's cultural heritage, while Recoleta Cemetery houses elaborate mausoleums. Cultural institutions include the Teatro Colón, one of the world's finest opera houses, and the MALBA modern art museum. The city's distinctive barrios each maintain unique character, from the trendy Palermo to the business district of Puerto Madero. Cafes, tango halls, and parillas (steakhouses) maintain traditional porteño culture.",
+    "flag": "https://flagcdn.com/w320/ar.png",
+    "capitalPopulation": 3075646,
+    "capitalYearFounded": 1536
+  },
+  {
+    "country": "Colombia",
+    "capital": "Bogotá",
+    "capitalInfo": "Bogotá, Colombia's high-altitude capital, blends colonial architecture with modern urban development. The historic La Candelaria district features the Plaza Bolívar, surrounded by the Primary Cathedral and Capitol building. The Gold Museum houses pre-Hispanic artifacts, while the Botero Museum showcases Colombia's most famous artist. Modern developments include the financial district along Calle 72 and the Zona Rosa entertainment area. Cultural institutions include the National Museum and the Luis Ángel Arango Library. The city's eastern mountains, dominated by Monserrate and Guadalupe peaks, provide dramatic backdrops and recreational spaces. The TransMilenio bus system and extensive bicycle paths represent modern urban solutions.",
+    "flag": "https://flagcdn.com/w320/co.png",
+    "capitalPopulation": 7743955,
+    "capitalYearFounded": 1538
+  },
+  {
+    "country": "Peru",
+    "capital": "Lima",
+    "capitalInfo": "Lima, Peru's capital, combines pre-Columbian heritage with colonial architecture and modern development. The historic center, a UNESCO World Heritage site, features the Plaza Mayor with the Government Palace and Cathedral of Lima. The city contains numerous pre-Inca sites, including Huaca Pucllana. Colonial churches and mansions showcase intricate Baroque architecture, while districts like Miraflores and Barranco represent modern lifestyle and arts. Cultural institutions include the Larco Museum and the Museum of the Nation. The city's location along the Pacific creates a unique microclimate, while the Costa Verde highway provides scenic ocean views. The gastronomic scene has earned Lima recognition as South America's culinary capital.",
+    "flag": "https://flagcdn.com/w320/pe.png",
+    "capitalPopulation": 9751717,
+    "capitalYearFounded": 1535
+  },
+  {
+    "country": "Venezuela",
+    "capital": "Caracas",
+    "capitalInfo": "Caracas, Venezuela's capital, sits in a valley surrounded by the Ávila Mountain. The city features modern architecture including the Twin Towers of Parque Central and the distinctive Federal Capitol complex. Historic sites include the birthplace of Simón Bolívar and the National Pantheon. Cultural institutions include the Teresa Carreño Cultural Complex and the Museum of Contemporary Art. The cable car to Ávila Mountain provides dramatic city views, while the Central University of Venezuela campus represents modernist architecture. The city's layout follows the valley's east-west axis, with the business district in the east and government facilities in the center. Parks like East Park provide green spaces within the urban environment.",
+    "flag": "https://flagcdn.com/w320/ve.png",
+    "capitalPopulation": 3000000,
+    "capitalYearFounded": 1567
+  },
+  {
+    "country": "Chile",
+    "capital": "Santiago",
+    "capitalInfo": "Santiago, Chile's capital, lies in a valley surrounded by the snow-capped Andes and the Chilean Coastal Range. The city's historic center features Plaza de Armas, containing the Metropolitan Cathedral and Central Post Office Palace. The Costanera Center complex includes South America's tallest building, while the distinctive Palacio de La Moneda serves as the presidential palace. Cultural institutions include the Museum of Memory and Human Rights and the Chilean National Museum of Fine Arts. The bohemian Bellavista neighborhood, home to Pablo Neruda's house La Chascona, represents artistic heritage. Modern developments include the Las Condes business district, while the extensive Metro system showcases underground art. The city's location allows easy access to both ski resorts and Pacific beaches.",
+    "flag": "https://flagcdn.com/w320/cl.png",
+    "capitalPopulation": 6815000,
+    "capitalYearFounded": 1541
+  },
+  {
+    "country": "Ecuador",
+    "capital": "Quito",
+    "capitalInfo": "Quito, Ecuador's capital and a UNESCO World Heritage site, sits at 2,850 meters in an Andean valley. The historic center contains the best-preserved colonial architecture in South America, featuring the gold-leafed La Compañía church and San Francisco Monastery. The modern city includes the Mariscal Sucre district with contemporary hotels and restaurants. The TelefériQo cable car ascends Pichincha Volcano, offering spectacular city views. Cultural institutions include the Casa de la Cultura Ecuatoriana and the Chapel of Man, showcasing Guayasamín's work. The Middle of the World Monument marks the equatorial line, while the contemporary Quito Metropolitan Convention Center represents modern development.",
+    "flag": "https://flagcdn.com/w320/ec.png",
+    "capitalPopulation": 2011388,
+    "capitalYearFounded": 1534
+  },
+  {
+    "country": "Bolivia",
+    "capital": "La Paz",
+    "capitalInfo": "La Paz, Bolivia's administrative capital, is the world's highest capital city, dramatically situated in a canyon beneath snow-capped Mount Illimani. The city features the distinctive Witches' Market and the colonial Church of San Francisco. Modern developments include the unique Mi Teleférico cable car system, the world's largest urban cable car network. Plaza Murillo contains the Presidential Palace and Metropolitan Cathedral, while the southern zone houses affluent neighborhoods and the Valle de la Luna rock formations. Cultural institutions include the National Museum of Art and the Coca Museum. The city's location creates a vertical geography with distinct microclimates and neighborhoods at different elevations.",
+    "flag": "https://flagcdn.com/w320/bo.png",
+    "capitalPopulation": 2000000,
+    "capitalYearFounded": 1548
+  },
+  {
+    "country": "Paraguay",
+    "capital": "Asunción",
+    "capitalInfo": "Asunción, Paraguay's capital and largest city, stretches along the Paraguay River. The city center features the Government Palace (Palacio de López) and the Metropolitan Cathedral. The Casa de la Independencia museum preserves colonial architecture and independence history. The Pantheon of National Heroes contains remains of Paraguay's greatest leaders. Cultural institutions include the Central Bank's Cultural Center and the Manzana de la Rivera cultural complex. The costanera riverside promenade provides recreational space, while the modern Shopping del Sol represents commercial development. Traditional markets like Mercado 4 maintain local commerce, while the residential Villa Morra district showcases modern urban life.",
+    "flag": "https://flagcdn.com/w320/py.png",
+    "capitalPopulation": 525294,
+    "capitalYearFounded": 1537
+  },
+  {
+    "country": "Uruguay",
+    "capital": "Montevideo",
+    "capitalInfo": "Montevideo, Uruguay's capital, combines Art Deco and colonial architecture along the Río de la Plata. The historic Ciudad Vieja (Old City) features the Mercado del Puerto, Plaza Independencia, and the distinctive Palacio Salvo. The Rambla, a 22-kilometer waterfront promenade, defines the city's relationship with the river. Cultural institutions include the Solís Theatre and the National Museum of Visual Arts. The Legislative Palace showcases neoclassical architecture, while the World Trade Center Montevideo represents modern development. The Pocitos beach area combines residential architecture with recreational spaces. The city's distinctive neighborhoods maintain unique character, from the historic Prado to the modern Carrasco.",
+    "flag": "https://flagcdn.com/w320/uy.png",
+    "capitalPopulation": 1381000,
+    "capitalYearFounded": 1724
+  },
+  {
+    "country": "Guyana",
+    "capital": "Georgetown",
+    "capitalInfo": "Georgetown, Guyana's capital, showcases unique colonial wooden architecture along the Atlantic coast. The city features St. George's Anglican Cathedral, one of the world's tallest wooden buildings, and the iconic Stabroek Market with its prominent cast-iron clock tower. The Parliament Building exemplifies 19th-century Renaissance architecture, while the State House serves as the presidential residence. Cultural institutions include the Walter Roth Museum of Anthropology and the National Museum. The Botanical Gardens combine recreational space with scientific research facilities. The city's distinctive architecture reflects Dutch and British colonial influences, with buildings raised on stilts due to its location below sea level. The seawall provides both protection and a popular recreational area.",
+    "flag": "https://flagcdn.com/w320/gy.png",
+    "capitalPopulation": 235017,
+    "capitalYearFounded": 1781
+  },
+  {
+    "country": "Suriname",
+    "capital": "Paramaribo",
+    "capitalInfo": "Paramaribo, Suriname's capital and a UNESCO World Heritage site, features unique Dutch colonial architecture along the Suriname River. The historic inner city includes the Presidential Palace and the distinctive white wooden Cathedral of St. Peter and Paul. Fort Zeelandia, dating from the 17th century, now houses the Suriname Museum. The Central Market and Waterkant waterfront area maintain traditional commerce and social life. Cultural institutions include the Surinaams Museum and the Roman Catholic Cathedral. The city's architecture combines Dutch colonial style with local adaptations for the tropical climate. Notable sites include Independence Square and the Palm Garden, while the modern developments extend towards the south of the historic center.",
+    "flag": "https://flagcdn.com/w320/sr.png",
+    "capitalPopulation": 241000,
+    "capitalYearFounded": 1613
+  },
+  {
+    "country": "French Guiana",
+    "capital": "Cayenne",
+    "capitalInfo": "Cayenne, the capital of French Guiana, combines French colonial architecture with Creole culture on South America's northern coast. The city center features Place des Palmistes, lined with royal palms, and the restored Place Grenoble. The Musée Départemental showcases local history and indigenous artifacts, while Fort Cépérou overlooks the city from a hill. The distinctive Hotel de Ville (City Hall) represents French colonial architecture, while the market on Place du Coq maintains local traditions. Modern developments include the Space City district, connected to the nearby Guiana Space Centre. The city's layout preserves its colonial grid pattern, while newer areas extend towards the south and west.",
+    "flag": "https://flagcdn.com/w320/gf.png",
+    "capitalPopulation": 57614,
+    "capitalYearFounded": 1643
+  }
+]
