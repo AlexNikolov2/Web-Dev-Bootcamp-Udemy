@@ -366,5 +366,13 @@
     "flag": "https://flagcdn.com/w320/kp.png",
     "capitalPopulation": 3222000,
     "capitalYearFounded": -1122
+  },
+  {
+    "country": "Timor-Leste",
+    "capital": "Dili",
+    "capitalInfo": "Dili, Timor-Leste's capital, stretches along a bay on the north coast, overlooked by the Cristo Rei statue. The city features the Government Palace and the distinctive Motael Church, while the Santa Cruz Cemetery preserves independence struggle history. The Resistance Museum documents the path to independence, while the Tais Market showcases traditional textiles. Modern developments include the Timor Plaza and the expanded port facilities. Cultural institutions include the National Library and Archives and the Arte Moris art school. The waterfront provides recreational space, while nearby Atauro Island offers marine diversity. Contemporary Dili balances post-independence development with cultural preservation, while addressing infrastructure needs. The city's layout reflects Portuguese colonial influence and post-independence reconstruction, with distinct quarters preserving different aspects of its heritage. The harbor maintains its role in commerce while supporting growing tourism.",
+    "flag": "https://flagcdn.com/w320/tl.png",
+    "capitalPopulation": 222323,
+    "capitalYearFounded": 1769
   }
 ]

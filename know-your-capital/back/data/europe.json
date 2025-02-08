@@ -239,46 +239,100 @@
     "capitalPopulation": 122853,
     "capitalYearFounded": 874
   },
-  [
-    {
-      "country": "Malta",
-      "capital": "Valletta",
-      "capitalInfo": "Valletta, Malta's capital and a UNESCO World Heritage site, represents one of the earliest planned cities in Europe. The city, built by the Knights of St. John, features the distinctive St. John's Co-Cathedral with Caravaggio masterpieces and the Grand Master's Palace. The Upper Barrakka Gardens provide dramatic harbor views, while the Siege Bell Memorial commemorates World War II resistance. Modern developments include Renzo Piano's City Gate project and Parliament Building. Cultural institutions include the National Museum of Fine Arts and the Manoel Theatre, one of Europe's oldest working theaters. The city's grid pattern preserves 16th-century planning, while extensive fortifications demonstrate military architecture. Contemporary Valletta balances historic preservation with modern needs, while maintaining its role as a Mediterranean cultural center. The Grand Harbour continues its historic significance while adapting to cruise tourism.",
-      "flag": "https://flagcdn.com/w320/mt.png",
-      "capitalPopulation": 5730,
-      "capitalYearFounded": 1566
-    },
-    {
-      "country": "Luxembourg",
-      "capital": "Luxembourg City",
-      "capitalInfo": "Luxembourg City, capital of the Grand Duchy, centers on its UNESCO-listed old town and fortifications. The city features the Grand Ducal Palace and Notre-Dame Cathedral, while the Adolphe Bridge spans the dramatic Pétrusse Valley. The European Quarter in Kirchberg hosts EU institutions in contemporary architecture. Cultural institutions include the MUDAM contemporary art museum and the Philharmonie concert hall. The Bock Casemates represent extensive underground fortifications, while Place d'Armes maintains its role as the city's living room. Modern developments include the Cloche d'Or business district and the innovative Pfaffenthal Lift. The city's layout reflects its defensive heritage, while extensive parks preserve green spaces. Contemporary Luxembourg balances its role as a financial center with cultural heritage, while maintaining three official languages reflecting its multicultural character.",
-      "flag": "https://flagcdn.com/w320/lu.png",
-      "capitalPopulation": 128514,
-      "capitalYearFounded": 963
-    },
-    {
-      "country": "Moldova",
-      "capital": "Chișinău",
-      "capitalInfo": "Chișinău, Moldova's capital, combines Soviet-era planning with emerging contemporary development. The city features the distinctive Orthodox Cathedral and the Triumphal Arch, while the Stefan cel Mare Central Park provides urban green space. Cultural institutions include the National Museum of History and the Organ Hall. The Central Market maintains traditional commerce, while the Valea Morilor Park offers recreational facilities. Modern developments include the Malldova shopping center and business districts along Stefan cel Mare Boulevard. The city's wine industry is represented by extensive underground cellars and the annual Wine Festival. Contemporary Chișinău balances post-Soviet transformation with historic preservation, while maintaining its role as a regional educational center. The city's layout reflects various historical influences, from 19th-century planning to Soviet modernization.",
-      "flag": "https://flagcdn.com/w320/md.png",
-      "capitalPopulation": 679726,
-      "capitalYearFounded": 1436
-    },
-    {
-      "country": "Monaco",
-      "capital": "Monaco",
-      "capitalInfo": "Monaco, the sovereign city-state, combines historic monarchy with modern luxury along the French Riviera. The city features the Prince's Palace on the Rock of Monaco and the distinctive Monte Carlo Casino. The Oceanographic Museum, established by Prince Albert I, rises dramatically from the cliff face. Modern developments include the Fontvieille district reclaimed from the sea and the innovative Grimaldi Forum. Cultural institutions include the Opera House within the Casino and the Princess Grace Rose Garden. The Monaco Grand Prix transforms city streets into a Formula One circuit, while Port Hercule hosts luxury yachts. Contemporary Monaco emphasizes environmental protection while maintaining its reputation for glamour and gaming. The city's vertical development maximizes limited space, while extensive gardens preserve green areas despite dense urbanization.",
-      "flag": "https://flagcdn.com/w320/mc.png",
-      "capitalPopulation": 38300,
-      "capitalYearFounded": 1215
-    },
-    {
-      "country": "Andorra",
-      "capital": "Andorra la Vella",
-      "capitalInfo": "Andorra la Vella, the highest capital city in Europe, nestles in the Pyrenees Mountains. The city features the historic Casa de la Vall, the former parliament building, and the modern government complex. The Romanesque Sant Esteve Church represents religious heritage, while the Meritxell Avenue showcases modern commercial development. Cultural institutions include the Carmen Thyssen Museum and the National Automobile Museum. The city's thermal spa complex, Caldea, demonstrates innovative architecture, while the historic quarter preserves medieval character. Modern developments include the Pyrénées Department Store and extensive shopping districts. Contemporary Andorra la Vella balances its role as a tax-free shopping destination with cultural preservation, while maintaining its position as a winter sports gateway. The city's location provides dramatic mountain views, while recent pedestrianization improves urban living quality.",
-      "flag": "https://flagcdn.com/w320/ad.png",
-      "capitalPopulation": 22256,
-      "capitalYearFounded": 1278
-    }
-  ]
+  {
+    "country": "Malta",
+    "capital": "Valletta",
+    "capitalInfo": "Valletta, Malta's capital and a UNESCO World Heritage site, represents one of the earliest planned cities in Europe. The city, built by the Knights of St. John, features the distinctive St. John's Co-Cathedral with Caravaggio masterpieces and the Grand Master's Palace. The Upper Barrakka Gardens provide dramatic harbor views, while the Siege Bell Memorial commemorates World War II resistance. Modern developments include Renzo Piano's City Gate project and Parliament Building. Cultural institutions include the National Museum of Fine Arts and the Manoel Theatre, one of Europe's oldest working theaters. The city's grid pattern preserves 16th-century planning, while extensive fortifications demonstrate military architecture. Contemporary Valletta balances historic preservation with modern needs, while maintaining its role as a Mediterranean cultural center. The Grand Harbour continues its historic significance while adapting to cruise tourism.",
+    "flag": "https://flagcdn.com/w320/mt.png",
+    "capitalPopulation": 5730,
+    "capitalYearFounded": 1566
+  },
+  {
+    "country": "Luxembourg",
+    "capital": "Luxembourg City",
+    "capitalInfo": "Luxembourg City, capital of the Grand Duchy, centers on its UNESCO-listed old town and fortifications. The city features the Grand Ducal Palace and Notre-Dame Cathedral, while the Adolphe Bridge spans the dramatic Pétrusse Valley. The European Quarter in Kirchberg hosts EU institutions in contemporary architecture. Cultural institutions include the MUDAM contemporary art museum and the Philharmonie concert hall. The Bock Casemates represent extensive underground fortifications, while Place d'Armes maintains its role as the city's living room. Modern developments include the Cloche d'Or business district and the innovative Pfaffenthal Lift. The city's layout reflects its defensive heritage, while extensive parks preserve green spaces. Contemporary Luxembourg balances its role as a financial center with cultural heritage, while maintaining three official languages reflecting its multicultural character.",
+    "flag": "https://flagcdn.com/w320/lu.png",
+    "capitalPopulation": 128514,
+    "capitalYearFounded": 963
+  },
+  {
+    "country": "Moldova",
+    "capital": "Chișinău",
+    "capitalInfo": "Chișinău, Moldova's capital, combines Soviet-era planning with emerging contemporary development. The city features the distinctive Orthodox Cathedral and the Triumphal Arch, while the Stefan cel Mare Central Park provides urban green space. Cultural institutions include the National Museum of History and the Organ Hall. The Central Market maintains traditional commerce, while the Valea Morilor Park offers recreational facilities. Modern developments include the Malldova shopping center and business districts along Stefan cel Mare Boulevard. The city's wine industry is represented by extensive underground cellars and the annual Wine Festival. Contemporary Chișinău balances post-Soviet transformation with historic preservation, while maintaining its role as a regional educational center. The city's layout reflects various historical influences, from 19th-century planning to Soviet modernization.",
+    "flag": "https://flagcdn.com/w320/md.png",
+    "capitalPopulation": 679726,
+    "capitalYearFounded": 1436
+  },
+  {
+    "country": "Monaco",
+    "capital": "Monaco",
+    "capitalInfo": "Monaco, the sovereign city-state, combines historic monarchy with modern luxury along the French Riviera. The city features the Prince's Palace on the Rock of Monaco and the distinctive Monte Carlo Casino. The Oceanographic Museum, established by Prince Albert I, rises dramatically from the cliff face. Modern developments include the Fontvieille district reclaimed from the sea and the innovative Grimaldi Forum. Cultural institutions include the Opera House within the Casino and the Princess Grace Rose Garden. The Monaco Grand Prix transforms city streets into a Formula One circuit, while Port Hercule hosts luxury yachts. Contemporary Monaco emphasizes environmental protection while maintaining its reputation for glamour and gaming. The city's vertical development maximizes limited space, while extensive gardens preserve green areas despite dense urbanization.",
+    "flag": "https://flagcdn.com/w320/mc.png",
+    "capitalPopulation": 38300,
+    "capitalYearFounded": 1215
+  },
+  {
+    "country": "Andorra",
+    "capital": "Andorra la Vella",
+    "capitalInfo": "Andorra la Vella, the highest capital city in Europe, nestles in the Pyrenees Mountains. The city features the historic Casa de la Vall, the former parliament building, and the modern government complex. The Romanesque Sant Esteve Church represents religious heritage, while the Meritxell Avenue showcases modern commercial development. Cultural institutions include the Carmen Thyssen Museum and the National Automobile Museum. The city's thermal spa complex, Caldea, demonstrates innovative architecture, while the historic quarter preserves medieval character. Modern developments include the Pyrénées Department Store and extensive shopping districts. Contemporary Andorra la Vella balances its role as a tax-free shopping destination with cultural preservation, while maintaining its position as a winter sports gateway. The city's location provides dramatic mountain views, while recent pedestrianization improves urban living quality.",
+    "flag": "https://flagcdn.com/w320/ad.png",
+    "capitalPopulation": 22256,
+    "capitalYearFounded": 1278
+  },
+  {
+    "country": "North Macedonia",
+    "capital": "Skopje",
+    "capitalInfo": "Skopje, North Macedonia's capital, combines Byzantine heritage with distinctive modern architecture. The city features the Stone Bridge connecting the Ottoman Old Bazaar with Macedonia Square, dominated by the massive Alexander the Great fountain. The Skopje 2014 project added numerous neoclassical buildings and monuments, including the Museum of the Macedonian Struggle and the Archaeological Museum. Modern landmarks include the distinctive Holocaust Memorial Center and the Mother Teresa Memorial House. Cultural institutions include the Museum of Contemporary Art and the Macedonian National Theatre. The Kale Fortress provides panoramic views, while the Vardar River shapes the city's geography. Contemporary Skopje balances historic preservation with post-earthquake reconstruction, while maintaining its role as a multicultural center. The city's layout reflects various historical influences, from Roman times through Ottoman rule to modernist reconstruction after the 1963 earthquake.",
+    "flag": "https://flagcdn.com/w320/mk.png",
+    "capitalPopulation": 544086,
+    "capitalYearFounded": -4000
+  },
+  {
+    "country": "Montenegro",
+    "capital": "Podgorica",
+    "capitalInfo": "Podgorica, Montenegro's capital, blends Ottoman heritage with modernist reconstruction. The city features the Millennium Bridge spanning the Morača River and the distinctive Christ's Resurrection Cathedral. The Old Town (Stara Varoš) preserves Ottoman architecture, while the Nova Varoš district showcases post-war modernism. Cultural institutions include the Montenegrin National Theatre and the Centre of Contemporary Art. The Gorica hill provides recreational space and city views, while the confluence of the Morača and Ribnica rivers shapes urban geography. Modern developments include the City Quarter and Capital Plaza. Contemporary Podgorica balances business development with cultural preservation, while maintaining its role as a transportation hub. The city's layout reflects various historical periods, from Roman Birziminium through Ottoman rule to post-war reconstruction.",
+    "flag": "https://flagcdn.com/w320/me.png",
+    "capitalPopulation": 187085,
+    "capitalYearFounded": 1326
+  },
+  {
+    "country": "Belarus",
+    "capital": "Minsk",
+    "capitalInfo": "Minsk, Belarus's capital, exemplifies post-war Soviet urban planning with distinctive Stalinist architecture. The city features Independence Square with its iconic Government House and the imposing Victory Square monument. The Trinity Suburb preserves pre-war architecture, while Independence Avenue showcases grand Soviet planning. Cultural institutions include the Bolshoi Opera and Ballet Theatre and the National Library's distinctive rhombicuboctahedron building. Modern developments include the High-Tech Park and the redeveloped Oktyabrskaya Street. The Island of Tears memorial commemorates Afghan War veterans, while extensive parks maintain green space. Contemporary Minsk balances Soviet heritage with modern development, while maintaining its role as an industrial and cultural center. The city's layout reflects post-war reconstruction with wide avenues and monumental architecture, while the Svislach River provides recreational opportunities.",
+    "flag": "https://flagcdn.com/w320/by.png",
+    "capitalPopulation": 2020600,
+    "capitalYearFounded": 1067
+  },
+  {
+    "country": "Ukraine",
+    "capital": "Kyiv",
+    "capitalInfo": "Kyiv, Ukraine's capital, combines golden-domed churches with Soviet-era monuments and modern development. The city features Saint Sophia Cathedral and Kyiv Pechersk Lavra, both UNESCO World Heritage sites, representing Orthodox Christian heritage. Independence Square (Maidan Nezalezhnosti) symbolizes national sovereignty and democratic aspirations. Cultural institutions include the National Opera of Ukraine and the Pinchuk Art Centre. The distinctive Motherland Monument overlooks the Dnipro River, while Andriyivsky Descent preserves historic character. Modern developments include the business district in Podil and innovative cultural spaces. Contemporary Kyiv balances historic preservation with European integration, while maintaining its role as a cultural and economic center. The city's layout reflects its development across hills along the Dnipro River, with extensive metro system connecting distinct districts.",
+    "flag": "https://flagcdn.com/w320/ua.png",
+    "capitalPopulation": 2967360,
+    "capitalYearFounded": 482
+  },
+  {
+    "country": "San Marino",
+    "capital": "San Marino",
+    "capitalInfo": "San Marino City, capital of the world's oldest republic, crowns Mount Titano with its distinctive three towers. The city features the Palazzo Pubblico, seat of government since 1894, and the Basilica di San Marino. The Three Towers of San Marino, medieval fortifications connected by a path along the mountain ridge, symbolize national identity. Cultural institutions include the State Museum and the Museum of Ancient Arms. The historic center, a UNESCO World Heritage site, preserves medieval architecture and urban planning. Modern developments respect strict preservation guidelines while accommodating tourism infrastructure. The Piazza della Libertà provides dramatic views of surrounding territories, while the narrow streets maintain medieval character. Contemporary San Marino balances tourism development with sovereign functions, while preserving its unique political heritage as the oldest surviving sovereign state and constitutional republic.",
+    "flag": "https://flagcdn.com/w320/sm.png",
+    "capitalPopulation": 4061,
+    "capitalYearFounded": 301
+  },
+  {
+    "country": "Vatican City",
+    "capital": "Vatican City",
+    "capitalInfo": "Vatican City, the world's smallest sovereign state and headquarters of the Roman Catholic Church, centers around St. Peter's Basilica and Square. The city features the Apostolic Palace, official residence of the Pope, and the Sistine Chapel with Michelangelo's renowned frescoes. The Vatican Museums house one of the world's largest art collections, while the Vatican Library preserves priceless manuscripts. The distinctive Swiss Guard maintains centuries-old traditions of papal protection. Modern developments include the Paul VI Audience Hall and state-of-the-art conservation facilities. Cultural institutions include the Vatican Radio and the Pontifical Academy of Sciences. The Vatican Gardens occupy half the city-state's territory, while St. Peter's dome dominates the Roman skyline. Contemporary Vatican City balances religious function with cultural preservation, while maintaining its role as a global spiritual center. The city's layout preserves Renaissance planning while accommodating millions of annual pilgrims.",
+    "flag": "https://flagcdn.com/w320/va.png",
+    "capitalPopulation": 825,
+    "capitalYearFounded": 326
+  },
+  {
+    "country": "Liechtenstein",
+    "capital": "Vaduz",
+    "capitalInfo": "Vaduz, Liechtenstein's capital, nestles in the Rhine Valley beneath its iconic castle. The city features Vaduz Castle, still home to the Prince of Liechtenstein, overlooking the modern government quarter. The Kunstmuseum Liechtenstein showcases contemporary art in distinctive black cube architecture, while the National Museum preserves cultural heritage. Modern developments include the Parliament Building and the distinctive Post Office Museum. Cultural institutions include the State Art Gallery and the Cathedral of St. Florin. The Städtle, the main street, combines historic buildings with modern banking facilities. Contemporary Vaduz balances its role as a financial center with cultural development, while maintaining its small-town character. The city's layout reflects its development from medieval settlement to modern capital, with strict building regulations preserving mountain views. The Rhine River forms the western boundary while vineyards cover eastern slopes.",
+    "flag": "https://flagcdn.com/w320/li.png",
+    "capitalPopulation": 5741,
+    "capitalYearFounded": 1322
+  }
 ]
