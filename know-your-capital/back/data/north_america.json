@@ -94,5 +94,93 @@
     "flag": "https://flagcdn.com/w320/sv.png",
     "capitalPopulation": 525990,
     "capitalYearFounded": 1525
+  },
+  {
+    "country": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "capitalInfo": "Santo Domingo, the oldest continuously inhabited European settlement in the Americas, combines colonial heritage with modern Caribbean development. The Colonial Zone, a UNESCO World Heritage site, features the first cathedral in the Americas and the Alcázar de Colón, once home to Christopher Columbus's son. The city's Malecón waterfront provides scenic views and recreational spaces, while the modern financial district showcases contemporary architecture. Cultural institutions include the Museum of the Royal Houses and the Museum of Modern Art. The Columbus Lighthouse, housing what some claim are Columbus's remains, serves as a distinctive monument. The city's layout preserves its colonial grid while accommodating modern development along the Caribbean Sea.",
+    "flag": "https://flagcdn.com/w320/do.png",
+    "capitalPopulation": 3339410,
+    "capitalYearFounded": 1496
+  },
+  {
+    "country": "Bahamas",
+    "capital": "Nassau",
+    "capitalInfo": "Nassau, the Bahamas' capital, spreads across New Providence Island, blending British colonial architecture with Caribbean culture. The city center features Parliament Square with its distinctive pink colonial buildings and the Queen's Staircase, carved from solid limestone. The Pirates Museum and Fort Charlotte preserve maritime history, while Bay Street maintains its role as the commercial heart. The Straw Market represents traditional crafts, while Paradise Island across the harbor showcases modern resort development. Cultural institutions include the National Art Gallery and the Pompey Museum. The city's harbor remains crucial for both tourism and commerce, while historic neighborhoods like Grant's Town preserve African-Bahamian heritage.",
+    "flag": "https://flagcdn.com/w320/bs.png",
+    "capitalPopulation": 274400,
+    "capitalYearFounded": 1670
+  },
+  {
+    "country": "Belize",
+    "capital": "Belmopan",
+    "capitalInfo": "Belmopan, one of the newest capital cities in the world, was purpose-built after Hurricane Hattie destroyed much of the former capital. The city features distinctive architecture inspired by ancient Maya sites, particularly visible in the National Assembly Building. The Market Square serves as a community focal point, while the George Price Centre preserves national history. The city's planned layout includes extensive green spaces and clear zoning between administrative, commercial, and residential areas. Modern developments include the University of Belize campus and the new U.S. Embassy complex. The surrounding rainforest provides a dramatic backdrop, while nearby caves and Maya ruins reflect the region's ancient heritage.",
+    "flag": "https://flagcdn.com/w320/bz.png",
+    "capitalPopulation": 24500,
+    "capitalYearFounded": 1970
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "capitalInfo": "Port of Spain, Trinidad and Tobago's capital, showcases a blend of colonial architecture and modern Caribbean development. The city features the distinctive Red House parliament building and the Magnificent Seven, a row of grand colonial mansions. Queen's Park Savannah, the world's largest roundabout, hosts cultural events and the annual Carnival celebrations. The National Museum and Art Gallery preserves cultural heritage, while the Emperor Valley Zoo and Botanical Gardens provide green spaces. The city's waterfront includes the modern Nicholas Tower and International Waterfront Centre. Historic neighborhoods like Woodbrook maintain traditional character, while the Queen's Park Oval represents cricket heritage.",
+    "flag": "https://flagcdn.com/w320/tt.png",
+    "capitalPopulation": 37074,
+    "capitalYearFounded": 1757
+  },
+  {
+    "country": "Barbados",
+    "capital": "Bridgetown",
+    "capitalInfo": "Bridgetown, Barbados' capital and a UNESCO World Heritage site, represents British colonial architecture in a Caribbean setting. The city features the Parliament Buildings, among the oldest in the Western Hemisphere, and the distinctive Chamberlain Bridge. The Garrison Historic Area includes George Washington House and the Barbados Museum. The Careenage waterfront maintains its historic role while adapting to tourism. Cultural institutions include the Exchange Interactive Centre and the Frank Collymore Hall. Traditional markets like Cheapside preserve local commerce, while modern developments include the Financial Services Centre. The city's layout reflects its evolution from a 17th-century settlement to a modern Caribbean capital.",
+    "flag": "https://flagcdn.com/w320/bb.png",
+    "capitalPopulation": 110000,
+    "capitalYearFounded": 1628
+  },
+  {
+    "country": "Saint Lucia",
+    "capital": "Castries",
+    "capitalInfo": "Castries, Saint Lucia's capital, occupies a natural harbor surrounded by volcanic hills. The city features Derek Walcott Square, named after the Nobel laureate, with its 400-year-old samaan tree and Victorian-era cathedral. The Castries Central Market represents the largest open-air market in the Caribbean, showcasing local crafts and produce. The La Toc Battery preserves colonial military heritage, while the Government House exemplifies Victorian architecture. Modern developments include Point Seraphine, a duty-free shopping complex serving cruise ships. The city's harbor, one of the finest in the Caribbean, supports both commerce and tourism. Cultural institutions include the St. Lucia National Archives and the Carnival tradition.",
+    "flag": "https://flagcdn.com/w320/lc.png",
+    "capitalPopulation": 20000,
+    "capitalYearFounded": 1650
+  },
+  {
+    "country": "Grenada",
+    "capital": "St. George's",
+    "capitalInfo": "St. George's, Grenada's capital, is known as one of the most picturesque ports in the Caribbean, built around a horseshoe-shaped harbor. The city features the distinctive Market Square, Carenage waterfront, and Fort George, offering panoramic views of the harbor. The National Museum, housed in French barracks, preserves local history, while the Roman Catholic Cathedral showcases post-hurricane reconstruction. The Sendall Tunnel, built in 1895, connects the main harbor to the western side of the city. The Spice Market maintains Grenada's reputation as the 'Isle of Spice,' while modern developments include the Cruise Ship Terminal and the Esplanade Mall.",
+    "flag": "https://flagcdn.com/w320/gd.png",
+    "capitalPopulation": 33734,
+    "capitalYearFounded": 1650
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "capital": "Saint John's",
+    "capitalInfo": "Saint John's, capital of Antigua and Barbuda, combines British colonial heritage with Caribbean culture around a deep harbor. The city's skyline is dominated by the twin towers of St. John's Cathedral, rebuilt in 1845. The Museum of Antigua and Barbuda, housed in the colonial Court House, preserves national history. Heritage Quay and Redcliffe Quay serve as modern shopping districts while maintaining historic architecture. The Public Market offers local produce and crafts, while the Victory Cultural Centre promotes local arts. The city's harbor accommodates large cruise ships, while historic Fort James guards the harbor entrance. Modern developments include the Parliament Building and the Multi-Purpose Cultural Centre.",
+    "flag": "https://flagcdn.com/w320/ag.png",
+    "capitalPopulation": 22219,
+    "capitalYearFounded": 1632
+  },
+  {
+    "country": "Dominica",
+    "capital": "Roseau",
+    "capitalInfo": "Roseau, Dominica's capital, is the smallest capital in the Caribbean, featuring French colonial architecture and vibrant Caribbean culture. The city center includes the Old Market Square, historically significant for both commerce and social gatherings. The Dominica Museum, housed in a colonial-era post office building, documents the island's history. The Dominica Botanic Gardens, established in 1889, showcase the island's diverse flora. The Windsor Park Sports Stadium represents modern development, while the Catholic Cathedral reflects French colonial influence. The city's waterfront features the Bay Front, a popular promenade, while nearby Morne Bruce offers panoramic views of the capital.",
+    "flag": "https://flagcdn.com/w320/dm.png",
+    "capitalPopulation": 16571,
+    "capitalYearFounded": 1750
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "capitalInfo": "Basseterre, capital of Saint Kitts and Nevis, represents one of the oldest towns in the Eastern Caribbean. The city center features Independence Square, formerly a slave market, and the Berkeley Memorial Clock. The National Museum, housed in the Old Treasury Building, preserves local history. The St. George's Anglican Church showcases colonial architecture, while Port Zante, a modern cruise ship terminal and shopping complex, caters to tourism. The city's layout reflects British colonial planning, with the Circus, modeled after London's Piccadilly Circus, as a central landmark. Fort George, now Brimstone Hill Fortress National Park, stands as a UNESCO World Heritage site overlooking the capital.",
+    "flag": "https://flagcdn.com/w320/kn.png",
+    "capitalPopulation": 14000,
+    "capitalYearFounded": 1627
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "capitalInfo": "Kingstown, capital of Saint Vincent and the Grenadines, is known as the 'City of Arches' due to its colonial architecture. The city center features the St. Mary's Catholic Cathedral and St. George's Anglican Cathedral, showcasing different colonial architectural styles. The Botanical Gardens, established in 1765, are among the oldest in the Western Hemisphere. The Kingstown Market represents the commercial heart of the city, while Fort Charlotte, perched 600 feet above the bay, offers historical significance and panoramic views. The modern cruise ship terminal and the Financial Complex represent recent development. Cultural institutions include the National Museum and the Carnegie Building. The city's deep-water harbor supports both commerce and yachting.",
+    "flag": "https://flagcdn.com/w320/vc.png",
+    "capitalPopulation": 12909,
+    "capitalYearFounded": 1722
   }
 ]

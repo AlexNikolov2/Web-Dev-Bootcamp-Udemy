@@ -1,0 +1,378 @@
+[
+  {
+    "country": "China",
+    "capital": "Beijing",
+    "capitalInfo": "Beijing, China's ancient and modern capital, seamlessly blends imperial grandeur with contemporary innovation. The city houses UNESCO World Heritage sites including the Forbidden City, the world's largest palace complex, and the Temple of Heaven, representing classical Chinese architecture. The Great Wall's most visited sections lie nearby. Modern landmarks include the distinctive Bird's Nest Olympic stadium and the CCTV headquarters. The city's hutongs (traditional alleyways) contrast with soaring skyscrapers, while the vast Tiananmen Square remains China's political heart. Cultural institutions include the National Museum of China and the Capital Museum, while the 798 Art District showcases contemporary Chinese creativity.",
+    "flag": "https://flagcdn.com/w320/cn.png",
+    "capitalPopulation": 20462610,
+    "capitalYearFounded": 1045
+  },
+  {
+    "country": "Japan",
+    "capital": "Tokyo",
+    "capitalInfo": "Tokyo, Japan's bustling capital, represents one of the world's most dynamic metropolises, where ultra-modern technology meets traditional culture. The city features iconic landmarks like the Tokyo Skytree, the world's tallest tower, and the historic Senso-ji Temple in Asakusa. The Imperial Palace, home to Japan's imperial family, sits amid beautiful gardens in the city center. Districts like Shibuya and Shinjuku showcase cutting-edge architecture and technology, while areas like Yanaka preserve traditional atmosphere. The city's transportation hub, Tokyo Station, exemplifies Meiji era architecture, while districts like Akihabara and Harajuku represent modern Japanese pop culture.",
+    "flag": "https://flagcdn.com/w320/jp.png",
+    "capitalPopulation": 37393128,
+    "capitalYearFounded": 1457
+  },
+  {
+    "country": "India",
+    "capital": "New Delhi",
+    "capitalInfo": "New Delhi, India's capital, showcases the country's rich history alongside its emerging modern identity. The city features iconic structures like India Gate, Parliament House, and the Presidential Palace (Rashtrapati Bhavan), designed by Edwin Lutyens during the British Raj. The Qutub Minar and Humayun's Tomb represent Delhi's medieval heritage, while Connaught Place epitomizes colonial-era planning. Modern developments include the Delhi Metro system and the diplomatic enclave of Chanakyapuri. The city's cultural landscape includes the National Museum, National Gallery of Modern Art, and numerous performing arts venues. Wide tree-lined avenues and garden spaces provide relief from urban density.",
+    "flag": "https://flagcdn.com/w320/in.png",
+    "capitalPopulation": 32941000,
+    "capitalYearFounded": 1911
+  },
+  {
+    "country": "South Korea",
+    "capital": "Seoul",
+    "capitalInfo": "Seoul, South Korea's capital, harmoniously combines ancient palaces with cutting-edge technology and design. The city features five grand Joseon Dynasty palaces, including Gyeongbokgung, alongside modern landmarks like the Dongdaemun Design Plaza and N Seoul Tower. Historic sites such as Bukchon Hanok Village preserve traditional Korean architecture, while districts like Gangnam showcase contemporary urban development. The Han River flows through the city's heart, lined with parks and recreational areas. Cultural institutions include the National Museum of Korea and the War Memorial, while areas like Myeongdong and Hongdae represent modern Korean pop culture and youth trends.",
+    "flag": "https://flagcdn.com/w320/kr.png",
+    "capitalPopulation": 9776000,
+    "capitalYearFounded": 18
+  },
+  {
+    "country": "Indonesia",
+    "capital": "Jakarta",
+    "capitalInfo": "Jakarta, Indonesia's massive capital, stands as Southeast Asia's most populous city. The city blends Dutch colonial architecture, visible in the old town of Kota Tua, with modern skyscrapers and shopping malls. The National Monument (Monas) towers over Merdeka Square, symbolizing Indonesia's independence. The city features important religious sites like the Istiqlal Mosque, Southeast Asia's largest mosque, and the neo-gothic Jakarta Cathedral. Cultural institutions include the National Museum and the Maritime Museum, while traditional markets like Pasar Baru contrast with modern developments. The city's waterfront area, Ancol, provides recreational spaces along the Java Sea.",
+    "flag": "https://flagcdn.com/w320/id.png",
+    "capitalPopulation": 10562088,
+    "capitalYearFounded": 1527
+  },
+  {
+    "country": "Pakistan",
+    "capital": "Islamabad",
+    "capitalInfo": "Islamabad, Pakistan's purpose-built capital since 1967, represents modern urban planning set against the backdrop of the Margalla Hills. The city's focal point is the Shah Faisal Mosque, one of the largest mosques in the world, with its distinctive contemporary Islamic architecture. The city follows a grid pattern with different sectors, each serving specific functions. Notable landmarks include the Pakistan Monument, symbolizing national unity, and the Lok Virsa Museum, showcasing Pakistani cultural heritage. The Diplomatic Enclave houses foreign missions, while the Zero Point Interchange marks the city's center. Daman-e-Koh viewpoint offers panoramic views of this carefully planned metropolis.",
+    "flag": "https://flagcdn.com/w320/pk.png",
+    "capitalPopulation": 1095064,
+    "capitalYearFounded": 1960
+  },
+  {
+    "country": "Vietnam",
+    "capital": "Hanoi",
+    "capitalInfo": "Hanoi, Vietnam's capital, seamlessly blends ancient traditions with modern development. The Old Quarter, with its narrow streets and historic architecture, preserves the city's thousand-year heritage. The Temple of Literature, Vietnam's first university, exemplifies traditional Vietnamese architecture, while Ho Chi Minh's Mausoleum stands as a significant political monument. Hoan Kiem Lake, with the iconic Turtle Tower, forms the city's heart. French colonial influence is visible in the Opera House and the Presidential Palace area. Cultural institutions include the Vietnam National Museum of Fine Arts and the Ethnology Museum. The city's numerous temples, including the One Pillar Pagoda, reflect its spiritual heritage.",
+    "flag": "https://flagcdn.com/w320/vn.png",
+    "capitalPopulation": 4678000,
+    "capitalYearFounded": 1010
+  },
+  {
+    "country": "Thailand",
+    "capital": "Bangkok",
+    "capitalInfo": "Bangkok, Thailand's vibrant capital, combines ornate temples with ultra-modern cityscape. The city's historic heart features the Grand Palace complex and Wat Phra Kaew, housing the revered Emerald Buddha. The Chao Phraya River, lined with temples and historic communities, remains central to city life. Modern landmarks include the MahaNakhon skyscraper and the extensive Skytrain system. Cultural highlights range from the National Museum to the Jim Thompson House, while areas like Rattanakosin showcase traditional architecture. The city's famous street food scene and markets like Chatuchak represent Thai cultural vitality, while shopping districts like Siam demonstrate modern consumer culture.",
+    "flag": "https://flagcdn.com/w320/th.png",
+    "capitalPopulation": 8280925,
+    "capitalYearFounded": 1782
+  },
+  {
+    "country": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "capitalInfo": "Kuala Lumpur, Malaysia's capital, exemplifies modern Asian urban development while preserving its multicultural heritage. The iconic Petronas Twin Towers, once the world's tallest buildings, dominate the skyline. Historic sites include the Jamek Mosque and the colonial-era Sultan Abdul Samad Building. The city's diverse cultural fabric is reflected in areas like Chinatown, Little India, and the Malay enclave of Kampung Baru. Modern developments include KL Sentral transportation hub and the KL Tower. Cultural institutions range from the Islamic Arts Museum to the National Museum, while the Batu Caves nearby represent Hindu heritage. The city's parks, including the Lake Gardens, provide green spaces amid urban development.",
+    "flag": "https://flagcdn.com/w320/my.png",
+    "capitalPopulation": 1982112,
+    "capitalYearFounded": 1857
+  },
+  {
+    "country": "Philippines",
+    "capital": "Manila",
+    "capitalInfo": "Manila, the capital of the Philippines, represents a dense urban tapestry of Spanish colonial history and modern development. The historic Intramuros district, with its preserved walls and Fort Santiago, showcases Spanish colonial architecture. The city features significant religious landmarks like San Agustin Church, a UNESCO World Heritage site, and Manila Cathedral. Rizal Park, the country's most significant public space, houses monuments to national heroes. The Cultural Center of the Philippines complex represents modern cultural institutions, while the bustling port area highlights Manila's maritime importance. The city's Binondo district, the world's oldest Chinatown, reflects its multicultural heritage.",
+    "flag": "https://flagcdn.com/w320/ph.png",
+    "capitalPopulation": 1846513,
+    "capitalYearFounded": 1571
+  },
+  {
+    "country": "Saudi Arabia",
+    "capital": "Riyadh",
+    "capitalInfo": "Riyadh, Saudi Arabia's capital, has transformed from a walled desert city into a modern metropolis. The city's historic core features the Masmak Fortress and Deera Square, while modern landmarks include the Kingdom Centre tower and Al-Faisaliah Center. The diplomatic quarter houses foreign missions and features distinctive modern Islamic architecture. The National Museum complex showcases Arabian heritage, while the King Abdullah Financial District represents contemporary economic ambitions. Traditional markets like Souq al-Zal contrast with modern shopping centers. The city's layout reflects rapid development, with wide highways connecting distinct districts, while the Edge of the World escarpment provides dramatic natural surroundings.",
+    "flag": "https://flagcdn.com/w320/sa.png",
+    "capitalPopulation": 7676654,
+    "capitalYearFounded": 1737
+  },
+  {
+    "country": "Singapore",
+    "capital": "Singapore",
+    "capitalInfo": "Singapore, a city-state capital, exemplifies modern urban planning and multicultural harmony. The Marina Bay area showcases architectural marvels like Marina Bay Sands and Gardens by the Bay, with its distinctive Supertree Grove. Historic districts include Chinatown, Little India, and Kampong Glam, preserving cultural heritage amid modern development. The colonial-era Raffles Hotel and Victoria Theatre represent British influence, while modern landmarks include the ArtScience Museum and the Singapore Flyer. The city's green initiatives are evident in spaces like the Singapore Botanic Gardens, a UNESCO World Heritage site. The efficient mass transit system and Changi Airport demonstrate Singapore's commitment to infrastructure excellence.",
+    "flag": "https://flagcdn.com/w320/sg.png",
+    "capitalPopulation": 5685807,
+    "capitalYearFounded": 1819
+  },
+  {
+    "country": "Iran",
+    "capital": "Tehran",
+    "capitalInfo": "Tehran, Iran's capital, sits dramatically against the Alborz Mountains, blending Persian heritage with contemporary urban life. The city features the iconic Azadi Tower, symbolizing modern Iran, and the lavish Golestan Palace complex, representing its royal past. The Grand Bazaar maintains traditional commerce, while modern districts like Velenjak showcase contemporary lifestyle. Cultural institutions include the National Museum of Iran and the Treasury of National Jewels. The city's northern districts climb the mountain slopes, offering relief from urban density. Notable landmarks include the Milad Tower and the contemporary Tabiat Bridge. The Sa'dabad Complex and Niavaran Palace preserve memories of the Pahlavi dynasty.",
+    "flag": "https://flagcdn.com/w320/ir.png",
+    "capitalPopulation": 9381000,
+    "capitalYearFounded": 1796
+  },
+  {
+    "country": "Iraq",
+    "capital": "Baghdad",
+    "capitalInfo": "Baghdad, Iraq's historic capital, straddles the Tigris River at the heart of ancient Mesopotamia. The city, once the center of the Islamic Golden Age, features significant religious sites like the Al-Kadhimiya Mosque and the Al-Mustansiriya Madrasah. Modern landmarks include the Monument to the Unknown Soldier and the crossed swords of the Victory Arch. The National Museum of Iraq houses invaluable artifacts from ancient civilizations. The Al-Mutanabbi Street, famous for its bookshops and cultural cafes, represents intellectual life, while the Al-Rasheed Street showcases early 20th-century architecture. The Green Zone houses government institutions and foreign missions.",
+    "flag": "https://flagcdn.com/w320/iq.png",
+    "capitalPopulation": 7511920,
+    "capitalYearFounded": 762
+  },
+  {
+    "country": "Bangladesh",
+    "capital": "Dhaka",
+    "capitalInfo": "Dhaka, Bangladesh's capital, combines Mughal-era monuments with rapid urban development. The historic old city features the ornate Lalbagh Fort and the star-shaped Tara Mosque, while the Pink Palace Museum showcases the city's nawabi heritage. Modern landmarks include the National Parliament House, designed by Louis Kahn, and the Bashundhara City shopping complex. The city's vibrant cultural life centers around the Bengali Academy and Ramna Park area. The Buriganga River waterfront maintains traditional river commerce, while areas like Gulshan and Banani represent modern development. The city's numerous mosques, including the National Mosque Baitul Mukarram, reflect its Islamic heritage.",
+    "flag": "https://flagcdn.com/w320/bd.png",
+    "capitalPopulation": 21741090,
+    "capitalYearFounded": 1608
+  },
+  {
+    "country": "Kazakhstan",
+    "capital": "Astana",
+    "capitalInfo": "Astana (Nur-Sultan), Kazakhstan's modern capital, represents one of the world's most ambitious planned cities. The left bank features futuristic architecture including the Bayterek Tower, symbolizing Kazakh mythology, and the Khan Shatyr Entertainment Center, the world's largest tent structure. The Palace of Peace and Reconciliation, designed by Norman Foster, demonstrates contemporary architectural innovation. The city's administrative heart includes the Presidential Palace and Parliament House. Cultural venues include the National Museum of Kazakhstan and the Astana Opera. The city's grid pattern and wide boulevards reflect modern urban planning, while the Ishim River provides a natural divide between old and new districts.",
+    "flag": "https://flagcdn.com/w320/kz.png",
+    "capitalPopulation": 1136156,
+    "capitalYearFounded": 1830
+  },
+  {
+    "country": "Syria",
+    "capital": "Damascus",
+    "capitalInfo": "Damascus, one of the world's oldest continuously inhabited cities, serves as Syria's capital. The ancient walled Old City, a UNESCO World Heritage site, contains the magnificent Umayyad Mosque and numerous historic souks (markets). The Street Called Straight, mentioned in the Bible, still runs through the old city. Notable landmarks include the National Museum, housing artifacts from ancient civilizations, and the Azem Palace, representing Ottoman architecture. The modern city features the Tishreen Palace and University of Damascus. Traditional neighborhoods like Bab Touma preserve historic character, while newer areas showcase contemporary development. The city's numerous ancient gates and religious sites reflect its rich historical significance.",
+    "flag": "https://flagcdn.com/w320/sy.png",
+    "capitalPopulation": 2392000,
+    "capitalYearFounded": -3000
+  },
+  {
+    "country": "Israel",
+    "capital": "Jerusalem",
+    "capitalInfo": "Jerusalem, Israel's declared capital, stands as one of the world's most historically and religiously significant cities. The Old City, a UNESCO World Heritage site, contains sacred sites of three major religions: the Western Wall, the Church of the Holy Sepulchre, and the Dome of the Rock. The city combines ancient stone architecture with modern development, particularly in West Jerusalem. Notable institutions include the Israel Museum, housing the Dead Sea Scrolls, and Yad Vashem Holocaust Memorial. The Machane Yehuda Market represents daily life, while the Light Rail system connects ancient quarters with modern neighborhoods. The city's unique character emerges from its limestone buildings, archaeological sites, and religious institutions.",
+    "flag": "https://flagcdn.com/w320/il.png",
+    "capitalPopulation": 936425,
+    "capitalYearFounded": -1000
+  },
+  {
+    "country": "Jordan",
+    "capital": "Amman",
+    "capitalInfo": "Amman, Jordan's capital, spreads across seven hills, combining ancient history with modern urban development. The city's historic center features the Roman Theatre and the Citadel, containing ruins from multiple civilizations. The modern downtown area showcases contemporary architecture, including the Jordan Gate Towers and Abdali Boulevard. Cultural institutions include the Jordan Museum and the Royal Automobile Museum. The city's distinctive white limestone buildings cascade down hillsides, while modern districts like Abdoun and Sweifieh represent contemporary lifestyle. Rainbow Street epitomizes the city's cultural revival, while the King Abdullah I Mosque stands as a modern Islamic architectural masterpiece.",
+    "flag": "https://flagcdn.com/w320/jo.png",
+    "capitalPopulation": 4061150,
+    "capitalYearFounded": -7250
+  },
+  {
+    "country": "Lebanon",
+    "capital": "Beirut",
+    "capitalInfo": "Beirut, Lebanon's capital, embodies resilience and cultural diversity along the Mediterranean coast. The city center features restored French mandate-era buildings and the iconic Place de l'Étoile, while the Corniche seaside promenade offers views of the famous Pigeon Rocks. Historical sites include the National Museum, showcasing Phoenician artifacts, and the Mohammad Al-Amin Mosque. The vibrant Mar Mikhael and Gemmayzeh neighborhoods represent cultural revival, while the Beirut Central District demonstrates post-war reconstruction. Educational institutions include the American University of Beirut's historic campus. The city's port area, despite recent challenges, remains economically significant.",
+    "flag": "https://flagcdn.com/w320/lb.png",
+    "capitalPopulation": 2424425,
+    "capitalYearFounded": -3000
+  },
+  {
+    "country": "Uzbekistan",
+    "capital": "Tashkent",
+    "capitalInfo": "Tashkent, Uzbekistan's capital, combines Soviet-era planning with modern development and Islamic heritage. The city's historic center features the Hazrat Imam Complex and the 16th-century Kukeldash Madrasah. Modern landmarks include the Tashkent Tower and Independence Square with its distinctive architecture. The city's extensive metro system showcases unique artistic designs in each station. Cultural institutions include the State Museum of History and the Alisher Navoi Opera House. The Chorsu Bazaar represents traditional commerce, while the International Business Center symbolizes economic modernization. The city's layout features wide boulevards, numerous fountains, and parks, earning it the nickname 'City of Fountains'.",
+    "flag": "https://flagcdn.com/w320/uz.png",
+    "capitalPopulation": 2571668,
+    "capitalYearFounded": -500
+  },
+  {
+    "country": "Myanmar",
+    "capital": "Naypyidaw",
+    "capitalInfo": "Naypyidaw, Myanmar's purpose-built capital since 2006, represents one of the world's newest planned cities. The city features distinctively wide boulevards, government complexes, and the impressive Uppatasanti Pagoda, a replica of Yangon's Shwedagon Pagoda. The city is divided into specific zones, including the military zone, government zone, and residential areas. Notable landmarks include the Parliament House, the Ministry Zone, and the National Landmark Garden. The city's modern infrastructure includes the 20-lane highway and the Water Fountain Garden. Despite its massive scale, the city maintains a carefully planned layout with extensive green spaces and modern amenities.",
+    "flag": "https://flagcdn.com/w320/mm.png",
+    "capitalPopulation": 924608,
+    "capitalYearFounded": 2002
+  },
+  {
+    "country": "Nepal",
+    "capital": "Kathmandu",
+    "capitalInfo": "Kathmandu, Nepal's capital, sits in a valley surrounded by the Himalayan mountains, blending ancient traditions with modern development. The city's Durbar Square, a UNESCO World Heritage site, features intricate wooden architecture and historic temples. The Swayambhunath Stupa (Monkey Temple) and Boudhanath Stupa represent significant Buddhist sites. The old city's narrow alleys and hidden courtyards contrast with modern areas like Thamel and New Road. Cultural institutions include the National Museum and the Tribhuvan University. The city's numerous temples, including Pashupatinath, attract pilgrims and tourists, while traditional markets like Asan preserve local commerce and culture.",
+    "flag": "https://flagcdn.com/w320/np.png",
+    "capitalPopulation": 1442271,
+    "capitalYearFounded": 723
+  },
+  {
+    "country": "Cambodia",
+    "capital": "Phnom Penh",
+    "capitalInfo": "Phnom Penh, Cambodia's capital, sits at the confluence of the Mekong and Tonlé Sap rivers. The city features the ornate Royal Palace complex and the Silver Pagoda, showcasing traditional Khmer architecture. The National Museum houses important Khmer art collections, while the Tuol Sleng Genocide Museum preserves difficult historical memories. The city's French colonial heritage is visible in the historic quarter, featuring wide boulevards and colonial buildings. The Central Market's Art Deco structure represents architectural diversity, while the riverside promenade, Sisowath Quay, serves as a popular gathering place. Modern developments include the Diamond Island area and numerous cultural institutions preserving Khmer arts.",
+    "flag": "https://flagcdn.com/w320/kh.png",
+    "capitalPopulation": 2281951,
+    "capitalYearFounded": 1434
+  },
+  {
+    "country": "Sri Lanka",
+    "capital": "Kotte",
+    "capitalInfo": "Sri Jayawardenepura Kotte, Sri Lanka's administrative capital, represents modern urban planning while preserving historical elements. The city features the distinctive Parliament Complex, built on an artificial island surrounded by a lake. The administrative complex includes various ministry buildings and government institutions. The city's layout incorporates water bodies and green spaces, creating a unique urban environment. Historic sites include the Kotte Raja Maha Vihara temple and ancient fortification ruins. Modern developments feature planned residential areas and commercial zones, while the nearby Waters Edge complex provides recreational facilities. The city maintains its role as the legislative capital while neighboring Colombo serves as the commercial hub.",
+    "flag": "https://flagcdn.com/w320/lk.png",
+    "capitalPopulation": 115826,
+    "capitalYearFounded": 1982
+  },
+  {
+    "country": "Azerbaijan",
+    "capital": "Baku",
+    "capitalInfo": "Baku, Azerbaijan's capital, combines medieval Islamic architecture with award-winning modern designs along the Caspian Sea. The UNESCO-listed Old City (Icherisheher) features the iconic Maiden Tower and Shirvanshah's Palace. Modern landmarks include the flame-shaped Flame Towers and the distinctive Heydar Aliyev Center designed by Zaha Hadid. The city's seaside boulevard, one of the world's longest promenades, showcases both historic oil-boom mansions and contemporary developments. Cultural institutions include the Azerbaijan Carpet Museum and the Museum of Modern Art. The city's architectural diversity reflects its history as an ancient trading post and modern oil capital.",
+    "flag": "https://flagcdn.com/w320/az.png",
+    "capitalPopulation": 2300500,
+    "capitalYearFounded": 500
+  },
+  {
+    "country": "Laos",
+    "capital": "Vientiane",
+    "capitalInfo": "Vientiane, Laos's laid-back capital, stretches along the Mekong River, blending French colonial architecture with Buddhist temples. The city's most iconic landmark is Pha That Luang, a golden stupa considered the national symbol. The Patuxai Victory Monument, reminiscent of Paris's Arc de Triomphe, represents independence era architecture. Historic temples include Wat Si Saket and Haw Phra Kaew, now a museum. The Morning Market and Night Market showcase local commerce and culture. Modern developments include the Vientiane Center and the That Luang Lake Specific Economic Zone. The city maintains its traditional charm while embracing controlled modernization.",
+    "flag": "https://flagcdn.com/w320/la.png",
+    "capitalPopulation": 948477,
+    "capitalYearFounded": 1560
+  },
+  {
+    "country": "Afghanistan",
+    "capital": "Kabul",
+    "capitalInfo": "Kabul, Afghanistan's capital, sits in a valley surrounded by the Hindu Kush mountains. The city's historic areas include the restored Babur's Gardens, created by the first Mughal emperor, and the old city's bazaars. The Darul Aman Palace represents early 20th-century modernization attempts, while the Gardens of Babur showcase Mughal landscape architecture. The National Museum houses artifacts from various periods of Afghan history. The Kabul University campus represents educational development, while the Pul-e-Khishti Mosque serves as the city's largest mosque. Traditional markets like Mandawi maintain historic trading practices, while newer areas reflect ongoing urban development.",
+    "flag": "https://flagcdn.com/w320/af.png",
+    "capitalPopulation": 4601789,
+    "capitalYearFounded": -1500
+  },
+  {
+    "country": "Yemen",
+    "capital": "Sanaa",
+    "capitalInfo": "Sana'a, Yemen's historic capital, is one of the oldest continuously inhabited cities in the world. The Old City, a UNESCO World Heritage site, features distinctive tower houses decorated with geometric patterns and stained glass windows. The Great Mosque, one of the oldest in the Islamic world, represents early Islamic architecture. The city's ancient suq (market) maintains traditional commerce patterns, while the National Museum showcases Yemen's rich history. The city's unique architecture includes multi-story buildings made from rammed earth and burnt brick. Traditional gardens and squares, called miqshamas, provide public spaces, while the newer parts of the city reflect modern development patterns.",
+    "flag": "https://flagcdn.com/w320/ye.png",
+    "capitalPopulation": 3937451,
+    "capitalYearFounded": -500
+  },
+  {
+    "country": "Turkmenistan",
+    "capital": "Ashgabat",
+    "capitalInfo": "Ashgabat, Turkmenistan's capital, holds the world record for the highest concentration of white marble buildings. The city features extraordinary architecture, including the Wedding Palace, the Independence Monument, and the world's largest indoor Ferris wheel at the Alem Cultural Center. The Turkmenistan State Museum and the National Museum showcase the country's history and culture. The Neutrality Monument and the Constitution Monument represent modern national identity. The city's layout includes extensive parks and fountains, while the Kopet Dag Mountains provide a dramatic backdrop. Modern developments include the Olympic Complex and the artificial Altyn Asyr Lake. The city's distinctive architecture and urban planning reflect its unique position as a showcase capital.",
+    "flag": "https://flagcdn.com/w320/tm.png",
+    "capitalPopulation": 1031992,
+    "capitalYearFounded": 1881
+  },
+  {
+    "country": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "capitalInfo": "Bishkek, Kyrgyzstan's capital, combines Soviet-era planning with traditional Central Asian culture against the backdrop of the Tian Shan mountains. The city features Ala-Too Square, the main city square with the State History Museum and the iconic statue of national hero Manas. The White House serves as the presidential office, while the Kyrgyz National Opera and Ballet Theatre represents cultural institutions. The Osh Bazaar maintains traditional commerce, while Victory Square commemorates World War II. Modern developments include the Bishkek Park mall and numerous universities. The city's grid pattern features wide boulevards lined with trees, earning it the nickname 'the Green City'.",
+    "flag": "https://flagcdn.com/w320/kg.png",
+    "capitalPopulation": 1074075,
+    "capitalYearFounded": 1825
+  },
+  {
+    "country": "Tajikistan",
+    "capital": "Dushanbe",
+    "capitalInfo": "Dushanbe, Tajikistan's capital, nestled in the Hissar Valley, represents a blend of Soviet architecture and modern development. The city features the world's tallest flagpole and the massive National Library building. The National Museum of Tajikistan houses important historical artifacts, while the Ismoili Somoni Monument celebrates national identity. The Opera and Ballet Theater showcases cultural performances, and the Central Mosque stands as one of Central Asia's largest mosques. The city's name, meaning 'Monday' in Tajik, comes from its historic Monday market. Modern additions include the Palace of Nations and the Dushanbe Plaza complex, while traditional teahouses (chaikhanas) maintain cultural traditions.",
+    "flag": "https://flagcdn.com/w320/tj.png",
+    "capitalPopulation": 863400,
+    "capitalYearFounded": 1924
+  },
+  {
+    "country": "Georgia",
+    "capital": "Tbilisi",
+    "capitalInfo": "Tbilisi, Georgia's capital, sprawls along the banks of the Mtkvari River, featuring a diverse architectural heritage spanning 1,500 years. The Old Town, with its traditional Georgian houses with wooden balconies, contains the 4th-century Narikala Fortress and sulfur baths. Modern landmarks include the Bridge of Peace and the Public Service Hall. The city's religious architecture ranges from the 6th-century Anchiskhati Basilica to the Holy Trinity Cathedral. Cultural institutions include the Georgian National Museum and the State Opera House. The distinctive Dry Bridge Market showcases local art, while the emerging New Tiflis district blends historic architecture with contemporary design.",
+    "flag": "https://flagcdn.com/w320/ge.png",
+    "capitalPopulation": 1184800,
+    "capitalYearFounded": 455
+  },
+  {
+    "country": "Armenia",
+    "capital": "Yerevan",
+    "capitalInfo": "Yerevan, Armenia's capital, is one of the world's oldest continuously inhabited cities, featuring distinctive pink tuff stone architecture. Republic Square represents the city's heart, surrounded by musical fountains and significant buildings. The Cascade Complex, a giant stairway, houses the Cafesjian Center for the Arts and offers panoramic views of Mount Ararat. Historical landmarks include the 7th-century Erebuni Fortress and the Armenian Genocide Memorial. Modern developments include the Northern Avenue pedestrian zone and the revitalized wine industry. Cultural institutions include the Matenadaran, housing ancient manuscripts, and the Opera House. The city's layout follows architect Alexander Tamanyan's circular plan with parks and boulevards.",
+    "flag": "https://flagcdn.com/w320/am.png",
+    "capitalPopulation": 1093485,
+    "capitalYearFounded": -782
+  },
+  {
+    "country": "Mongolia",
+    "capital": "Ulaanbaatar",
+    "capitalInfo": "Ulaanbaatar, Mongolia's capital, combines Buddhist traditions with Soviet-era architecture and modern development. The city features the Gandantegchinlen Monastery, Mongolia's largest Buddhist monastery, and Sukhbaatar Square, the central plaza dominated by the Government Palace. The National Museum of Mongolia presents the country's rich history, while the Winter Palace of the Bogd Khan preserves royal heritage. Modern landmarks include the Blue Sky Tower and the Zaisan Memorial, offering panoramic city views. The city's unique character emerges from the contrast between downtown developments and the surrounding ger districts. Cultural institutions include the State Opera and Ballet Theatre and numerous museums showcasing nomadic culture.",
+    "flag": "https://flagcdn.com/w320/mn.png",
+    "capitalPopulation": 1466125,
+    "capitalYearFounded": 1639
+  },
+  {
+    "country": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "capitalInfo": "Bandar Seri Begawan, Brunei's capital, showcases Islamic architecture and royal heritage along the Brunei River. The city's most iconic landmark is the Omar Ali Saifuddien Mosque, with its golden domes and marble minarets reflecting in an artificial lagoon. The Royal Regalia Museum houses the Sultan's coronation artifacts and gifts from world leaders. The water village of Kampong Ayer, known as the 'Venice of the East', represents traditional Bruneian life. Modern developments include the Jame'Asr Hassanil Bolkiah Mosque and the Royal Palace (Istana Nurul Iman), the world's largest residential palace. Cultural institutions include the Brunei Museum and the Arts and Handicrafts Centre.",
+    "flag": "https://flagcdn.com/w320/bn.png",
+    "capitalPopulation": 100700,
+    "capitalYearFounded": 1070
+  },
+  {
+    "country": "Bhutan",
+    "capital": "Thimphu",
+    "capitalInfo": "Thimphu, Bhutan's capital and largest city, is the world's only capital without traffic lights, maintaining traditional culture while embracing controlled modernization. The city features the massive Tashichho Dzong, housing both government offices and the main monastery. The National Memorial Chorten serves as a prominent landmark and religious center. Notable sites include the gigantic Buddha Dordenma statue, the National Textile Museum, and the Folk Heritage Museum. The Centenary Farmers Market represents traditional commerce, while the Thimphu Clock Tower Square marks the city center. The city's architecture strictly follows traditional Bhutanese design principles, creating a unique urban landscape.",
+    "flag": "https://flagcdn.com/w320/bt.png",
+    "capitalPopulation": 115551,
+    "capitalYearFounded": 1955
+  },
+  {
+    "country": "Maldives",
+    "capital": "Malé",
+    "capitalInfo": "Malé, the capital of Maldives, is one of the world's most densely populated cities, occupying a small coral island in the North Malé Atoll. The city features the distinctive Islamic Centre with its golden dome and the 17th-century Friday Mosque (Hukuru Miskiy), built from coral stone. The National Museum, housed in the former Sultan's Palace, showcases the nation's history. The artificial beach and swimming track provide recreational spaces, while the Fish Market and Local Market represent traditional commerce. Modern developments include the Sinamalé Bridge connecting to the airport island and numerous high-rise buildings. The city's compact nature has led to innovative urban solutions.",
+    "flag": "https://flagcdn.com/w320/mv.png",
+    "capitalPopulation": 177000,
+    "capitalYearFounded": 1117
+  },
+  {
+    "country": "Cyprus",
+    "capital": "Nicosia",
+    "capitalInfo": "Nicosia, the capital of Cyprus, remains the last divided capital in Europe, with the Green Line separating the Greek and Turkish Cypriot communities. The old city is encircled by impressive Venetian walls, featuring three gates and eleven bastions. The Ledra Street crossing symbolizes recent efforts at reunification. Notable landmarks include the Byzantine Museum, housing the world's largest collection of Orthodox icons, and the Cyprus Museum with archaeological treasures. The Selimiye Mosque, formerly the Cathedral of Saint Sophia, represents the city's diverse heritage. Modern developments include the Eleftheria Square redesign and numerous cultural institutions preserving both Greek and Turkish Cypriot traditions.",
+    "flag": "https://flagcdn.com/w320/cy.png",
+    "capitalPopulation": 200452,
+    "capitalYearFounded": -1050
+  },
+  {
+    "country": "Bahrain",
+    "capital": "Manama",
+    "capitalInfo": "Manama, Bahrain's capital, combines traditional Arabian Gulf architecture with modern financial district development. The city features the iconic Bahrain World Trade Center with its wind turbines and the Bahrain Financial Harbour complex. The Al-Fatih Mosque, one of the largest in the world, showcases contemporary Islamic architecture. The Bab Al-Bahrain marks the entrance to the traditional souk, while the National Museum presents Bahraini heritage. Modern developments include the Bahrain National Theatre and the Avenues Mall waterfront development. The city's position as a financial hub is reflected in its skyline, while traditional areas like the Manama Souq maintain cultural authenticity.",
+    "flag": "https://flagcdn.com/w320/bh.png",
+    "capitalPopulation": 200000,
+    "capitalYearFounded": 1783
+  },
+  {
+    "country": "Timor-Leste",
+    "capital": "Dili",
+    "capitalInfo": "Dili, Timor-Leste's capital, stretches along a bay on the north coast, featuring a blend of Portuguese colonial architecture and modern development. The city's landmarks include the Cristo Rei statue, similar to Rio's Christ the Redeemer, and the Tais Market, showcasing traditional textiles. The Presidential Palace and Government Palace represent political institutions, while the Resistance Museum documents the independence struggle. The waterfront area includes the iconic Dili Lighthouse and popular beaches. Cultural sites include the Archives & Museum of East Timorese Resistance and the Dare Memorial Museum. The city's development reflects its emergence as a young nation's capital while preserving its colonial heritage.",
+    "flag": "https://flagcdn.com/w320/tl.png",
+    "capitalPopulation": 222323,
+    "capitalYearFounded": 1769
+  },
+  {
+    "country": "Kuwait",
+    "capital": "Kuwait City",
+    "capitalInfo": "Kuwait City, Kuwait's capital, combines traditional Islamic architecture with ultra-modern skyscrapers along the Persian Gulf. The iconic Kuwait Towers, featuring distinctive spherical structures, serve as both water towers and tourist attractions. The Grand Mosque, Kuwait's largest mosque, showcases contemporary Islamic architecture. The Liberation Tower symbolizes Kuwait's freedom, while the Al Hamra Tower represents modern architectural innovation. Cultural institutions include the Kuwait National Museum and the Sheikh Jaber Al-Ahmad Cultural Centre. The traditional Souk Al-Mubarakiya maintains historic commerce, while the Green Island, an artificial island, provides recreational space. The city's waterfront, featuring the Scientific Center, highlights marine heritage.",
+    "flag": "https://flagcdn.com/w320/kw.png",
+    "capitalPopulation": 2989000,
+    "capitalYearFounded": 1613
+  },
+  {
+    "country": "Qatar",
+    "capital": "Doha",
+    "capitalInfo": "Doha, Qatar's capital, exemplifies rapid transformation from a pearl-fishing village to a modern metropolis. The city's corniche features the distinctive Museum of Islamic Art, designed by I.M. Pei, and offers views of the dramatic skyline. The traditional Souq Waqif has been authentically restored, while the modern Pearl-Qatar artificial island showcases contemporary luxury. Cultural institutions include the National Museum of Qatar, designed to resemble a desert rose, and the Qatar National Library. The Education City complex houses international universities, while Lusail City represents future development. Traditional dhow boats in the harbor contrast with modern developments like the Aspire Zone sports complex.",
+    "flag": "https://flagcdn.com/w320/qa.png",
+    "capitalPopulation": 2382000,
+    "capitalYearFounded": 1825
+  },
+  {
+    "country": "Oman",
+    "capital": "Muscat",
+    "capitalInfo": "Muscat, Oman's capital, harmoniously blends traditional Arabian architecture with modern development along the Gulf of Oman. The city features the grand Sultan Qaboos Grand Mosque, showcasing contemporary Islamic architecture, and the Al Alam Palace, the ceremonial palace of Sultan Qaboos. The Mutrah Souq, one of the oldest marketplaces in the Arab world, maintains traditional commerce. Cultural institutions include the National Museum and the Royal Opera House Muscat. The city's natural harbor, surrounded by mountains, contains the historic Portuguese forts of Al Jalali and Al Mirani. Modern developments include the Muscat International Airport and the Wave Muscat residential complex.",
+    "flag": "https://flagcdn.com/w320/om.png",
+    "capitalPopulation": 1720000,
+    "capitalYearFounded": 1793
+  },
+  {
+    "country": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "capitalInfo": "Abu Dhabi, the UAE's capital, represents modern Islamic architecture and sustainable urban development. The city's crown jewel is the Sheikh Zayed Grand Mosque, featuring 82 domes and the world's largest hand-knotted carpet. The Emirates Palace showcases Arabian luxury, while the Louvre Abu Dhabi represents cultural collaboration. Modern developments include Masdar City, a planned sustainable city, and the Formula 1 Yas Marina Circuit. The Corniche provides an 8-kilometer waterfront promenade, while Saadiyat Island develops as a cultural district. The Presidential Palace (Qasr Al Watan) opened to the public, offering insights into Arabian heritage and governance.",
+    "flag": "https://flagcdn.com/w320/ae.png",
+    "capitalPopulation": 1483000,
+    "capitalYearFounded": 1761
+  },
+  {
+    "country": "North Korea",
+    "capital": "Pyongyang",
+    "capitalInfo": "Pyongyang, North Korea's capital, features monumental architecture and wide boulevards designed to showcase state ideology. The city's skyline is dominated by the pyramid-shaped Ryugyong Hotel and the Juche Tower, symbolizing the national ideology. Kim Il-sung Square serves as the main public plaza, while the Arch of Triumph, larger than its Parisian counterpart, commemorates independence. Cultural institutions include the Grand People's Study House and the Victorious Fatherland Liberation War Museum. The city's metro stations feature elaborate artistic decorations, while the May Day Stadium is the world's largest stadium. Modern developments include the Mirae Scientists Street and the Ryomyong Street residential complex.",
+    "flag": "https://flagcdn.com/w320/kp.png",
+    "capitalPopulation": 3222000,
+    "capitalYearFounded": -1122
+  },
+  {
+    "country": "Timor-Leste",
+    "capital": "Dili",
+    "capitalInfo": "Dili, Timor-Leste's capital, stretches along a bay on the north coast, overlooked by the Cristo Rei statue. The city features the Government Palace and the distinctive Motael Church, while the Santa Cruz Cemetery preserves independence struggle history. The Resistance Museum documents the path to independence, while the Tais Market showcases traditional textiles. Modern developments include the Timor Plaza and the expanded port facilities. Cultural institutions include the National Library and Archives and the Arte Moris art school. The waterfront provides recreational space, while nearby Atauro Island offers marine diversity. Contemporary Dili balances post-independence development with cultural preservation, while addressing infrastructure needs. The city's layout reflects Portuguese colonial influence and post-independence reconstruction, with distinct quarters preserving different aspects of its heritage. The harbor maintains its role in commerce while supporting growing tourism.",
+    "flag": "https://flagcdn.com/w320/tl.png",
+    "capitalPopulation": 222323,
+    "capitalYearFounded": 1769
+  }
+]
