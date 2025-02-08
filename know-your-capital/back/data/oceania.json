@@ -1,0 +1,114 @@
+[
+  {
+    "country": "Australia",
+    "capital": "Canberra",
+    "capitalInfo": "Canberra, Australia's purpose-built capital, represents 20th-century urban planning around Lake Burley Griffin. The city features Parliament House with its distinctive flagpole and the Old Parliament House, now the Museum of Australian Democracy. The Australian War Memorial combines commemoration with museum excellence, while the National Museum showcases cultural heritage. Modern landmarks include the National Portrait Gallery and the striking National Museum of Australia. Cultural institutions include the National Gallery and the National Library. The city's layout, designed by Walter Burley Griffin, emphasizes geometric patterns and garden city principles. Contemporary Canberra balances governmental function with cultural development, while maintaining extensive nature reserves. The Parliamentary Triangle anchors major institutions, while distinct town centers provide local services. The city's bush capital character preserves native landscapes within urban areas.",
+    "flag": "https://flagcdn.com/w320/au.png",
+    "capitalPopulation": 431380,
+    "capitalYearFounded": 1913
+  },
+  {
+    "country": "New Zealand",
+    "capital": "Wellington",
+    "capitalInfo": "Wellington, New Zealand's capital, combines governmental function with dramatic geography along Cook Strait. The city features the distinctive Beehive parliament building and the historic Old Government Buildings, the largest wooden building in the Southern Hemisphere. Te Papa, the national museum, showcases innovative museum design and cultural interpretation. The Wellington Cable Car provides city views, while the Zealandia ecosanctuary demonstrates urban conservation. Cultural institutions include the City Gallery and the National Library. The Cuba Street district maintains artistic character, while the waterfront development preserves maritime heritage. Contemporary Wellington emphasizes creative industries and film production, earning it the nickname 'Wellywood'. The city's compact layout encourages walking and public transport use, while extensive hillside reserves preserve native bush. The harbor setting influences both architecture and lifestyle.",
+    "flag": "https://flagcdn.com/w320/nz.png",
+    "capitalPopulation": 212700,
+    "capitalYearFounded": 1839
+  },
+  {
+    "country": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "capitalInfo": "Port Moresby, Papua New Guinea's capital, combines modern development with traditional Melanesian culture. The city features Parliament Haus with its distinctive ceremonial facade and the National Museum, showcasing the country's diverse heritage. The Port Moresby Nature Park preserves local wildlife, while the Bomana War Cemetery commemorates World War II history. Modern developments include Vision City Megamall and the distinctive APEC Haus. Cultural institutions include the National Botanical Gardens and the National Library. The Ela Beach redevelopment provides recreational space, while traditional markets maintain local commerce. Contemporary Port Moresby balances urban development with cultural preservation, while addressing infrastructure challenges. The city's layout reflects its growth from colonial port to modern capital, with distinct residential areas on surrounding hills. The harbor continues its historic role while adapting to modern maritime needs.",
+    "flag": "https://flagcdn.com/w320/pg.png",
+    "capitalPopulation": 364145,
+    "capitalYearFounded": 1873
+  },
+  {
+    "country": "Fiji",
+    "capital": "Suva",
+    "capitalInfo": "Suva, Fiji's capital, represents the largest South Pacific port city outside of New Zealand and Australia. The city features the distinctive Government Buildings and the historic Sacred Heart Cathedral. The Fiji Museum preserves Pacific cultural heritage, while Albert Park maintains its role in aviation history as the landing site of the first trans-Pacific flight. Modern developments include the Suva Central commercial district and the USP Laucala campus. Cultural institutions include the Fiji Arts Council and the National Archives. The Municipal Market showcases Pacific produce, while the seawall provides protection and recreation space. Contemporary Suva balances colonial heritage with Pacific urbanism, while maintaining its role as a regional center. The city's layout reflects British colonial planning, while extensive parks preserve green spaces. The harbor continues its historic significance while adapting to modern maritime commerce.",
+    "flag": "https://flagcdn.com/w320/fj.png",
+    "capitalPopulation": 93970,
+    "capitalYearFounded": 1877
+  },
+  {
+    "country": "Solomon Islands",
+    "capital": "Honiara",
+    "capitalInfo": "Honiara, the Solomon Islands' capital, developed from a World War II base on Guadalcanal. The city features the National Parliament building and the distinctive US War Memorial. The National Museum preserves cultural heritage, while the Central Market represents traditional commerce and meeting place. Modern developments include the Heritage Park Hotel and the new government complex. Cultural institutions include the Solomon Islands National University and the Art Gallery. Point Cruz provides port facilities, while the Botanical Gardens preserve native flora. Contemporary Honiara balances urban development with traditional Pacific lifestyle, while addressing climate change challenges. The city's layout reflects its growth along the coast, with residential areas extending into the hills. The Mataniko River divides the city while providing essential resources. Historical sites from the Guadalcanal Campaign attract military history tourism.",
+    "flag": "https://flagcdn.com/w320/sb.png",
+    "capitalPopulation": 84520,
+    "capitalYearFounded": 1952
+  },
+  {
+    "country": "Vanuatu",
+    "capital": "Port Vila",
+    "capitalInfo": "Port Vila, Vanuatu's capital, spreads around a natural harbor on Efate island. The city features the distinctive Parliament House and the Vanuatu National Museum, showcasing Melanesian cultural heritage. The Port Vila Market represents traditional commerce and social gathering, while the Waterfront promenade combines tourism with local life. Modern developments include the Convention Centre and the seafront Chantilly's Mall. Cultural institutions include the Vanuatu National Cultural Centre and the Maritime Museum. The Botanical Gardens preserve native species, while Iririki Island resort maintains its historic significance. Contemporary Port Vila balances tourism development with traditional Melanesian values, while addressing climate resilience. The city's layout reflects its growth from colonial port to modern capital, with distinct residential areas on surrounding hills. The harbor supports both tourism and commercial activities.",
+    "flag": "https://flagcdn.com/w320/vu.png",
+    "capitalPopulation": 51437,
+    "capitalYearFounded": 1906
+  },
+  {
+    "country": "Samoa",
+    "capital": "Apia",
+    "capitalInfo": "Apia, Samoa's capital, combines colonial heritage with Polynesian culture along its harbor. The city features the distinctive Parliament House and the historic Immaculate Conception Cathedral. The Robert Louis Stevenson Museum preserves literary heritage, while the Samoa Cultural Village demonstrates traditional crafts and customs. Modern developments include the TATTE Convention Centre and the Savalalo Market complex. Cultural institutions include the Museum of Samoa and the Samoa Fale Opera. The Clock Tower Square serves as a central landmark, while the Palolo Deep Marine Reserve provides natural recreation. Contemporary Apia balances urban development with fa'a Samoa (the Samoan way), while maintaining traditional village structures within the urban setting. The city's layout preserves colonial grid patterns while accommodating traditional meeting spaces. The seawall protects against climate change while providing public space.",
+    "flag": "https://flagcdn.com/w320/ws.png",
+    "capitalPopulation": 37391,
+    "capitalYearFounded": 1850
+  },
+  {
+    "country": "Tonga",
+    "capital": "Nukuʻalofa",
+    "capitalInfo": "Nukuʻalofa, Tonga's capital, represents the center of the Pacific's only remaining kingdom. The city features the Royal Palace, still used by the monarchy, and the distinctive Royal Tombs. The Talamahu Market showcases traditional commerce and produce, while the waterfront provides views of neighboring islands. Modern developments include the St. George Government Building and the Faua Wharf complex. Cultural institutions include the Tonga National Cultural Centre and the Royal School of Performing Arts. The Vuna Road seafront development combines recreation with climate protection. Contemporary Nukuʻalofa balances royal tradition with modern development, while maintaining strong cultural identity. The city's layout reflects both colonial influence and traditional Tongan spatial concepts. The harbor supports both fishing fleet and growing tourism sector.",
+    "flag": "https://flagcdn.com/w320/to.png",
+    "capitalPopulation": 22400,
+    "capitalYearFounded": 1875
+  },
+  {
+    "country": "Micronesia",
+    "capital": "Palikir",
+    "capitalInfo": "Palikir, the Federated States of Micronesia's capital, represents one of the world's smallest national capitals. The city features the distinctive Congress Building and the FSM Supreme Court. The Spanish Wall archaeological site preserves colonial heritage, while the College of Micronesia-FSM campus promotes education. Modern developments include the National Government Complex and the China Friendship Sports Center. Cultural institutions include the Pohnpei State Museum and the National Archives. The surrounding rainforest maintains traditional agroforestry practices. Contemporary Palikir balances governmental function with traditional Micronesian values, while addressing climate change challenges. The city's layout incorporates both modern facilities and traditional land use patterns. The nearby Sokehs Rock provides a dramatic backdrop while holding cultural significance.",
+    "flag": "https://flagcdn.com/w320/fm.png",
+    "capitalPopulation": 4645,
+    "capitalYearFounded": 1989
+  },
+  {
+    "country": "Kiribati",
+    "capital": "Tarawa",
+    "capitalInfo": "South Tarawa, Kiribati's capital, stretches across a series of coral atolls. The city features the distinctive Parliament Building (Maneaba ni Maungatabu) and the National Stadium. The Kiribati National Museum preserves cultural heritage, while the Bairiki Square serves as an administrative center. Modern developments include the marine training facilities and solar power installations. Cultural institutions include the University of the South Pacific campus and the National Library. The Betio causeway connects historical World War II sites, while traditional maneaba (meeting houses) maintain community governance. Contemporary Tarawa addresses serious climate change threats while preserving traditional I-Kiribati culture. The city's layout follows the atoll's natural geography, with development concentrated on limited land. The lagoon provides essential resources while facing environmental pressures.",
+    "flag": "https://flagcdn.com/w320/ki.png",
+    "capitalPopulation": 63017,
+    "capitalYearFounded": 1892
+  },
+  {
+    "country": "Palau",
+    "capital": "Ngerulmud",
+    "capitalInfo": "Ngerulmud, Palau's capital since 2006, represents one of the world's newest purpose-built capital cities. The city features the distinctive Capitol Complex, designed to reflect traditional Palauan architecture while incorporating modern functionality. The buildings house the national congress (Olbiil Era Kelulau), executive branch, and judiciary, arranged around a central plaza. Modern developments include sustainable infrastructure and the diplomatic quarter. The surrounding landscape preserves native forest, while the nearby Babeldaob East Coast Road provides access to traditional villages. Contemporary Ngerulmud balances governmental function with environmental preservation, while maintaining connection to Palauan cultural heritage. The city's layout emphasizes harmony with the natural environment, while its location on Babeldaob Island represents a shift from the former capital of Koror. The design incorporates climate resilience and traditional architectural elements.",
+    "flag": "https://flagcdn.com/w320/pw.png",
+    "capitalPopulation": 271,
+    "capitalYearFounded": 2006
+  },
+  {
+    "country": "Nauru",
+    "capital": "Yaren",
+    "capitalInfo": "Yaren, Nauru's de facto capital, represents the governmental center of the world's smallest island nation. The district features Parliament House and the distinctive Nauru Government Buildings. The Nauru Museum preserves cultural heritage and phosphate mining history, while the State House serves as the presidential residence. Modern developments include the restored airport terminal and new sporting facilities. Cultural institutions include the National Library and Learning Centre. The nearby Buada Lagoon provides a unique freshwater resource. Contemporary Yaren addresses post-mining rehabilitation while maintaining traditional Nauruan culture. The district's layout reflects its development around the airport, with government facilities concentrated in the area. The Pacific shoreline provides both resources and challenges as rising sea levels threaten this low-lying nation.",
+    "flag": "https://flagcdn.com/w320/nr.png",
+    "capitalPopulation": 1100,
+    "capitalYearFounded": 1968
+  },
+  {
+    "country": "Marshall Islands",
+    "capital": "Majuro",
+    "capitalInfo": "Majuro, capital of the Marshall Islands, stretches across a coral atoll in the central Pacific. The city features the distinctive Capitol Building in Delap and the International Conference Center. The Alele Museum preserves Marshallese cultural heritage, while the Peace Park commemorates nuclear testing history. Modern developments include the Robert Reimers Hotel complex and the expanding port facilities. Cultural institutions include the College of the Marshall Islands and the Nuclear Institute. The Laura Beach area maintains traditional land use patterns, while the Djarrit-Uliga-Delap corridor concentrates urban development. Contemporary Majuro addresses climate change challenges while preserving traditional Marshallese values. The city's layout follows the atoll's natural geography, with development adapted to limited land resources. The lagoon provides essential resources while facing environmental pressures.",
+    "flag": "https://flagcdn.com/w320/mh.png",
+    "capitalPopulation": 27797,
+    "capitalYearFounded": 1944
+  },
+  {
+    "country": "Tuvalu",
+    "capital": "Funafuti",
+    "capitalInfo": "Funafuti, Tuvalu's capital, occupies a narrow atoll threatened by rising sea levels. The city features the distinctive Government Building and Tuvalu Parliament House. The Tuvalu National Library and Archive preserves cultural heritage, while the Funafuti Conservation Area protects marine biodiversity. Modern developments include climate change adaptation infrastructure and renewable energy installations. Cultural institutions include the Tuvalu Maritime Training Institute and the Women's Handicraft Centre. The airstrip, built during World War II, serves as both transportation infrastructure and public space. Contemporary Funafuti balances development needs with environmental challenges, while maintaining traditional Tuvaluan culture. The city's layout adapts to the atoll's geography, with most development along the main islet of Fongafale. The lagoon provides essential resources while facing climate change impacts.",
+    "flag": "https://flagcdn.com/w320/tv.png",
+    "capitalPopulation": 6320,
+    "capitalYearFounded": 1978
+  }
+]
