@@ -2,6 +2,7 @@ import { Result } from "./Result";
 import './Country.css'
 import countryFlag from '../../../../assets/syria.webp'
 import TextField from "@mui/material/TextField";
+import { textFieldStyling } from "../../../../utils/textfield_styling";
 
 
 export const Country = () => {
@@ -21,19 +22,7 @@ export const Country = () => {
                 <p>Country Name</p>
                 <TextField id="standard-basic"
                     label="Type the country's capital"
-                    variant="standard" sx={{
-                        '& .MuiOutlinedInput-root': {
-                            '& fieldset': { borderColor: 'var(--secondary)' },
-                            '&:hover fieldset': { borderColor: 'var(--secondary)' },
-                            '&.Mui-focused fieldset': { borderColor: 'var(--secondary)' }
-                        },
-                        '& .MuiInputLabel-root': { color: 'var(--secondary)' },
-                        '& .MuiInputLabel-root.Mui-focused': { color: 'var(--secondary)' },
-                        '& .MuiInput-underline:before': { borderBottomColor: 'var(--secondary)' },
-                        '& .MuiInput-underline:hover:before': { borderBottomColor: 'var(--secondary)' },
-                        '& .MuiInput-underline:after': { borderBottomColor: 'var(--secondary)' },
-                        'input': { color: 'var(--secondary)' },
-                    }}
+                    variant="standard" sx={textFieldStyling}
                     fullWidth />
                 <button onClick={handleAnswer}>Submit</button>
             </section>
