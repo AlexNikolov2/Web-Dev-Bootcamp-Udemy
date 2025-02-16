@@ -10,7 +10,7 @@ router.get("/game/learn-mode", async (req, res) => {
     return res.status(400).json({ error: "Query parameter is required" });
   }
 
-  const countries = await Country.findAll().populate(
+  const learnCountries = await Country.findAll().populate(
     "country",
     "capital",
     "description",
@@ -19,11 +19,11 @@ router.get("/game/learn-mode", async (req, res) => {
     "founded"
   );
 
-  res.json(countries);
+  res.json(learnCountries);
 });
 
 router.get("/game/learn-mode/:id", async (req, res) => {
-  const countries = await Country.find().populate(
+  const learnCountry = await Country.find().populate(
     "country",
     "capital",
     "description",
@@ -32,25 +32,27 @@ router.get("/game/learn-mode/:id", async (req, res) => {
     "founded"
   );
 
-  res.json(countries);
+  res.json(learnCountry);
 });
 
 
 router.get("/game/play-mode", async (req, res) => {
-  const countries = await Country.findAll().populate(
+  const playCountries = await Country.findAll().populate(
     "country",
     "capital",
     "flag",
   );
 
-  res.json(countries);
+  res.json(playCountries);
 
 })
 
 router.get("/game/play-mode/:id", async (req, res) => {
-  const countries = await Country.findAll().populate(
+  const playCountry = await Country.findAll().populate(
     "country",
     "capital",
     "flag",
   )
+
+  res.json(playCountry);
 })
