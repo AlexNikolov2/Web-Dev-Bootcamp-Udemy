@@ -40,12 +40,17 @@ router.get("/game/play-mode", async (req, res) => {
   const countries = await Country.findAll().populate(
     "country",
     "capital",
-    "description",
     "flag",
-    "population",
-    "founded"
   );
 
   res.json(countries);
 
+})
+
+router.get("/game/play-mode/:id", async (req, res) => {
+  const countries = await Country.findAll().populate(
+    "country",
+    "capital",
+    "flag",
+  )
 })
