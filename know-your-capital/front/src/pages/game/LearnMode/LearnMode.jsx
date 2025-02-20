@@ -1,9 +1,8 @@
-import { SearchTab } from "./SearchTab/SearchTab"
+import { Capital } from "./Capital/Capital";
+import { SearchTab } from "./SearchTab/SearchTab";
 
 export function LearnMode() {
-    return (
-        <>
-            <SearchTab></SearchTab>
-        </>
-    )
+  let isSearched = true;
+
+  return isSearched ? <Capital /> : <SearchTab />;
 }
