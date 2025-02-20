@@ -1,0 +1,35 @@
+.capital-wrap {
+  display: flex;
+  padding: 3rem;
+  justify-content: center;
+  max-width: 30em;
+  border: 2px solid var(--primary);
+  margin: auto;
+  align-items: center;
+  justify-items: space-between;
+  gap: 4rem;
+}
+.container-left {
+  margin: 16px;
+  text-align: left;
+  margin-top: 0;
+  position: relative;
+  top: -20px;
+}
+.container-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 50%;
+  margin: 0;
+}
+.container-right p {
+  font-size: 1rem;
+}
+.container-left p {
+  font-size: 1.5rem;
+}
+img {
+  max-width: 300px;
+  border-radius: 16px;
+}
