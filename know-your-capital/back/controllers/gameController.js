@@ -11,12 +11,7 @@ router.get("/game/learn-mode", async (req, res) => {
   }
 
   const learnCountries = await Country.findAll().populate(
-    "country",
-    "capital",
-    "description",
-    "flag",
-    "population",
-    "founded"
+    "countries"
   );
 
   res.json(learnCountries);
@@ -24,12 +19,7 @@ router.get("/game/learn-mode", async (req, res) => {
 
 router.get("/game/learn-mode/:id", async (req, res) => {
   const learnCountry = await Country.find().populate(
-    "country",
-    "capital",
-    "description",
-    "flag",
-    "population",
-    "founded"
+    "country"
   );
 
   res.json(learnCountry);
@@ -38,9 +28,7 @@ router.get("/game/learn-mode/:id", async (req, res) => {
 
 router.get("/game/play-mode", async (req, res) => {
   const playCountries = await Country.findAll().populate(
-    "country",
-    "capital",
-    "flag",
+    "countries"
   );
 
   res.json(playCountries);
@@ -49,9 +37,7 @@ router.get("/game/play-mode", async (req, res) => {
 
 router.get("/game/play-mode/:id", async (req, res) => {
   const playCountry = await Country.findAll().populate(
-    "country",
-    "capital",
-    "flag",
+    "country"
   )
 
   res.json(playCountry);
