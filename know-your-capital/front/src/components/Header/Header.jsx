@@ -6,7 +6,7 @@ export const HeaderComponent = () => {
   return (
     <header>
       <div className="left">
-        <h2>Know The Capital</h2>
+        <h2><a href="/">Know The Capital</a></h2>
       </div>
       <nav>
         {isAuthenticated ? <ul>
