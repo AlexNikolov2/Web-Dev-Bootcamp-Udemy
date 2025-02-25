@@ -19,4 +19,4 @@ DESIGN
 - - Using ChatGPT for data generation
 - - Figma for design
 - - Full MERN stack
-- - Trello for project management
+- - Trello for project management and writing stories
