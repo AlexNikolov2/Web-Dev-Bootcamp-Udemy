@@ -1,6 +1,6 @@
 import { TextField } from "@mui/material";
 import { textFieldStyling } from "../../../../utils/textfield_styling";
-import './SearchTab.css';
+import './style.css';
 
 export function SearchTab() {
     return (

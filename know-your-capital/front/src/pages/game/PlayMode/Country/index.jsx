@@ -1,5 +1,5 @@
 import { Result } from "./Result";
-import './Country.css'
+import './style.css'
 import countryFlag from '../../../../assets/syria.webp'
 import TextField from "@mui/material/TextField";
 import { textFieldStyling } from "../../../../utils/textfield_styling";

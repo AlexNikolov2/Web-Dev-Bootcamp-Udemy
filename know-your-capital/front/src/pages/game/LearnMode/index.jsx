@@ -1,5 +1,5 @@
-import { Capital } from "./Capital/Capital";
-import { SearchTab } from "./SearchTab/SearchTab";
+import { Capital } from "./Capital";
+import { SearchTab } from "./SearchTab";
 
 export function LearnMode() {
   let isSearched = true;

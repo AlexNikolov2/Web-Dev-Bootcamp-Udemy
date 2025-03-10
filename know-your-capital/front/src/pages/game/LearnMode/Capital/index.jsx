@@ -1,5 +1,5 @@
 import image from "../../../../assets/syria.webp";
-import "./Capital.css";
+import "./style.css";
 
 export function Capital() {
     const population = 6500000;
