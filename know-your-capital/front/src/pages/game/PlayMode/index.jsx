@@ -1,5 +1,5 @@
 import { Country } from "./Country/Country";
-import "./PlayMode.css";
+import "./style.css";
 import { useState } from "react";
 
 export function PlayMode() {
