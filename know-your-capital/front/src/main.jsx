@@ -7,7 +7,7 @@ import { PlayMode } from "./pages/game/PlayMode/PlayMode.jsx";
 import { LearnMode } from "./pages/game/LearnMode/LearnMode.jsx";
 import { Login } from "./pages/auth/Login/Login.jsx";
 import { Register } from "./pages/auth/Register/Register.jsx";
-import { User } from "./pages/user/User.jsx";
+import { User } from "./pages/user";
 
 const router = createBrowserRouter([
   {
