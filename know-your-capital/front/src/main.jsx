@@ -41,6 +41,16 @@ const router = createBrowserRouter([
           },
         ],
       },
+      {
+        path: "/auth",
+        element: <Outlet />,
+        children: [
+          {
+            path: ":id",
+            element: <User />
+          }
+        ]
+      }
     ],
   },
 ]);
