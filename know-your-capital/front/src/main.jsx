@@ -5,8 +5,8 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import "./index.css";
 import { PlayMode } from "./pages/game/PlayMode";
 import { LearnMode } from "./pages/game/LearnMode/index.jsx";
-import { Login } from "./pages/auth/Login/Login.jsx";
-import { Register } from "./pages/auth/Register/Register.jsx";
+import { Login } from "./pages/auth/Login/index.jsx";
+import { Register } from "./pages/auth/Register/index.jsx";
 import { User } from "./pages/user";
 
 const router = createBrowserRouter([
