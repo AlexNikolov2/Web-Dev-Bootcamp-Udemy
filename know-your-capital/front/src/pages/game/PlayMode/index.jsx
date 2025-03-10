@@ -1,4 +1,4 @@
-import { Country } from "./Country/Country";
+import { Country } from "./Country";
 import "./style.css";
 import { useState } from "react";
 
