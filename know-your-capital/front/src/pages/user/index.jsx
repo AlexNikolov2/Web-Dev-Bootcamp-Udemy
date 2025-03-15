@@ -19,7 +19,7 @@ export function User() {
           </section>
         </section>
       </section>
-      <section className="buttons-wrap">
+      <section className="buttons-wrap user">
         <button className="edit-profile-btn">Edit Profile</button>
         <button className="change-plan-btn">Change plan</button>
       </section>
