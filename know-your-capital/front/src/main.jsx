@@ -43,15 +43,15 @@ const router = createBrowserRouter([
         ],
       },
       {
-        path: "/auth",
+        path: "/user",
         element: <Outlet />,
         children: [
           {
             path: ":id",
-            element: <User />
-          }
-        ]
-      }
+            element: <User />,
+          },
+        ],
+      },
     ],
   },
 ]);

@@ -1,0 +1,22 @@
+.games-summary-wrap {
+  background-color: var(--primary);
+  color: var(--secondary);
+  min-width: 40rem;
+  padding: 1.5rem 2rem;
+  margin: 5rem auto;
+  border-radius: 20px;
+}
+.latest-game {
+  display: flex;
+  padding-top: 2rem;
+}
+.stat {
+  background-color: var(--secondary);
+  color: var(--primary);
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+}
+.buttons-wrap.user {
+  display: flex;
+  justify-content: space-around;
+}
