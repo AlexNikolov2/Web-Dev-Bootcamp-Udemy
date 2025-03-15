@@ -1,35 +1,27 @@
-const users = [];
+const User = require("../models/User");
 
 const userService = {
-  createUser: (user) => {
-    users.push(user);
+  getUser: async (id) => {
+    return await User.findById(id);
+  },
+
+  getAllUsers: async () => {
+    return await User.find();
+  },
+
+  register: async (userData) => {
+    const user = new User(userData);
+    await user.save();
     return user;
   },
 
-  getUser: (id) => {
-    return users.find((user) => user.id === id);
-  },
-
-  updateUser: (id, updatedUser) => {
-    const index = users.findIndex((user) => user.id === id);
-    if (index !== -1) {
-      users[index] = { ...users[index], ...updatedUser };
-      return users[index];
+  login: async (userData) => {
+    const user = await User.findOne({ email: userData.email });
+    if (!user || user.password !== userData.password) {
+      throw new Error("Invalid email or password");
     }
-    return null;
-  },
-
-  deleteUser: (id) => {
-    const index = users.findIndex((user) => user.id === id);
-    if (index !== -1) {
-      const deletedUser = users.splice(index, 1);
-      return deletedUser[0];
-    }
-    return null;
-  },
-
-  getAllUsers: () => {
-    return users;
+    // Generate a token here if needed
+    return "dummy-token"; // Replace with actual token generation logic
   },
 };
 
