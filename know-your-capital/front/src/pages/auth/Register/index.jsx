@@ -2,10 +2,18 @@ import { TextField } from "@mui/material";
 
 export function Register() {
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const username = e.target.username.value;
+    const email = e.target.email.value;
+    const password = e.target.password.value;
+    console.log(username, email, password);
+  }
+
 
   return (
     <section className="form register">
-      <form action="">
+      <form action="" onSubmit={handleSubmit}>
         <h2>Register</h2>
         <section className="field username">
           <TextField
