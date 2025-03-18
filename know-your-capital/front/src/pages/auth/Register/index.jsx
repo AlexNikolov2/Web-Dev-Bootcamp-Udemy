@@ -1,6 +1,8 @@
 import { TextField } from "@mui/material";
 
 export function Register() {
+
+
   return (
     <section className="form register">
       <form action="">
