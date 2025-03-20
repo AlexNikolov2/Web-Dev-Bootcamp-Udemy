@@ -4,6 +4,7 @@ const path = require('path');
 const authController = require('./controllers/authController');
 const port = 3000;
 
+app.use(express.json());
 app.use(express.static(path.join(__dirname, '../front/dist')));
 
 app.get('/api/example', (req, res) => {
