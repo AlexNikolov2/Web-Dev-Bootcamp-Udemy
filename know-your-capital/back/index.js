@@ -12,10 +12,19 @@ app.use(express.static(path.join(__dirname, '../front/dist')));
 
 app.use('/auth', authController);
 
+const MONGO_URI = 'mongodb://localhost:27017/know-the-capital';
+
+mongoose.connect(MONGO_URI)
+    .then(() => {
+        console.log('Connected to MongoDB');
+        app.listen(port, () => {
+            console.log(`Server is running on port ${port}`);
+        });
+    })
+    .catch((error) => {
+        console.error('Error connecting to MongoDB:', error.message);
+    });
+
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../front/dist', 'index.html'));
-});
-
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
 });
