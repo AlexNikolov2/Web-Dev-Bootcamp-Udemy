@@ -1,7 +1,22 @@
-import { TextField } from "@mui/material";
-import { register } from "../../../services/authService"; // Import the register function
+import { Input, InputAdornment, IconButton } from "@mui/material";
+import { Visibility, VisibilityOff } from "@mui/icons-material";
+import { register } from "../../../services/authService";
+import { useState } from "react";
 
 export function Register() {
+
+  const [showPassword, setShowPassword] = useState(false);
+  const [error, setError] = useState(null);
+
+  const handleClickShowPassword = () => setShowPassword((show) => !show);
+
+  const handleMouseDownPassword = (event) => {
+    event.preventDefault();
+  };
+
+  const handleMouseUpPassword = (event) => {
+    event.preventDefault();
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -12,8 +27,10 @@ export function Register() {
     try {
       const response = await register({ username, email, password });
       console.log('Registration successful:', response);
+      setError(null); // Clear any previous errors
     } catch (error) {
       console.error('Registration failed:', error);
+      setError('Registration failed. Please try again.');
     }
   }
 
@@ -21,31 +38,48 @@ export function Register() {
     <section className="form register">
       <form action="" onSubmit={handleSubmit}>
         <h2>Register</h2>
+        {error && <p className="error">{error}</p>}
         <section className="field username">
-          <TextField
-            id="standard-basic"
+          <Input
+            id="username"
             name="username"
-            label="Username"
+            placeholder="Username"
             variant="standard"
             fullWidth
+            autoComplete="username"
           />
         </section>
         <section className="field email">
-          <TextField
-            id="standard-basic"
+          <Input
+            id="email"
             name="email"
-            label="Email"
+            placeholder="Email"
             variant="standard"
             fullWidth
+            autoComplete="email"
           />
         </section>
         <section className="field password">
-          <TextField
-            id="standard-basic"
+          <Input
+            id="password"
             name="password"
-            label="Password"
-            variant="standard"
-            fullWidth
+            type={showPassword ? 'text' : 'password'}
+            placeholder="Password"
+            autoComplete="new-password"
+            endAdornment={
+              <InputAdornment position="end">
+                <IconButton
+                  aria-label={
+                    showPassword ? 'hide the password' : 'display the password'
+                  }
+                  onClick={handleClickShowPassword}
+                  onMouseDown={handleMouseDownPassword}
+                  onMouseUp={handleMouseUpPassword}
+                >
+                  {showPassword ? <VisibilityOff /> : <Visibility />}
+                </IconButton>
+              </InputAdornment>
+            }
           />
         </section>
         <button>Sign up!</button>
