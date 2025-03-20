@@ -2,11 +2,13 @@ import { Input, InputAdornment, IconButton } from "@mui/material";
 import { Visibility, VisibilityOff } from "@mui/icons-material";
 import { register } from "../../../services/authService";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export function Register() {
-
+  const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState(null);
+  const [success, setSuccess] = useState(null);
 
   const handleClickShowPassword = () => setShowPassword((show) => !show);
 
@@ -28,9 +30,12 @@ export function Register() {
       const response = await register({ username, email, password });
       console.log('Registration successful:', response);
       setError(null); // Clear any previous errors
+      setSuccess('Registration successful!'); // Set success message
+      navigate('/'); // Redirect to home page
     } catch (error) {
       console.error('Registration failed:', error);
       setError('Registration failed. Please try again.');
+      setSuccess(null); // Clear any previous success message
     }
   }
 
@@ -39,6 +44,7 @@ export function Register() {
       <form action="" onSubmit={handleSubmit}>
         <h2>Register</h2>
         {error && <p className="error">{error}</p>}
+        {success && <p className="success">{success}</p>}
         <section className="field username">
           <Input
             id="username"
