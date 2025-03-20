@@ -1,8 +1,12 @@
+import { useAuth } from "../../contexts/AuthContext.jsx";
 import "./Header.css";
 import { Link } from "react-router-dom";
 
 export const HeaderComponent = () => {
-  const isAuthenticated = false;
+  const authContext = useAuth();
+  const isAuthenticated = authContext?.user;
+  console.log(authContext);
+
   return (
     <header>
       <div className="left">
@@ -24,7 +28,7 @@ export const HeaderComponent = () => {
             <Link to="/auth/login">Login</Link>
           </li>
           <li>
-            <Link to="/auth/register">SIgn up</Link>
+            <Link to="/auth/register">Sign up</Link>
           </li>
         </ul>}
       </nav>

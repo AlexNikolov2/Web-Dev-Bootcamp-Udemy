@@ -1,4 +1,5 @@
 const User = require("../models/User");
+const bcrypt = require("bcrypt");
 
 const userService = {
   getUser: async (id) => {
@@ -21,10 +22,16 @@ const userService = {
 
   login: async (userData) => {
     const user = await User.findOne({ email: userData.email });
-    if (!user || user.password !== userData.password) {
+    if (!user) {
+      console.error("User not found");
       throw new Error("Invalid email or password");
     }
-    return "dummy-token";
+    const isPasswordValid = await bcrypt.compare(userData.password, user.password);
+    if (!isPasswordValid) {
+      console.error("Invalid password");
+      throw new Error("Invalid email or password");
+    }
+    return { token: "dummy-token", user };
   },
 };
 

@@ -3,9 +3,11 @@ import { Visibility, VisibilityOff } from "@mui/icons-material";
 import { register } from "../../../services/authService";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "../../../contexts/AuthContext";
 
 export function Register() {
   const navigate = useNavigate();
+  const { login } = useAuth();
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(null);
@@ -31,6 +33,7 @@ export function Register() {
       console.log('Registration successful:', response);
       setError(null); // Clear any previous errors
       setSuccess('Registration successful!'); // Set success message
+      await login({ email, password }); // Log in the user
       navigate('/'); // Redirect to home page
     } catch (error) {
       console.error('Registration failed:', error);

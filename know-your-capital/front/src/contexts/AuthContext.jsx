@@ -1,13 +1,16 @@
 import { createContext, useState, useContext } from 'react';
 import PropTypes from 'prop-types';
+import { login as loginService } from '../services/authService';
 
 const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
 
-    const login = (userData) => {
-        setUser(userData);
+    const login = async (userData) => {
+        const response = await loginService(userData);
+        console.log('Login response:', response); // Add logging
+        setUser(response.user);
     };
 
     const logout = () => {
