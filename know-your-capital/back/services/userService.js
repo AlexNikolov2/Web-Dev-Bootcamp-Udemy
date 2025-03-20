@@ -10,6 +10,10 @@ const userService = {
   },
 
   register: async (userData) => {
+    const existingUser = await User.findOne({ email: userData.email });
+    if (existingUser) {
+      throw new Error("User already exists with this email");
+    }
     const user = new User(userData);
     await user.save();
     return user;
@@ -20,8 +24,7 @@ const userService = {
     if (!user || user.password !== userData.password) {
       throw new Error("Invalid email or password");
     }
-    // Generate a token here if needed
-    return "dummy-token"; // Replace with actual token generation logic
+    return "dummy-token";
   },
 };
 
