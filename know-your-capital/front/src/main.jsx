@@ -8,6 +8,7 @@ import { LearnMode } from "./pages/game/LearnMode";
 import { Login } from "./pages/auth/Login";
 import { Register } from "./pages/auth/Register";
 import { User } from "./pages/user";
+import { AuthProvider } from "./contexts/AuthContext.jsx";
 
 const router = createBrowserRouter([
   {
@@ -58,6 +59,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
   </StrictMode>
 );
