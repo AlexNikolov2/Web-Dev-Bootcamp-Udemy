@@ -1,5 +1,9 @@
-import TextField from "@mui/material/TextField";
+import Input from "@mui/material/Input";
+import IconButton from "@mui/material/IconButton";
+import InputAdornment from "@mui/material/InputAdornment";
 import { useAuth } from "../../../contexts/AuthContext";
+import Visibility from "@mui/icons-material/Visibility";
+import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -7,6 +11,17 @@ export function Login() {
   const { login } = useAuth();
   const navigate = useNavigate();
   const [error, setError] = useState(null);
+  const [showPassword, setShowPassword] = useState(false);
+
+  const handleClickShowPassword = () => setShowPassword((show) => !show);
+
+  const handleMouseDownPassword = (event) => {
+    event.preventDefault();
+  };
+
+  const handleMouseUpPassword = (event) => {
+    event.preventDefault();
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -28,21 +43,36 @@ export function Login() {
         <h2>Welcome back</h2>
         {error && <p className="error">{error}</p>}
         <section className="field email">
-          <TextField
+          <Input
             id="email"
             name="email"
-            label="Email"
+            placeholder="Email"
             variant="standard"
             fullWidth
+            autoComplete="email"
           />
         </section>
         <section className="field password">
-          <TextField
+          <Input
             id="password"
             name="password"
-            label="Password"
-            variant="standard"
-            fullWidth
+            type={showPassword ? 'text' : 'password'}
+            placeholder="Password"
+            autoComplete="new-password"
+            endAdornment={
+              <InputAdornment position="end">
+                <IconButton
+                  aria-label={
+                    showPassword ? 'hide the password' : 'display the password'
+                  }
+                  onClick={handleClickShowPassword}
+                  onMouseDown={handleMouseDownPassword}
+                  onMouseUp={handleMouseUpPassword}
+                >
+                  {showPassword ? <VisibilityOff /> : <Visibility />}
+                </IconButton>
+              </InputAdornment>
+            }
           />
         </section>
         <button>Log in!</button>
