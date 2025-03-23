@@ -1,11 +1,10 @@
-import { useAuth } from "../../contexts/AuthContext.jsx";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
-export const HeaderComponent = () => {
-  const authContext = useAuth();
-  const isAuthenticated = authContext?.user;
-  console.log(authContext);
+export const HeaderComponent = ({ user }) => {
+  const isAuthenticated = user !== null;
+  console.log('user:', user);
 
   return (
     <header>
@@ -34,4 +33,12 @@ export const HeaderComponent = () => {
       </nav>
     </header>
   );
+}
+
+HeaderComponent.defaultProps = {
+  user: null,
+};
+
+HeaderComponent.propTypes = {
+  user: PropTypes.object,
 };
