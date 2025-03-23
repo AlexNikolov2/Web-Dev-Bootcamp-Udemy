@@ -31,14 +31,14 @@ export function Register() {
     try {
       const response = await register({ username, email, password });
       console.log('Registration successful:', response);
-      setError(null); // Clear any previous errors
-      setSuccess('Registration successful!'); // Set success message
-      await login({ email, password }); // Log in the user
-      navigate('/'); // Redirect to home page
+      setError(null);
+      setSuccess('Registration successful!');
+      await login({ email, password });
+      navigate('/');
     } catch (error) {
       console.error('Registration failed:', error);
       setError('Registration failed. Please try again.');
-      setSuccess(null); // Clear any previous success message
+      setSuccess(null);
     }
   }
 
