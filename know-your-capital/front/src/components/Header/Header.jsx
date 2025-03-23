@@ -1,9 +1,11 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
+import { useAuth } from "../../contexts/AuthContext";
 
 export const HeaderComponent = ({ user }) => {
   const isAuthenticated = user !== null;
+  const logout = useAuth().logout;
   console.log('user:', user);
 
   return (
@@ -21,6 +23,9 @@ export const HeaderComponent = ({ user }) => {
           </li>
           <li>
             <Link to="/">User</Link>
+          </li>
+          <li>
+            <Link onClick={logout()}>Logout</Link>
           </li>
         </ul> : <ul>
           <li>
