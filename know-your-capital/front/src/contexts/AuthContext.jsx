@@ -1,20 +1,28 @@
-import { createContext, useState, useContext } from 'react';
+import { createContext, useState, useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { login as loginService } from '../services/authService';
 
 const AuthContext = createContext();
 
-export const AuthProvider = ({ children }) => {
-    const [user, setUser] = useState(null);
+export const AuthProvider = ({ children, initialUser }) => {
+    const [user, setUser] = useState(initialUser);
+
+    useEffect(() => {
+        const storedUser = JSON.parse(sessionStorage.getItem("user"));
+        if (storedUser) {
+            setUser(storedUser);
+        }
+    }, []);
 
     const login = async (userData) => {
         const response = await loginService(userData);
-        console.log('Login response:', response); // Add logging
         setUser(response.user);
+        sessionStorage.setItem("user", JSON.stringify(response.user));
     };
 
     const logout = () => {
         setUser(null);
+        sessionStorage.removeItem("user");
     };
 
     return (
@@ -25,6 +33,7 @@ export const AuthProvider = ({ children }) => {
 };
 AuthProvider.propTypes = {
     children: PropTypes.node.isRequired,
+    initialUser: PropTypes.object,
 };
 
 export const useAuth = () => {

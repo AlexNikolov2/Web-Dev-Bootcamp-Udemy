@@ -1,14 +1,16 @@
 import "./App.css";
-
 import { HeaderComponent } from "./components/Header/Header";
 import { FooterComponent } from "./components/Footer/Footer";
 import { Outlet, Link, useLocation } from "react-router-dom";
+import { AuthProvider } from "./contexts/AuthContext.jsx";
 
 function App() {
   const location = useLocation();
+  const user = JSON.parse(sessionStorage.getItem("user")) || null;
+
   return (
-    <>
-      <HeaderComponent />
+    <AuthProvider initialUser={user}>
+      <HeaderComponent user={user} />
       <main>
         {location.pathname === "/" && (
           <section className="title">
@@ -22,11 +24,10 @@ function App() {
             </section>
           </section>
         )}
-
         <Outlet />
       </main>
       <FooterComponent />
-    </>
+    </AuthProvider>
   );
 }
 
