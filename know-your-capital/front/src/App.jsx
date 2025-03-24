@@ -2,14 +2,14 @@ import "./App.css";
 import { HeaderComponent } from "./components/Header/Header";
 import { FooterComponent } from "./components/Footer/Footer";
 import { Outlet, Link, useLocation } from "react-router-dom";
-import { AuthProvider } from "./contexts/AuthContext.jsx";
+import { AuthProvider, useAuth } from "./contexts/AuthContext.jsx";
 
-function App() {
+function AppContent() {
   const location = useLocation();
-  const user = JSON.parse(sessionStorage.getItem("user")) || null;
+  const { user } = useAuth();
 
   return (
-    <AuthProvider initialUser={user}>
+    <>
       <HeaderComponent user={user} />
       <main>
         {location.pathname === "/" && (
@@ -27,6 +27,16 @@ function App() {
         <Outlet />
       </main>
       <FooterComponent />
+    </>
+  );
+}
+
+function App() {
+  const user = JSON.parse(sessionStorage.getItem("user")) || null;
+
+  return (
+    <AuthProvider initialUser={user}>
+      <AppContent />
     </AuthProvider>
   );
 }
