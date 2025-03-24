@@ -5,7 +5,7 @@ import { useAuth } from "../../contexts/AuthContext";
 
 export const HeaderComponent = ({ user }) => {
   const isAuthenticated = user !== null;
-  const logout = useAuth().logout;
+  const { logout } = useAuth();
   console.log('user:', user);
 
   return (
@@ -25,7 +25,7 @@ export const HeaderComponent = ({ user }) => {
             <Link to="/">User</Link>
           </li>
           <li>
-            <Link onClick={logout()}>Logout</Link>
+            <Link to="/" onClick={logout}>Logout</Link>
           </li>
         </ul> : <ul>
           <li>
