@@ -27,7 +27,7 @@ router.get("/game/learn-mode/:id", async (req, res) => {
 
 
 router.get("/game/play-mode", async (req, res) => {
-  const playCountries = await Country.findAll().populate(
+  const playCountries = await Country.find().populate(
     "countries"
   );
 
@@ -36,9 +36,14 @@ router.get("/game/play-mode", async (req, res) => {
 })
 
 router.get("/game/play-mode/:id", async (req, res) => {
-  const playCountry = await Country.findAll().populate(
-    "country"
-  )
+  const { id } = req.params;
+  const playCountry = await Country.findById(id);
+
+  if (!playCountry) {
+    return res.status(404).json({ error: "Country not found" });
+  }
 
   res.json(playCountry);
-})
+});
+
+module.exports = router;

@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "country": "Algeria",
     "capital": "Algiers",
     "capitalInfo": "Algiers, Algeria's capital and largest city, is a historic Mediterranean port city with distinctive white-painted buildings cascading down hillsides towards the sea. The city's Casbah, a UNESCO World Heritage site, is a maze of narrow streets and traditional houses dating back to the Ottoman period. The city seamlessly blends French colonial architecture with Islamic influences, featuring notable landmarks like the Notre-Dame d'Afrique basilica and the Great Mosque. As a cultural and economic hub, Algiers hosts numerous museums, including the National Museum of Fine Arts, and serves as the country's administrative center.",
@@ -8,6 +9,7 @@
     "capitalYearFounded": 944
   },
   {
+    "id": 2,
     "country": "Egypt",
     "capital": "Cairo",
     "capitalInfo": "Cairo, the capital of Egypt, stands as the largest city in the Arab world and Africa's most populous metropolitan area. The city seamlessly blends ancient history with modern urban life, with the iconic Pyramids of Giza visible from many parts of the city. Its historic Islamic Cairo district, a UNESCO World Heritage site, features countless medieval mosques and madrasas. The Egyptian Museum houses the world's largest collection of ancient Egyptian antiquities, while the modern downtown area showcases 19th-century architecture. The city serves as Egypt's cultural, educational, and economic center, with the ancient Nile River flowing through its heart.",
@@ -16,6 +18,7 @@
     "capitalYearFounded": 969
   },
   {
+    "id": 3,
     "country": "South Africa",
     "capital": "Pretoria",
     "capitalInfo": "Pretoria, South Africa's administrative capital, is known for its beautiful jacaranda trees that bloom purple each spring, earning it the nickname 'Jacaranda City'. The city serves as the executive branch seat of government and hosts numerous diplomatic missions. Notable landmarks include the Union Buildings, an iconic symbol of democracy and the official seat of the South African government, and the Voortrekker Monument, which commemorates the Pioneer history of South Africa. The city combines historical architecture with modern developments, hosting several universities, research institutes, and government departments. Its rich cultural heritage is reflected in its museums, including the Pretoria Art Museum and the National Cultural History Museum.",
@@ -24,6 +27,7 @@
     "capitalYearFounded": 1855
   },
   {
+    "id": 4,
     "country": "Nigeria",
     "capital": "Abuja",
     "capitalInfo": "Abuja, Nigeria's purpose-built capital city since 1991, represents modern African urban planning and architecture. Located in the geographical center of Nigeria, the city features wide boulevards, impressive government buildings, and the iconic Aso Rock, a 400-meter monolith that overlooks the city. The National Assembly complex, National Mosque, and Nigerian National Christian Center showcase the city's religious diversity and political importance. As one of Africa's wealthiest and most developed planned cities, Abuja hosts numerous international organizations, embassies, and cultural institutions. The city's master plan includes extensive green spaces and parks, making it one of Africa's few purpose-built capitals that has largely stuck to its original design.",
@@ -32,6 +36,7 @@
     "capitalYearFounded": 1976
   },
   {
+    "id": 5,
     "country": "Kenya",
     "capital": "Nairobi",
     "capitalInfo": "Nairobi, Kenya's capital and largest city, stands as East Africa's most dynamic and influential hub. Known as the 'Green City in the Sun', it uniquely features a national park within its boundaries where wildlife roams freely against a backdrop of urban skyscrapers. The city serves as a major business and technology center, earning the nickname 'Silicon Savannah' due to its growing tech industry. Notable landmarks include the Kenyatta International Convention Centre, the National Museum, and the Railway Museum. Nairobi's diverse neighborhoods range from the historic CBD to the upscale Westlands and Karen areas, while cultural sites like the Bomas of Kenya showcase the country's rich traditional heritage.",
@@ -40,6 +45,7 @@
     "capitalYearFounded": 1899
   },
   {
+    "id": 6,
     "country": "Morocco",
     "capital": "Rabat",
     "capitalInfo": "Rabat, Morocco's capital city, elegantly combines modern urban planning with rich historical heritage along the Atlantic coast. The city's old medina and Kasbah of the Udayas are UNESCO World Heritage sites, featuring stunning Islamic and French colonial architecture. The Hassan Tower, an incomplete 12th-century minaret, and the modern Mohammed VI Museum of Contemporary Art represent the city's historical and cultural spectrum. As the political and administrative center, Rabat hosts royal palaces, government institutions, and diplomatic missions, while maintaining a more relaxed atmosphere than its larger neighbor Casablanca.",
@@ -48,6 +54,7 @@
     "capitalYearFounded": 1146
   },
   {
+    "id": 7,
     "country": "Ethiopia",
     "capital": "Addis Ababa",
     "capitalInfo": "Addis Ababa, founded in 1886, stands as Africa's diplomatic capital and Ethiopia's cultural and economic heart. The city hosts the African Union headquarters and numerous international organizations. Known as the 'New Flower' in Amharic, it combines traditional Ethiopian heritage with modern African diplomacy. Notable landmarks include the National Museum, housing the remains of early hominid Lucy, the Holy Trinity Cathedral, and the Entoto Hills, offering panoramic views of the city. As one of the highest capitals in the world at 2,355 meters, it enjoys a moderate climate and serves as a major conference destination for Africa.",
@@ -56,6 +63,7 @@
     "capitalYearFounded": 1886
   },
   {
+    "id": 8,
     "country": "Ghana",
     "capital": "Accra",
     "capitalInfo": "Accra, Ghana's vibrant capital, serves as the country's economic and administrative hub along the Gulf of Guinea. The city seamlessly blends traditional markets like Makola with modern shopping malls and business districts. Historical landmarks include Jamestown's lighthouse, the Kwame Nkrumah Memorial Park, and the National Museum. As a major center for business, technology, and entertainment in West Africa, Accra features distinctive architecture ranging from colonial-era buildings to contemporary structures. The city's cultural scene thrives with art galleries, music venues, and the famous Labadi Beach, while traditional ceremonies and festivals maintain strong cultural connections.",
@@ -64,6 +72,7 @@
     "capitalYearFounded": 1877
   },
   {
+    "id": 9,
     "country": "Tanzania",
     "capital": "Dodoma",
     "capitalInfo": "Dodoma, Tanzania's centrally located capital since 1974, represents a planned city designed to serve as the nation's political center. The city features distinctive architecture, including the modern Parliament building and the University of Dodoma, one of East Africa's largest universities. Known for its semi-arid climate and vineyard cultivation, Dodoma combines government functionality with traditional Tanzanian culture. The city's layout incorporates wide streets, public spaces, and residential areas planned around government complexes. While smaller than Dar es Salaam, Dodoma continues to develop as Tanzania's administrative heart, with growing infrastructure and urban development projects.",
@@ -72,6 +81,7 @@
     "capitalYearFounded": 1907
   },
   {
+    "id": 10,
     "country": "Cameroon",
     "capital": "Yaoundé",
     "capitalInfo": "Yaoundé, Cameroon's capital since 1922, is built upon seven hills in the country's southern region. The city blends colonial architecture with modern developments, featuring landmarks such as the Notre Dame des Victoires cathedral and the distinctive Mary Queen of the Apostles basilica. As both an administrative and educational center, it hosts the University of Yaoundé and numerous research institutions. The city's layout includes significant green spaces and parks, earning it the nickname 'the city of seven hills'. Notable sites include the National Museum, the presidential palace, and the Mvog-Betsi Zoo. The city's elevated position provides a cooler climate compared to other major Cameroonian cities.",
@@ -80,6 +90,7 @@
     "capitalYearFounded": 1888
   },
   {
+    "id": 11,
     "country": "Côte d'Ivoire",
     "capital": "Yamoussoukro",
     "capitalInfo": "Yamoussoukro, the political capital of Côte d'Ivoire since 1983, is most famous for the Basilica of Our Lady of Peace, the world's largest church building. The city, birthplace of the country's first president Félix Houphouët-Boigny, was transformed from a small village into a planned capital city. Notable features include the presidential palace, the Félix Houphouët-Boigny National Polytechnic Institute, and artificial lakes inhabited by sacred crocodiles. The city's wide boulevards and modern infrastructure contrast with traditional villages on its outskirts. Despite its political status, many government offices remain in Abidjan, the economic capital.",
@@ -88,6 +99,7 @@
     "capitalYearFounded": 1960
   },
   {
+    "id": 12,
     "country": "Angola",
     "capital": "Luanda",
     "capitalInfo": "Luanda, Angola's capital and largest city, is a major port city on the Atlantic coast. The city combines Portuguese colonial architecture with modern skyscrapers, particularly in the Baixa de Luanda (lower Luanda) district. Historical sites include the 16th-century Fortress of São Miguel and the Iron Palace, designed by Gustave Eiffel. The city experienced rapid growth following Angola's independence and civil war, becoming one of Africa's most expensive cities. Notable features include the Ilha do Cabo peninsula, with its beaches and restaurants, the National Museum of Natural History, and the Mausoleum of Agostinho Neto.",
@@ -96,6 +108,7 @@
     "capitalYearFounded": 1576
   },
   {
+    "id": 13,
     "country": "Uganda",
     "capital": "Kampala",
     "capitalInfo": "Kampala, Uganda's capital and largest city, is built across seven hills, each holding historical significance. The city blends modern urban development with traditional Buganda kingdom heritage, exemplified by the Kasubi Tombs, a UNESCO World Heritage site. The city center features the Uganda Museum, the National Theatre, and the distinctive Independence Monument. Religious landmarks include the Gaddafi National Mosque and the Namirembe Cathedral. As East Africa's cultural hub, Kampala is known for its vibrant nightlife, arts scene, and bustling markets like Owino. The city's structure reflects both planned colonial design and organic urban growth, with distinct neighborhoods ranging from upscale Kololo to the historic Mengo district.",
@@ -104,6 +117,7 @@
     "capitalYearFounded": 1890
   },
   {
+    "id": 14,
     "country": "Sudan",
     "capital": "Khartoum",
     "capitalInfo": "Khartoum, situated at the confluence of the Blue and White Nile rivers, serves as Sudan's political and commercial heart. The city's unique geography creates a distinctive three-part metropolis including Khartoum, Omdurman, and Bahri. Historical landmarks include the Presidential Palace, the National Museum housing ancient artifacts, and the Great Mosque of Khartoum. The city's architecture reflects its colonial past and Islamic influence, while modern developments include the Burj Al-Fateh Hotel. Omdurman, the old capital, houses the historic Mahdi's Tomb and the largest traditional suq (market) in Sudan. The city's educational importance is marked by the University of Khartoum, Sudan's oldest university.",
@@ -112,6 +126,7 @@
     "capitalYearFounded": 1821
   },
   {
+    "id": 15,
     "country": "Mozambique",
     "capital": "Maputo",
     "capitalInfo": "Maputo, Mozambique's capital and largest city, showcases a unique blend of Portuguese colonial architecture, African tradition, and modernist design. The city is known for its acacia-lined avenues, Mediterranean-style buildings, and the distinctive Maputo Railway Station, considered one of the world's most beautiful stations. The downtown area features the Independence Square, the neo-classical City Hall, and the iconic FEIMA craft market. Cultural highlights include the National Art Museum and the Natural History Museum. The waterfront Marginal avenue, with its restaurants and cafes, reflects the city's coastal charm, while the Tunduru Botanical Gardens provide a peaceful retreat from urban life.",
@@ -120,6 +135,7 @@
     "capitalYearFounded": 1782
   },
   {
+    "id": 16,
     "country": "Madagascar",
     "capital": "Antananarivo",
     "capitalInfo": "Antananarivo, Madagascar's capital city, is perched on a series of hills, creating a distinctive cityscape of terraced architecture. Known locally as 'Tana,' the city combines French colonial heritage with traditional Malagasy culture. The Upper Town, dominated by the Queen's Palace (Rova) complex, offers panoramic views of the city. The historic district features winding streets, traditional houses, and colonial-era buildings. As the country's economic center, it hosts the famous Analakely Market, numerous universities, and the Independence Avenue. The city's unique architecture reflects both European influence and traditional Merina design, while sacred hills and lakes maintain cultural significance.",
