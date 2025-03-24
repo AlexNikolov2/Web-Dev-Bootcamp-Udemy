@@ -144,6 +144,7 @@
     "capitalYearFounded": 1625
   },
   {
+    "id": 17,
     "country": "Senegal",
     "capital": "Dakar",
     "capitalInfo": "Dakar, situated on the Cap-Vert peninsula, is West Africa's westernmost city and Senegal's vibrant capital. The city combines French colonial architecture with modern African urbanism, exemplified by the African Renaissance Monument, one of Africa's tallest statues. Notable landmarks include the Grande Mosquée, Dakar Cathedral, and the IFAN Museum of African Arts. The historic Gorée Island, a former slave trade center, lies just offshore. As a cultural hub, Dakar hosts numerous festivals, including the World Festival of Black Arts, and is renowned for its music scene. The city's markets, particularly Marché Sandaga, showcase traditional crafts and textiles.",
@@ -152,6 +153,7 @@
     "capitalYearFounded": 1857
   },
   {
+    "id": 18,
     "country": "Zimbabwe",
     "capital": "Harare",
     "capitalInfo": "Harare, Zimbabwe's capital and largest city, is known for its tree-lined streets and modern architecture. The city center features the African Unity Square, surrounded by colonial buildings and modern towers. Notable landmarks include the National Archives, the National Gallery, and the distinctive Eastgate Centre, known for its innovative ecological design. The National Botanic Gardens showcase indigenous flora, while the Kopje, a granite hill, offers panoramic views of the city. Cultural institutions include the University of Zimbabwe and the National Heroes Acre monument. The city's markets, particularly Mbare Musika, represent important commercial and cultural spaces.",
@@ -160,6 +162,7 @@
     "capitalYearFounded": 1890
   },
   {
+    "id": 19,
     "country": "Rwanda",
     "capital": "Kigali",
     "capitalInfo": "Kigali, Rwanda's capital since independence, is known as one of Africa's cleanest and most organized cities. Built across several hills, the city combines modern architecture with green initiatives, earning recognition for its environmental consciousness. The Kigali Genocide Memorial serves as a powerful reminder of the 1994 genocide, while the Presidential Palace Museum showcases the country's political history. The city's Convention Centre, with its distinctive architectural design, symbolizes Rwanda's economic transformation. Notable features include the Muslim Quarter, the Nyamirambo Women's Center, and the KN 3 Road, a bustling commercial district. The city's master plan emphasizes sustainable urban development and green spaces.",
@@ -168,6 +171,7 @@
     "capitalYearFounded": 1907
   },
   {
+    "id": 20,
     "country": "Mali",
     "capital": "Bamako",
     "capitalInfo": "Bamako, Mali's capital and largest city, stretches along the Niger River banks, serving as the nation's administrative and economic center. The city features the Grand Mosque with its striking modern architecture, the National Museum housing artifacts from Mali's ancient empires, and the vibrant Grande Marché market. The Point G hill offers panoramic views of the city and the Niger River. Cultural highlights include the National Library, the Artisan Market in Medina Coura, and the Tower of Africa. The city's infrastructure blends colonial-era buildings with modern developments, while maintaining traditional Malian cultural elements through its music venues and art galleries.",
@@ -176,6 +180,7 @@
     "capitalYearFounded": 1640
   },
   {
+    "id": 21,
     "country": "Burkina Faso",
     "capital": "Ouagadougou",
     "capitalInfo": "Ouagadougou, often called 'Ouaga', is the capital of Burkina Faso and a major cultural center in West Africa. The city is renowned for hosting FESPACO, Africa's largest film festival, and features the distinctive National Museum and the striking Cathedral of Ouagadougou. The Craft Market and the Grand Marché showcase traditional crafts and local commerce. Notable landmarks include the Monument des Héros Nationaux and the modernist architecture of the Place des Cinéastes. The city's layout combines French colonial influence with traditional Mossi architecture, while cultural spaces like the Maison du Peuple preserve local performing arts traditions.",
@@ -184,6 +189,7 @@
     "capitalYearFounded": 1441
   },
   {
+    "id": 22,
     "country": "Zambia",
     "capital": "Lusaka",
     "capitalInfo": "Lusaka, Zambia's capital and largest city, is a rapidly growing metropolitan center in southern Africa. The city features the Freedom Statue commemorating independence, the University of Zambia, and the distinctive Kenneth Kaunda International Conference Centre. The Lusaka National Museum showcases the country's cultural heritage, while the Agricultural Society Showgrounds host important national events. Modern shopping centers like Manda Hill coexist with traditional markets such as Soweto Market. The city's architecture reflects both colonial influence and post-independence development, with growing business districts and residential areas expanding into the surrounding plains.",
@@ -192,6 +198,7 @@
     "capitalYearFounded": 1905
   },
   {
+    "id": 23,
     "country": "Chad",
     "capital": "N'Djamena",
     "capitalInfo": "N'Djamena, Chad's capital and largest city, sits at the confluence of the Chari and Logone rivers. The city serves as Chad's administrative, economic, and cultural hub, featuring the Grand Marché central market and the Chad National Museum. Notable landmarks include the Grand Mosque of N'Djamena and Place de la Nation, the main city square. The Avenue Charles de Gaulle forms the city's main thoroughfare, lined with government buildings and commercial establishments. Despite its challenging climate, the city maintains its position as a crucial regional center, with the University of N'Djamena serving as a major educational institution.",

@@ -37,13 +37,17 @@ router.get("/game/play-mode", async (req, res) => {
 
 router.get("/game/play-mode/:id", async (req, res) => {
   const { id } = req.params;
-  const playCountry = await Country.findById(id);
-
-  if (!playCountry) {
-    return res.status(404).json({ error: "Country not found" });
+  try {
+    const playCountry = await Country.findById(id);
+    if (!playCountry) {
+      return res.status(404).json({ error: "Country not found" });
+    }
+    console.log("Country found:", playCountry); // Log the country data
+    res.json(playCountry);
+  } catch (error) {
+    console.error("Error fetching country:", error); // Log any errors
+    res.status(500).send("Internal Server Error");
   }
-
-  res.json(playCountry);
 });
 
 module.exports = router;
