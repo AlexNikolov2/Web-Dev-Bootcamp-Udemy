@@ -19,9 +19,9 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../front/dist', 'index.html'));
 });
 
-const MONGO_URI = 'mongodb://localhost:27017/know-the-capital';
+const MONGO_URI = 'mongodb://localhost:27017/know-the-capital'; // Ensure this matches your MongoDB setup
 
-mongoose.connect(MONGO_URI)
+mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log('Connected to MongoDB');
         app.listen(port, () => {

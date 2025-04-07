@@ -27,12 +27,20 @@ router.get("/game/learn-mode/:id", async (req, res) => {
   res.json(learnCountry);
 });
 
+router.get("/game/play-mode", async (req, res) => {
+  try {
+    const playCountries = await Country.find();
+    res.json(playCountries);
+  } catch (error) {
+    console.error("Error fetching countries:", error);
+    res.status(500).send("Internal Server Error");
+  }
+});
+
 router.get("/game/play-mode/:id", async (req, res) => {
   const { id } = req.params;
   try {
-    const dataPath = path.join(__dirname, "../data/data.json");
-    const data = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
-    const playCountry = data.find((country) => country.id === parseInt(id));
+    const playCountry = await Country.findById(id);
 
     if (!playCountry) {
       return res.status(404).json({ error: "Country not found" });
