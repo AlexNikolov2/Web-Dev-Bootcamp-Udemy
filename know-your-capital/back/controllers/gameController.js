@@ -1,11 +1,12 @@
 const { Router } = require("express");
 const fs = require("fs");
 const path = require("path");
+const mongoose = require("mongoose");
 const Country = require("../models/Country");
 
 const router = Router();
 
-router.get("/game/learn-mode", async (req, res) => {
+router.get("/learn-mode", async (req, res) => {
   const query = req.query;
 
   if (!query) {
@@ -19,7 +20,7 @@ router.get("/game/learn-mode", async (req, res) => {
   res.json(learnCountries);
 });
 
-router.get("/game/learn-mode/:id", async (req, res) => {
+router.get("/learn-mode/:id", async (req, res) => {
   const learnCountry = await Country.find().populate(
     "country"
   );
@@ -27,9 +28,12 @@ router.get("/game/learn-mode/:id", async (req, res) => {
   res.json(learnCountry);
 });
 
-router.get("/game/play-mode", async (req, res) => {
+router.get("/play-mode", async (req, res) => {
   try {
     const playCountries = await Country.find();
+    if (playCountries.length === 0) {
+      return res.status(404).json({ error: "No countries found" });
+    }
     res.json(playCountries);
   } catch (error) {
     console.error("Error fetching countries:", error);
@@ -37,8 +41,13 @@ router.get("/game/play-mode", async (req, res) => {
   }
 });
 
-router.get("/game/play-mode/:id", async (req, res) => {
+router.get("/play-mode/:id", async (req, res) => {
   const { id } = req.params;
+
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(400).json({ error: "Invalid country ID format" });
+  }
+
   try {
     const playCountry = await Country.findById(id);
 

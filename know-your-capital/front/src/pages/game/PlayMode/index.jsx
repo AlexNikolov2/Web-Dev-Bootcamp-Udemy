@@ -1,11 +1,30 @@
 import { useNavigate } from "react-router-dom";
 import "./style.css";
+import { useState, useEffect } from "react";
+import { getCountries } from "../../../services/gameService";
 
 export function PlayMode() {
   const navigate = useNavigate();
+  const [countries, setCountries] = useState([]);
+
+  useEffect(() => {
+    const fetchCountries = async () => {
+      try {
+        const countriesData = await getCountries();
+        setCountries(countriesData);
+      } catch (error) {
+        console.error("Error fetching countries:", error);
+      }
+    };
+    fetchCountries();
+  }, []);
 
   const handleStart = () => {
-    navigate("/game/play-mode/1"); // Navigate to the first country (id = 1)
+    if (countries.length > 0) {
+      navigate(`/game/play-mode/${countries[0]._id}`); // Use the MongoDB _id field
+    } else {
+      console.error("No countries available to start the game.");
+    }
   };
 
   return (
