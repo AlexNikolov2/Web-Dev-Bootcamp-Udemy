@@ -4,10 +4,11 @@ import TextField from "@mui/material/TextField";
 import { textFieldStyling } from "../../../../utils/textfield_styling";
 import { useState, useEffect } from "react";
 import { getCountryInfo } from "../../../../services/gameService";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 
 export const Country = () => {
-    const { id } = useParams(); // Get the id from route parameters
+    const { id } = useParams();
+    const navigate = useNavigate();
     const [country, setCountry] = useState({});
     const [capital, setCapital] = useState("");
     const [isCorrect, setIsCorrect] = useState(false);
@@ -28,15 +29,20 @@ export const Country = () => {
     const handleAnswer = (e) => {
         e.preventDefault();
         setIsFilled(true);
-        if (capital.toLowerCase() === country.capital?.toLowerCase()) {
-            setIsCorrect(true);
-        } else {
-            setIsCorrect(false);
-        }
+        setIsCorrect(capital.toLowerCase() === country.capital?.toLowerCase());
+
+        // Navigate to the next country after a delay
+        setTimeout(() => {
+            const nextCountryId = country.nextCountryId; // Assuming the backend provides the next country's ID
+            if (nextCountryId) {
+                navigate(`/game/play-mode/${nextCountryId}`);
+                setCapital("");
+                setIsFilled(false);
+            } else {
+                console.log("End of the game!");
+            }
+        }, 2000);
     };
-
-    console.log(country);
-
 
     return (
         <section className="play-mode" id="play-mode">

@@ -49,13 +49,16 @@ router.get("/play-mode/:id", async (req, res) => {
   }
 
   try {
-    const playCountry = await Country.findById(id);
-
-    if (!playCountry) {
+    const playCountries = await Country.find();
+    const currentIndex = playCountries.findIndex(country => country._id.toString() === id);
+    if (currentIndex === -1) {
       return res.status(404).json({ error: "Country not found" });
     }
 
-    res.json(playCountry);
+    const playCountry = playCountries[currentIndex];
+    const nextCountryId = playCountries[currentIndex + 1]?._id || null;
+
+    res.json({ ...playCountry.toObject(), nextCountryId });
   } catch (error) {
     console.error("Error fetching country:", error);
     res.status(500).send("Internal Server Error");
