@@ -1,24 +1,18 @@
-import { Country } from "./Country";
+import { useNavigate } from "react-router-dom";
 import "./style.css";
-import { useState } from "react";
 
 export function PlayMode() {
-  let [isBannerClicked, setIsBannerClicked] = useState(false);
+  const navigate = useNavigate();
 
-  const startGame = () => {
-    setIsBannerClicked(true);
-  }
+  const handleStart = () => {
+    navigate("/game/play-mode/1"); // Navigate to the first country (id = 1)
+  };
 
   return (
-    <>
-
-      {isBannerClicked ? <Country /> : (
-        <section className="banner" id="banner">
-          <h2>Play Mode - Guess All Capitals</h2>
-          <p>Start guessing the capitals of all countries!</p>
-          <button onClick={startGame}>Start</button>
-        </section>
-      )}
-    </>
+    <section className="play-mode">
+      <h2>Play Mode</h2>
+      <p>Test your knowledge of world capitals!</p>
+      <button onClick={handleStart}>Start</button>
+    </section>
   );
 }

@@ -38,11 +38,10 @@ router.get("/game/play-mode", async (req, res) => {
 router.get("/game/play-mode/:id", async (req, res) => {
   const { id } = req.params;
   try {
-    const playCountry = await Country.findById(id);
+    const playCountry = await Country.findOne({ _id: id }); // Ensure the query matches the database schema
     if (!playCountry) {
       return res.status(404).json({ error: "Country not found" });
     }
-    console.log("Country found:", playCountry);
     res.json(playCountry);
   } catch (error) {
     console.error("Error fetching country:", error);

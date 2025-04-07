@@ -1,13 +1,13 @@
 import { Result } from "./Result";
-import './style.css'
-import countryFlag from '../../../../assets/syria.webp'
+import './style.css';
 import TextField from "@mui/material/TextField";
 import { textFieldStyling } from "../../../../utils/textfield_styling";
 import { useState, useEffect } from "react";
 import { getCountryInfo } from "../../../../services/gameService";
+import { useParams } from "react-router-dom";
 
 export const Country = () => {
-    let id = 1;
+    const { id } = useParams(); // Get the id from route parameters
     const [country, setCountry] = useState({});
     const [capital, setCapital] = useState("");
     const [isCorrect, setIsCorrect] = useState(false);
@@ -16,8 +16,8 @@ export const Country = () => {
     useEffect(() => {
         const fetchCountryInfo = async () => {
             try {
-                const country = await getCountryInfo(id);
-                setCountry(country);
+                const countryData = await getCountryInfo(id);
+                setCountry(countryData);
             } catch (error) {
                 console.error("Error fetching country information:", error);
             }
@@ -28,12 +28,13 @@ export const Country = () => {
     const handleAnswer = (e) => {
         e.preventDefault();
         setIsFilled(true);
-        if (capital.toLowerCase() === "damascus") {
+        if (capital.toLowerCase() === country.capital?.toLowerCase()) {
             setIsCorrect(true);
         } else {
             setIsCorrect(false);
         }
-    }
+    };
+
     console.log(country);
 
 
@@ -43,11 +44,13 @@ export const Country = () => {
                 {isCorrect ? "Correct answer" : "Incorrect answer!"}
             </Result>}
             <section className="country">
-                {<img src={countryFlag} alt="Country Flag" />}
+                {country.flag && <img src={country.flag} alt={`${country.country} Flag`} />}
                 <p>{country.country}</p>
-                <TextField id="standard-basic"
+                <TextField
+                    id="standard-basic"
                     label="Type the country's capital"
-                    variant="standard" sx={textFieldStyling}
+                    variant="standard"
+                    sx={textFieldStyling}
                     fullWidth
                     value={capital}
                     onChange={(e) => setCapital(e.target.value)}
@@ -55,5 +58,5 @@ export const Country = () => {
                 <button onClick={handleAnswer}>Submit</button>
             </section>
         </section>
-    )
-}
+    );
+};

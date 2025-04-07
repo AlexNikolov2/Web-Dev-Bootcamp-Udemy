@@ -9,6 +9,7 @@ import { Login } from "./pages/auth/Login";
 import { Register } from "./pages/auth/Register";
 import { User } from "./pages/user";
 import { AuthProvider } from "./contexts/AuthContext.jsx";
+import { Country } from "./pages/game/PlayMode/Country/index.jsx";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
           {
             path: "play-mode",
             element: <PlayMode />,
+          },
+          {
+            path: "play-mode/:id",
+            element: <Country />,
           },
           {
             path: "learn-mode",
