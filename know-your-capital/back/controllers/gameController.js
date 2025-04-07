@@ -42,10 +42,10 @@ router.get("/game/play-mode/:id", async (req, res) => {
     if (!playCountry) {
       return res.status(404).json({ error: "Country not found" });
     }
-    console.log("Country found:", playCountry); // Log the country data
+    console.log("Country found:", playCountry);
     res.json(playCountry);
   } catch (error) {
-    console.error("Error fetching country:", error); // Log any errors
+    console.error("Error fetching country:", error);
     res.status(500).send("Internal Server Error");
   }
 });
