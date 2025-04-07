@@ -1,31 +1,31 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 const countrySchema = mongoose.Schema({
     country: {
         type: String,
-        required: true
+        required: true,
     },
     capital: {
         type: String,
-        required: true
+        required: true,
     },
-    description: {
+    capitalInfo: {
         type: String,
-        required: true
+        required: true,
     },
     flag: {
         type: String,
-        required: true
+        required: true,
     },
-    population: {
+    capitalPopulation: {
         type: Number,
-        required: true
+        required: true,
     },
-    founded: {
-        type: String,
-        required: true
-    }
-})
+    capitalYearFounded: {
+        type: Number,
+        required: true,
+    },
+});
 
-const Country = mongoose.model('Country', countrySchema);
+const Country = mongoose.model("Country", countrySchema);
 module.exports = Country;

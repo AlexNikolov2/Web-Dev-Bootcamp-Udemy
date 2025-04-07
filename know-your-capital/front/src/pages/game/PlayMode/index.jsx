@@ -1,24 +1,37 @@
-import { Country } from "./Country";
+import { useNavigate } from "react-router-dom";
 import "./style.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { getCountries } from "../../../services/gameService";
 
 export function PlayMode() {
-  let [isBannerClicked, setIsBannerClicked] = useState(false);
+  const navigate = useNavigate();
+  const [countries, setCountries] = useState([]);
 
-  const startGame = () => {
-    setIsBannerClicked(true);
-  }
+  useEffect(() => {
+    const fetchCountries = async () => {
+      try {
+        const countriesData = await getCountries();
+        setCountries(countriesData);
+      } catch (error) {
+        console.error("Error fetching countries:", error);
+      }
+    };
+    fetchCountries();
+  }, []);
+
+  const handleStart = () => {
+    if (countries.length > 0) {
+      navigate(`/game/play-mode/${countries[0]._id}`);
+    } else {
+      console.error("No countries available to start the game.");
+    }
+  };
 
   return (
-    <>
-
-      {isBannerClicked ? <Country /> : (
-        <section className="banner" id="banner">
-          <h2>Play Mode - Guess All Capitals</h2>
-          <p>Start guessing the capitals of all countries!</p>
-          <button onClick={startGame}>Start</button>
-        </section>
-      )}
-    </>
+    <section className="play-mode">
+      <h2>Play Mode</h2>
+      <p>Test your knowledge of world capitals!</p>
+      <button onClick={handleStart}>Start</button>
+    </section>
   );
 }
