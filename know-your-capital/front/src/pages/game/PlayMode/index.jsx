@@ -21,7 +21,7 @@ export function PlayMode() {
 
   const handleStart = () => {
     if (countries.length > 0) {
-      navigate(`/game/play-mode/${countries[0]._id}`); // Use the MongoDB _id field
+      navigate(`/game/play-mode/${countries[0]._id}`);
     } else {
       console.error("No countries available to start the game.");
     }
