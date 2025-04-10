@@ -13,17 +13,13 @@ router.get("/learn-mode", async (req, res) => {
     return res.status(400).json({ error: "Query parameter is required" });
   }
 
-  const learnCountries = await Country.findAll().populate(
-    "countries"
-  );
+  const learnCountries = await Country.findAll().populate("countries");
 
   res.json(learnCountries);
 });
 
 router.get("/learn-mode/:id", async (req, res) => {
-  const learnCountry = await Country.find().populate(
-    "country"
-  );
+  const learnCountry = await Country.find().populate("country");
 
   res.json(learnCountry);
 });
@@ -50,7 +46,9 @@ router.get("/play-mode/:id", async (req, res) => {
 
   try {
     const playCountries = await Country.find();
-    const currentIndex = playCountries.findIndex(country => country._id.toString() === id);
+    const currentIndex = playCountries.findIndex(
+      (country) => country._id.toString() === id
+    );
     if (currentIndex === -1) {
       return res.status(404).json({ error: "Country not found" });
     }
@@ -61,6 +59,32 @@ router.get("/play-mode/:id", async (req, res) => {
     res.json({ ...playCountry.toObject(), nextCountryId });
   } catch (error) {
     console.error("Error fetching country:", error);
+    res.status(500).send("Internal Server Error");
+  }
+});
+
+router.get("/search", async (req, res) => {
+  const { query } = req.query;
+
+  if (!query) {
+    return res.status(400).json({ error: "Query parameter is required" });
+  }
+
+  try {
+    const country = await Country.findOne({
+      $or: [
+        { name: { $regex: query, $options: "i" } },
+        { capital: { $regex: query, $options: "i" } },
+      ],
+    });
+
+    if (!country) {
+      return res.status(404).json({ error: "Country or capital not found" });
+    }
+
+    res.json(country);
+  } catch (error) {
+    console.error("Error searching for country or capital:", error);
     res.status(500).send("Internal Server Error");
   }
 });
