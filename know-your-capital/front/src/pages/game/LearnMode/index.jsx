@@ -6,12 +6,17 @@ import "./style.css";
 
 export function LearnMode() {
   const [searched, setSearched] = useState(false);
+  const [searchInput, setSearchInput] = useState(""); // New state for search input
 
   const handleSearch = () => {
-    setSearched(true);
+    if (searchInput.trim() !== "") {
+      setSearched(true);
+    } else {
+      alert("Please enter a valid country or capital name.");
+    }
   };
 
-  return searched ? (
+  return !searched ? (
     <section className="search-wrap">
       <section className="title">
         <h2>Search & Learn</h2>
@@ -26,8 +31,10 @@ export function LearnMode() {
           variant="standard"
           sx={textFieldStyling}
           fullWidth
+          value={searchInput}
+          onChange={(e) => setSearchInput(e.target.value)}
         />
-        <button className="search-btn" onClick={handleSearch()}>
+        <button className="search-btn" onClick={handleSearch}>
           Search
         </button>
       </section>
