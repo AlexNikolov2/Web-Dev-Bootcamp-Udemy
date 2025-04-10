@@ -6,7 +6,7 @@ import "./style.css";
 
 export function LearnMode() {
   const [searched, setSearched] = useState(false);
-  const [searchInput, setSearchInput] = useState(""); // New state for search input
+  const [searchInput, setSearchInput] = useState("");
 
   const handleSearch = () => {
     if (searchInput.trim() !== "") {
