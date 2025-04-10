@@ -63,21 +63,19 @@ router.get("/play-mode/:id", async (req, res) => {
   }
 });
 
-router.get("/search/:id", async (req, res) => {
+router.get("/search", async (req, res) => {
   const { query } = req.query;
-  const { id } = req.params;
 
   if (!query) {
-    return res.status(400).json({ error: "Name query parameter is required" });
-  }
-
-  if (!mongoose.Types.ObjectId.isValid(id)) {
-    return res.status(400).json({ error: "Invalid country ID format" });
+    return res.status(400).json({ error: "Query parameter is required" });
   }
 
   try {
     const country = await Country.findOne({
-      $or: [{ name: query }, { capital: query }],
+      $or: [
+        { name: { $regex: query, $options: "i" } },
+        { capital: { $regex: query, $options: "i" } },
+      ],
     });
 
     if (!country) {

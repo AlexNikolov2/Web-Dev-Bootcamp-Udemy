@@ -2,14 +2,14 @@ import { useState, useEffect } from "react";
 import { TextField } from "@mui/material";
 import { textFieldStyling } from "../../../utils/textfield_styling";
 import { Capital } from "./Capital";
-import { getCountries } from "../../../services/gameService";
+import { getCountries, searchCountry } from "../../../services/gameService";
 import "./style.css";
 
 export function LearnMode() {
   const [searched, setSearched] = useState(false);
   const [searchInput, setSearchInput] = useState("");
 
-  const [countries, setCountries] = useState([]);
+  const [, setCountries] = useState([]);
   const [country, setCountry] = useState({});
 
   useEffect(() => {
@@ -24,23 +24,25 @@ export function LearnMode() {
     fetchCountries();
   }, []);
 
-  const handleSearch = () => {
+  const handleSearch = async (e) => {
+    e.preventDefault();
     if (searchInput.trim() !== "") {
-      const foundCountry = countries.find(
-        (country) =>
-          country.name.toLowerCase() === searchInput.toLowerCase() ||
-          country.capital.toLowerCase() === searchInput.toLowerCase()
-      );
-      if (foundCountry) {
+      try {
+        const foundCountry = await searchCountry(searchInput, "dummy-id");
         setCountry(foundCountry);
-      } else {
-        alert("Country or capital not found.");
+        console.log(foundCountry);
+
+        setSearchInput("");
+        setSearched(true);
+      } catch (error) {
+        alert(error.message);
       }
-      setSearched(true);
     } else {
       alert("Please enter a valid country or capital name.");
     }
   };
+
+  console.log(country);
 
   return !searched ? (
     <section className="search-wrap">
@@ -66,6 +68,6 @@ export function LearnMode() {
       </section>
     </section>
   ) : (
-    <Capital country={country} />
+    <Capital foundCountry={country} />
   );
 }

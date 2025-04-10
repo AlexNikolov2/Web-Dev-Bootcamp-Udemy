@@ -24,9 +24,9 @@ export const getCountryInfo = async (id) => {
   }
 };
 
-export const searchCountry = async (query, id) => {
+export const searchCountry = async (query) => {
   try {
-    const response = await axios.get(`${API_URL}/search/${id}`, {
+    const response = await axios.get(`${API_URL}/search`, {
       params: { query },
     });
     console.log("Response data:", response.data);
