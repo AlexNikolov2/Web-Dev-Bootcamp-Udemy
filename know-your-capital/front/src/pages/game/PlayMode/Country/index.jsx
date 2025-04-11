@@ -85,6 +85,7 @@ export const Country = () => {
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
+        className="modal"
       >
         <Box sx={modalStyle}>
           <Typography
