@@ -8,7 +8,6 @@ export function Capital({ foundCountry }) {
     country,
     capitalInfo,
   } = foundCountry;
-  console.log(foundCountry);
 
   return (
     <section className="capital-wrap">
