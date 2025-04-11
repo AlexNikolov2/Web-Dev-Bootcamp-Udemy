@@ -66,6 +66,7 @@ export const Country = () => {
         />
         <button onClick={handleAnswer}>Submit</button>
       </section>
+      <button className="red">Stop Game</button>
     </section>
   );
 };
