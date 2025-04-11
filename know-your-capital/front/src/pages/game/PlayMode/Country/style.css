@@ -20,3 +20,18 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.red {
+  background-color: var(--incorrect);
+}
+.MuiBox-root .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.MuiBox-root .buttons :last-child {
+  background-color: var(--secondary);
+  color: var(--primary);
+  border: 4px solid var(--primary);
+}
