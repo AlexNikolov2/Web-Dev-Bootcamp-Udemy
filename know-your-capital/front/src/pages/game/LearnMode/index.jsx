@@ -68,6 +68,6 @@ export function LearnMode() {
       </section>
     </section>
   ) : (
-    <Capital foundCountry={country} />
+    <Capital foundCountry={country} searched={setSearched} />
   );
 }
