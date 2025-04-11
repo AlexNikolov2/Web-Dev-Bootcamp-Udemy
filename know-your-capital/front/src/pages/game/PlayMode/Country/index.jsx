@@ -5,6 +5,8 @@ import { textFieldStyling } from "../../../../utils/textfield_styling";
 import { useState, useEffect } from "react";
 import { getCountryInfo } from "../../../../services/gameService";
 import { useParams, useNavigate } from "react-router-dom";
+import { Modal, Box, Typography } from "@mui/material";
+import { font, modalStyle } from "./ModalStyle";
 
 export const Country = () => {
   const { id } = useParams();
@@ -13,6 +15,7 @@ export const Country = () => {
   const [capital, setCapital] = useState("");
   const [isCorrect, setIsCorrect] = useState(false);
   const [isFilled, setIsFilled] = useState(false);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     const fetchCountryInfo = async () => {
@@ -43,6 +46,14 @@ export const Country = () => {
     }, 2000);
   };
 
+  const handleStopModal = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
+  const confirmStop = () => {
+    setOpen(false);
+    navigate("/");
+  };
+
   return (
     <section className="play-mode" id="play-mode">
       {isFilled && (
@@ -66,7 +77,41 @@ export const Country = () => {
         />
         <button onClick={handleAnswer}>Submit</button>
       </section>
-      <button className="red">Stop Game</button>
+      <button className="red" onClick={handleStopModal}>
+        Stop Game
+      </button>
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+      >
+        <Box sx={modalStyle}>
+          <Typography
+            id="modal-modal-title"
+            variant="h6"
+            component="h2"
+            sx={{ mt: 2, fontFamily: font, textAlign: "center" }}
+          >
+            End Game
+          </Typography>
+          <Typography
+            id="modal-modal-description"
+            sx={{
+              mt: 2,
+              fontFamily: font,
+              textAlign: "center",
+              paddingBottom: "20px",
+            }}
+          >
+            Are you sure you want to stop the game?
+          </Typography>
+          <section className="buttons">
+            <button onClick={confirmStop}>Yes</button>
+            <button onClick={handleClose}>No</button>
+          </section>
+        </Box>
+      </Modal>
     </section>
   );
 };
