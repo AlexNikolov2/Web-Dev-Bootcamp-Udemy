@@ -29,7 +29,7 @@ export function Capital({ foundCountry, searched }) {
           <p>{capitalInfo}</p>
         </section>
       </section>
-      <button onClick={backToSearch}>Go Back</button>
+      <button onClick={backToSearch} className="back-btn">Go Back</button>
     </>
   );
 }
