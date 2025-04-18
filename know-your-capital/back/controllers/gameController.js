@@ -73,7 +73,7 @@ router.get("/search", async (req, res) => {
   try {
     const country = await Country.findOne({
       $or: [
-        { name: { $regex: query, $options: "i" } },
+        { country: { $regex: query, $options: "i" } },
         { capital: { $regex: query, $options: "i" } },
       ],
     });
