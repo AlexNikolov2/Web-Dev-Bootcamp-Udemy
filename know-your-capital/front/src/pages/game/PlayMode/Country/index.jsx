@@ -43,7 +43,7 @@ export const Country = () => {
       } else {
         console.log("End of the game!");
       }
-    }, 2000);
+    }, 3000);
   };
 
   const handleStopModal = () => setOpen(true);
@@ -58,7 +58,9 @@ export const Country = () => {
     <section className="play-mode" id="play-mode">
       {isFilled && (
         <Result className="result" isCorrect={isCorrect}>
-          {isCorrect ? "Correct answer" : "Incorrect answer!"}
+          {isCorrect
+            ? "Correct answer"
+            : `Correct answer is: ${country.capital}`}
         </Result>
       )}
       <section className="country">
