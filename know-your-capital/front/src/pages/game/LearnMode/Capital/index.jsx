@@ -24,12 +24,14 @@ export function Capital({ foundCountry, searched }) {
         <section className="container-right">
           <section className="right-title">
             <h2>{capital}</h2>
-            <h3>Capital of {country}</h3>
+            <h5>Capital of {country}</h5>
           </section>
           <p>{capitalInfo}</p>
         </section>
       </section>
-      <button onClick={backToSearch} className="back-btn">Go Back</button>
+      <button onClick={backToSearch} className="back-btn">
+        Go Back
+      </button>
     </>
   );
 }
