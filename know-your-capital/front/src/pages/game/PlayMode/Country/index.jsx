@@ -47,7 +47,10 @@ export const Country = () => {
   };
 
   const handleStopModal = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  const handleClose = () => {
+    //function to end time count and save game
+    setOpen(false)
+  };
 
   const confirmStop = () => {
     setOpen(false);
