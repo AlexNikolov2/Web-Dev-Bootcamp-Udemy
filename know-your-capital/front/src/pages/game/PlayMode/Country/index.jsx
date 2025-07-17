@@ -7,6 +7,7 @@ import { getCountryInfo } from "../../../../services/gameService";
 import { useParams, useNavigate } from "react-router-dom";
 import { Modal, Box, Typography } from "@mui/material";
 import { font, modalStyle } from "./ModalStyle";
+import { ChronometerDisplay } from "../Timer/index";
 
 export const Country = () => {
   const { id } = useParams();
@@ -29,6 +30,7 @@ export const Country = () => {
     fetchCountryInfo();
   }, [id]);
 
+
   const handleAnswer = (e) => {
     e.preventDefault();
     setIsFilled(true);
@@ -47,12 +49,17 @@ export const Country = () => {
   };
 
   const handleStopModal = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  const handleClose = () => {
+    //function to end time count and save game
+    setOpen(false)
+  };
 
   const confirmStop = () => {
     setOpen(false);
     navigate("/");
   };
+
+
 
   return (
     <section className="play-mode" id="play-mode">
@@ -79,6 +86,7 @@ export const Country = () => {
         />
         <button onClick={handleAnswer}>Submit</button>
       </section>
+      <ChronometerDisplay startTime={Date.now()} />
       <button className="red" onClick={handleStopModal}>
         Stop Game
       </button>
