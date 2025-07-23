@@ -2,10 +2,12 @@ import { useNavigate } from "react-router-dom";
 import "./style.css";
 import { useState, useEffect } from "react";
 import { getCountries } from "../../../services/gameService";
+import { useTimer } from "../../../contexts/TimerContext";
 
 export function PlayMode() {
   const navigate = useNavigate();
   const [countries, setCountries] = useState([]);
+  const { startTimer } = useTimer();
 
   useEffect(() => {
     const fetchCountries = async () => {
@@ -21,7 +23,10 @@ export function PlayMode() {
 
   const handleStart = () => {
     if (countries.length > 0) {
+      startTimer();
       navigate(`/game/play-mode/${countries[0]._id}`);
+
+
     } else {
       console.error("No countries available to start the game.");
     }

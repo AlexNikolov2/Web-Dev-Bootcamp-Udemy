@@ -3,6 +3,7 @@ import { HeaderComponent } from "./components/Header/Header";
 import { FooterComponent } from "./components/Footer/Footer";
 import { Outlet, Link, useLocation } from "react-router-dom";
 import { AuthProvider, useAuth } from "./contexts/AuthContext.jsx";
+import { TimerProvider } from "./contexts/TimerContext.jsx";
 
 function AppContent() {
   const location = useLocation();
@@ -36,7 +37,9 @@ function App() {
 
   return (
     <AuthProvider initialUser={user}>
-      <AppContent />
+      <TimerProvider>
+        <AppContent />
+      </TimerProvider>
     </AuthProvider>
   );
 }

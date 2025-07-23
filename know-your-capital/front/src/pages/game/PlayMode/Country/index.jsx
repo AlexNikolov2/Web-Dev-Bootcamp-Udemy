@@ -8,10 +8,12 @@ import { useParams, useNavigate } from "react-router-dom";
 import { Modal, Box, Typography } from "@mui/material";
 import { font, modalStyle } from "./ModalStyle";
 import { ChronometerDisplay } from "../Timer/index";
+import { useTimer } from "../../../../contexts/TimerContext";
 
 export const Country = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const { stopTimer } = useTimer();
   const [country, setCountry] = useState({});
   const [capital, setCapital] = useState("");
   const [isCorrect, setIsCorrect] = useState(false);
@@ -44,6 +46,7 @@ export const Country = () => {
         setIsFilled(false);
       } else {
         console.log("End of the game!");
+        stopTimer();
       }
     }, 3000);
   };
@@ -55,6 +58,7 @@ export const Country = () => {
   };
 
   const confirmStop = () => {
+    stopTimer(); // Stop the timer when user confirms stopping the game
     setOpen(false);
     navigate("/");
   };
@@ -86,7 +90,7 @@ export const Country = () => {
         />
         <button onClick={handleAnswer}>Submit</button>
       </section>
-      <ChronometerDisplay startTime={Date.now()} />
+      <ChronometerDisplay />
       <button className="red" onClick={handleStopModal}>
         Stop Game
       </button>
