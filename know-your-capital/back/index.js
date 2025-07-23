@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, '../front/dist')));
 
 const MONGO_URI = 'mongodb://localhost:27017/know-the-capital';
 
-mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(MONGO_URI,)
     .then(() => {
         console.log('Connected to MongoDB');
         app.listen(port, () => {
