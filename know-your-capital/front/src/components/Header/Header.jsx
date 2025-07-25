@@ -22,7 +22,7 @@ export const HeaderComponent = ({ user }) => {
             <Link to="/game/learn-mode">Learn</Link>
           </li>
           <li>
-            <Link to="/">User</Link>
+            <Link to="/user/:id">User</Link>
           </li>
           <li>
             <Link to="/" onClick={logout}>Logout</Link>
