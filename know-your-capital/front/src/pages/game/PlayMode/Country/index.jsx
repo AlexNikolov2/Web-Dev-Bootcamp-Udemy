@@ -54,12 +54,11 @@ export const Country = () => {
 
   const handleStopModal = () => setOpen(true);
   const handleClose = () => {
-    //function to end time count and save game
     setOpen(false)
   };
 
   const confirmStop = () => {
-    stopTimer(); // Stop the timer when user confirms stopping the game
+    stopTimer();
     setOpen(false);
     navigate("/");
   };
