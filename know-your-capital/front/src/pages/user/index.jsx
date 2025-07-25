@@ -1,10 +1,20 @@
 import "./style.css";
+import { useAuth } from "../../contexts/AuthContext";
+import { useEffect } from "react";
 
 export function User() {
+  const { user } = useAuth();
+  useEffect(() => {
+    if (!user) {
+      window.location.href = "/auth/login";
+    }
+  }, [user]);
+
+
   return (
     <section className="user-wrap">
       <section className="user-title-wrap">
-        <h2>Your Profile</h2>
+        <h2>{user.username}</h2>
       </section>
       <section className="games-summary-wrap">
         <p>Your latest game</p>
