@@ -10,6 +10,7 @@ import { font, modalStyle } from "./ModalStyle";
 import { ChronometerDisplay } from "../Timer/index";
 import { ResultDisplay } from "../Result";
 import { useTimer } from "../../../../contexts/TimerContext";
+import { getTotalCountries } from "../../../../utils/getTotalCountries";
 
 export const Country = () => {
   const { id } = useParams();
@@ -20,6 +21,21 @@ export const Country = () => {
   const [isCorrect, setIsCorrect] = useState(false);
   const [isFilled, setIsFilled] = useState(false);
   const [open, setOpen] = useState(false);
+  const [correctCountries, setCorrectCountries] = useState(0);
+  const [totalCountries, setTotalCountries] = useState(0);
+
+  useEffect(() => {
+    const fetchTotalCountries = async () => {
+      try {
+        const total = await getTotalCountries();
+        setTotalCountries(total);
+      } catch (error) {
+        console.error("Error fetching total countries:", error);
+      }
+    };
+    fetchTotalCountries();
+  }, []);
+
 
   useEffect(() => {
     const fetchCountryInfo = async () => {
@@ -37,7 +53,12 @@ export const Country = () => {
   const handleAnswer = (e) => {
     e.preventDefault();
     setIsFilled(true);
-    setIsCorrect(capital.toLowerCase() === country.capital?.toLowerCase());
+    const isAnswerCorrect = capital.toLowerCase() === country.capital?.toLowerCase();
+    setIsCorrect(isAnswerCorrect);
+
+    if (isAnswerCorrect) {
+      setCorrectCountries(correctCountries + 1);
+    }
 
     setTimeout(() => {
       const nextCountryId = country.nextCountryId;
@@ -91,7 +112,7 @@ export const Country = () => {
         <button onClick={handleAnswer}>Submit</button>
       </section>
       <ChronometerDisplay />
-      <ResultDisplay />
+      <ResultDisplay correctCountries={correctCountries} totalCountries={totalCountries} />
       <button className="red" onClick={handleStopModal}>
         Stop Game
       </button>
