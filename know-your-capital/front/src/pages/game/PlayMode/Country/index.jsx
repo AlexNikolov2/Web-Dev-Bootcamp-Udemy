@@ -8,6 +8,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { Modal, Box, Typography } from "@mui/material";
 import { font, modalStyle } from "./ModalStyle";
 import { ChronometerDisplay } from "../Timer/index";
+import { ResultDisplay } from "../Result";
 import { useTimer } from "../../../../contexts/TimerContext";
 
 export const Country = () => {
@@ -91,6 +92,7 @@ export const Country = () => {
         <button onClick={handleAnswer}>Submit</button>
       </section>
       <ChronometerDisplay />
+      <ResultDisplay />
       <button className="red" onClick={handleStopModal}>
         Stop Game
       </button>
