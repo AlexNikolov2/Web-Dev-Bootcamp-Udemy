@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useAuth } from "../../../contexts/AuthContext";
+import { Input } from "@mui/material";
 
 export const EditUser = () => {
     const { user } = useAuth();
@@ -20,18 +21,28 @@ export const EditUser = () => {
         <section className="edit-user-wrap">
             <h2>Edit Profile</h2>
             <form onSubmit={handleSubmit}>
-                <label>
-                    Username:
-                    <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
-                </label>
-                <label>
-                    Email:
-                    <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
-                </label>
-                <label htmlFor="image">
-                    Image:
-                    <input type="file" id="image" name="image" accept="image/*" onChange={(e) => setImage(e.target.files[0])} />
-                </label>
+                <Input
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                    placeholder="Username"
+                    fullWidth
+                    autoComplete="username"
+                />
+                <Input
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder="Email"
+                    type="email"
+                    fullWidth
+                    autoComplete="email"
+                />
+                <Input
+                    value={image}
+                    onChange={(e) => setImage(e.target.files[0])}
+                    placeholder="Profile Image"
+                    type="file"
+                    fullWidth
+                />
                 <button type="submit">Save Changes</button>
             </form>
         </section>
