@@ -10,6 +10,10 @@ export function User() {
     }
   }, [user]);
 
+  const redirectToEdit = () => {
+    window.location.href = `/user/${user._id}/edit`;
+  }
+
 
   return (
     <section className="user-wrap">
@@ -30,7 +34,7 @@ export function User() {
         </section>
       </section>
       <section className="buttons-wrap user">
-        <button className="edit-profile-btn">Edit Profile</button>
+        <button className="edit-profile-btn" onClick={redirectToEdit()}>Edit Profile</button>
         <button className="change-plan-btn">Change plan</button>
       </section>
     </section>
