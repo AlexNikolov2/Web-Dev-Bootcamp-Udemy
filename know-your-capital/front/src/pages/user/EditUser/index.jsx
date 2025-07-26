@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useAuth } from "../../../contexts/AuthContext";
 import { Input } from "@mui/material";
+import "./styles.css";
 
 export const EditUser = () => {
     const { user } = useAuth();
