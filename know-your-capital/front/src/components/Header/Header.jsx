@@ -6,7 +6,6 @@ import { useAuth } from "../../contexts/AuthContext";
 export const HeaderComponent = ({ user }) => {
   const isAuthenticated = user !== null;
   const { logout } = useAuth();
-  console.log('user:', user);
 
   return (
     <header>
@@ -22,7 +21,7 @@ export const HeaderComponent = ({ user }) => {
             <Link to="/game/learn-mode">Learn</Link>
           </li>
           <li>
-            <Link to="/user/:id">User</Link>
+            <Link to={`/user/${user._id}`}>User</Link>
           </li>
           <li>
             <Link to="/" onClick={logout}>Logout</Link>

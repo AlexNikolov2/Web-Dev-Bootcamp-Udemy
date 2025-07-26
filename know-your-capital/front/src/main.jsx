@@ -10,6 +10,7 @@ import { Register } from "./pages/auth/Register";
 import { User } from "./pages/user";
 import { AuthProvider } from "./contexts/AuthContext.jsx";
 import { Country } from "./pages/game/PlayMode/Country/index.jsx";
+import { EditUser } from "./pages/user/EditUser/index.jsx";
 
 const router = createBrowserRouter([
   {
@@ -56,6 +57,10 @@ const router = createBrowserRouter([
             path: ":id",
             element: <User />,
           },
+          {
+            path: ":id/edit",
+            element: <EditUser />,
+          }
         ],
       },
     ],
