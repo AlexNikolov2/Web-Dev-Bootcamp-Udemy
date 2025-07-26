@@ -1,18 +1,23 @@
 import "./style.css";
 import { useAuth } from "../../contexts/AuthContext";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export function User() {
   const { user } = useAuth();
+  const navigate = useNavigate();
+
+  const redirectToEdit = () => {
+    navigate(`/user/${user._id}/edit`);
+  }
+
   useEffect(() => {
     if (!user) {
       window.location.href = "/auth/login";
     }
   }, [user]);
 
-  const redirectToEdit = () => {
-    window.location.href = `/user/${user._id}/edit`;
-  }
+
 
 
   return (
