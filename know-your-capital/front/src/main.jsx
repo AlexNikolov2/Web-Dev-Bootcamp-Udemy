@@ -10,7 +10,7 @@ import { Register } from "./pages/auth/Register";
 import { User } from "./pages/user";
 import { AuthProvider } from "./contexts/AuthContext.jsx";
 import { Country } from "./pages/game/PlayMode/Country/index.jsx";
-import { EditUser } from "./pages/user/EditUser.jsx";
+import { EditUser } from "./pages/user/EditUser";
 
 const router = createBrowserRouter([
   {
