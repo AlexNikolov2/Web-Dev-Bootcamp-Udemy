@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useAuth } from "../../../contexts/AuthContext";
 
-export const EditUser = ({ user }) => {
+export const EditUser = () => {
+    const { user } = useAuth();
     const [username, setUsername] = useState(user.username);
     const [email, setEmail] = useState(user.email);
     const [image, setImage] = useState(user.image || null);
