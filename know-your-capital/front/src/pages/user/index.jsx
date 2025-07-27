@@ -9,7 +9,7 @@ export function User() {
 
   const redirectToEdit = () => {
     navigate(`/user/${user._id}/edit`);
-  }
+  };
 
   useEffect(() => {
     if (!user) {
@@ -17,13 +17,11 @@ export function User() {
     }
   }, [user]);
 
-
-
-
   return (
     <section className="user-wrap">
       <section className="user-title-wrap">
         <h2>{user.username}</h2>
+        <img src={user.profilePicture} alt="" />
       </section>
       <section className="games-summary-wrap">
         <p>Your latest game</p>
@@ -39,7 +37,9 @@ export function User() {
         </section>
       </section>
       <section className="buttons-wrap user">
-        <button className="edit-profile-btn" onClick={redirectToEdit}>Edit Profile</button>
+        <button className="edit-profile-btn" onClick={redirectToEdit}>
+          Edit Profile
+        </button>
         <button className="change-plan-btn">Change plan</button>
       </section>
     </section>
