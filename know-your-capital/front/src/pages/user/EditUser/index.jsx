@@ -1,21 +1,29 @@
 import { useState } from "react";
 import { useAuth } from "../../../contexts/AuthContext";
 import { Input } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 import "./styles.css";
+import { editUser } from "../../../services/userService";
 
 export const EditUser = () => {
   const { user } = useAuth();
+  const navigate = useNavigate();
   const [username, setUsername] = useState(user.username);
   const [email, setEmail] = useState(user.email);
-  const [image, setImage] = useState(null);
+  const [image, setImage] = useState("");
+  const [error, setError] = useState(null);
 
+  console.log({ username, email, image });
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const formData = new FormData();
-    formData.append("username", username);
-    formData.append("email", email);
-    formData.append("image", image ?? "");
+    try {
+      await editUser({ email, username, image }, user._id);
+      navigate(`/user/${user._id}`);
+    } catch (error) {
+      console.error("Edit user failed:", error);
+      setError("Edit user failed. Please try again.");
+    }
   };
 
   return (
