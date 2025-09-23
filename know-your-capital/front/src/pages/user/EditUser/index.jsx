@@ -15,7 +15,7 @@ export const EditUser = () => {
     const formData = new FormData();
     formData.append("username", username);
     formData.append("email", email);
-    formData.append("image", image);
+    formData.append("image", image ?? "");
   };
 
   return (
