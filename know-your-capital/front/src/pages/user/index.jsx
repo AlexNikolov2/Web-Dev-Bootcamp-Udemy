@@ -17,11 +17,13 @@ export function User() {
     }
   }, [user]);
 
+  console.log(user);
+
   return (
     <section className="user-wrap">
       <section className="user-title-wrap">
         <h2>{user.username}</h2>
-        <img src={user.profilePicture} alt="" />
+        <img src={user.image} alt="" />
       </section>
       <section className="games-summary-wrap">
         <p>Your latest game</p>
