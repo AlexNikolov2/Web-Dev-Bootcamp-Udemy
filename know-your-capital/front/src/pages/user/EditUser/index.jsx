@@ -11,7 +11,7 @@ export const EditUser = () => {
   const [username, setUsername] = useState(user.username);
   const [email, setEmail] = useState(user.email);
   const [image, setImage] = useState("");
-  const [error, setError] = useState(null);
+  const [setError] = useState(null);
 
   console.log({ username, email, image });
   const handleSubmit = async (e) => {
