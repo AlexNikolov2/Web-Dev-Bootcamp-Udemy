@@ -8,6 +8,31 @@ export const getUser = async (userId) => {
 };
 
 export const editUser = async (formData, userId) => {
-  const response = await axios.put(`${API_URL}/${userId}/edit`, formData);
+  const data = {
+    username: formData.username,
+    email: formData.email,
+  };
+
+  // Convert image to base64 if present
+  if (formData.image && formData.image instanceof File) {
+    const base64Image = await convertToBase64(formData.image);
+    data.image = base64Image;
+  }
+
+  const response = await axios.put(`${API_URL}/${userId}/edit`, data, {
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
   return response.data;
+};
+
+// Helper function to convert file to base64
+const convertToBase64 = (file) => {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = () => resolve(reader.result);
+    reader.onerror = (error) => reject(error);
+  });
 };

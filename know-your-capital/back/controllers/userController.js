@@ -14,9 +14,13 @@ router.get("/:id", async (req, res) => {
 
 router.put("/:id/edit", async (req, res) => {
   try {
+    console.log("Received edit request for user ID:", req.params.id);
+    console.log("Request body:", req.body);
+
     const user = await userService.editUser(req.params.id, req.body);
     res.status(200).json(user);
   } catch (error) {
+    console.error("Edit user error:", error);
     res.status(400).json({ message: error.message });
   }
 });

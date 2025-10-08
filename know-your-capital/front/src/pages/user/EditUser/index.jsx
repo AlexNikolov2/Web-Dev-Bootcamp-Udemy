@@ -3,10 +3,9 @@ import { useAuth } from "../../../contexts/AuthContext";
 import { Input } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import "./styles.css";
-import { editUser, getUser } from "../../../services/userService";
 
 export const EditUser = () => {
-  const { user, setUser } = useAuth();
+  const { user, edit } = useAuth();
   const navigate = useNavigate();
   const [username, setUsername] = useState(user.username);
   const [email, setEmail] = useState(user.email);
@@ -23,10 +22,9 @@ export const EditUser = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await editUser({ email, username, image }, user._id);
-      const updatedUser = await getUser(user._id);
-      setUser(updatedUser);
-      sessionStorage.setItem("user", JSON.stringify(updatedUser));
+      console.log("Submitting edit with:", { email, username, image });
+      const result = await edit({ email, username, image });
+      console.log("Edit result:", result);
       handleClose();
       navigate(`/user/${user._id}`);
     } catch (error) {

@@ -38,12 +38,21 @@ const userService = {
   },
 
   editUser: async (id, userData) => {
+    console.log("UserService: Editing user with ID:", id);
+    console.log("UserService: Data to update:", userData);
+
     const user = await User.findById(id);
     if (!user) {
       throw new Error("User not found");
     }
+
+    console.log("UserService: User before update:", user.toObject());
     Object.assign(user, userData);
+    console.log("UserService: User after assign:", user.toObject());
+
     await user.save();
+    console.log("UserService: User after save:", user.toObject());
+
     return user;
   },
 };
