@@ -8,10 +8,6 @@ export const getUser = async (userId) => {
 };
 
 export const editUser = async (formData, userId) => {
-  const response = await axios.put(`${API_URL}/${userId}/edit`, formData, {
-    headers: {
-      "Content-Type": "multipart/form-data",
-    },
-  });
+  const response = await axios.put(`${API_URL}/${userId}/edit`, formData);
   return response.data;
 };
