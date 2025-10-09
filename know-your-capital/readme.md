@@ -7,6 +7,7 @@ FRONTEND
 
 BACKEND
 
+- Node.js
 - Express
 - Mongo DB
 
@@ -16,7 +17,7 @@ DESIGN
 
 # Main technical features
 
-- - Using ChatGPT for data generation
-- - Figma for design
-- - Full MERN stack
-- - Trello for project management and writing stories
+- Full MERN stack
+- Figma for design
+- Using ChatGPT for countries data generation
+- Trello for project management and writing stories
