@@ -38,6 +38,8 @@ router.get("/play-mode", async (req, res) => {
 });
 
 router.get("/play-mode/:id", async (req, res) => {
+  //set up game_id to be passed in req.params
+  //we should be having games to be saved
   const { id } = req.params;
 
   if (!mongoose.Types.ObjectId.isValid(id)) {
