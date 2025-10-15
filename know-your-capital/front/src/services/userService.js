@@ -26,7 +26,6 @@ export const editUser = async (formData, userId) => {
   return response.data;
 };
 
-// Helper function to convert file to base64
 const convertToBase64 = (file) => {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
