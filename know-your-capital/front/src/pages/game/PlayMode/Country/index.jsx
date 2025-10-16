@@ -36,7 +36,6 @@ export const Country = () => {
     fetchTotalCountries();
   }, []);
 
-
   useEffect(() => {
     const fetchCountryInfo = async () => {
       try {
@@ -49,11 +48,11 @@ export const Country = () => {
     fetchCountryInfo();
   }, [id]);
 
-
   const handleAnswer = (e) => {
     e.preventDefault();
     setIsFilled(true);
-    const isAnswerCorrect = capital.toLowerCase() === country.capital?.toLowerCase();
+    const isAnswerCorrect =
+      capital.toLowerCase() === country.capital?.toLowerCase();
     setIsCorrect(isAnswerCorrect);
 
     if (isAnswerCorrect) {
@@ -75,7 +74,7 @@ export const Country = () => {
 
   const handleStopModal = () => setOpen(true);
   const handleClose = () => {
-    setOpen(false)
+    setOpen(false);
   };
 
   const confirmStop = () => {
@@ -84,10 +83,8 @@ export const Country = () => {
     navigate("/");
   };
 
-
-
   return (
-    <section className="play-mode" id="play-mode">
+    <section className="game-wrapper" id="game-wrapper">
       {isFilled && (
         <Result className="result" isCorrect={isCorrect}>
           {isCorrect
@@ -112,7 +109,10 @@ export const Country = () => {
         <button onClick={handleAnswer}>Submit</button>
       </section>
       <ChronometerDisplay />
-      <ResultDisplay correctCountries={correctCountries} totalCountries={totalCountries} />
+      <ResultDisplay
+        correctCountries={correctCountries}
+        totalCountries={totalCountries}
+      />
       <button className="red" onClick={handleStopModal}>
         Stop Game
       </button>
