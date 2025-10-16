@@ -38,8 +38,6 @@ router.get("/play-mode", async (req, res) => {
 });
 
 router.get("/play-mode/:id", async (req, res) => {
-  //set up game_id to be passed in req.params
-  //we should be having games to be saved
   const { id } = req.params;
 
   if (!mongoose.Types.ObjectId.isValid(id)) {
@@ -61,6 +59,18 @@ router.get("/play-mode/:id", async (req, res) => {
     res.json({ ...playCountry.toObject(), nextCountryId });
   } catch (error) {
     console.error("Error fetching country:", error);
+    res.status(500).send("Internal Server Error");
+  }
+});
+
+router.post("/play-mode/:id", async (req, res) => {
+  const { game } = req.body;
+  try {
+    const newGame = new Game(game);
+    await newGame.save();
+    res.status(201).json(newGame);
+  } catch (error) {
+    console.error("Error saving game:", error);
     res.status(500).send("Internal Server Error");
   }
 });

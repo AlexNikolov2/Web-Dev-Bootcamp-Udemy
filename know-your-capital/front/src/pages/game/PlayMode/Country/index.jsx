@@ -80,6 +80,10 @@ export const Country = () => {
   const confirmStop = () => {
     stopTimer();
     setOpen(false);
+  };
+
+  const handleSave = () => {
+    // Save the game state or progress
     navigate("/");
   };
 
