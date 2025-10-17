@@ -7,6 +7,7 @@ import { useTimer } from "../../../contexts/TimerContext";
 export function PlayMode() {
   const navigate = useNavigate();
   const [countries, setCountries] = useState([]);
+  const [gameId, setGameId] = useState(null);
   const { startTimer } = useTimer();
 
   useEffect(() => {
@@ -23,10 +24,9 @@ export function PlayMode() {
 
   const handleStart = () => {
     if (countries.length > 0) {
+      setGameId(gameId);
       startTimer();
       navigate(`/game/play-mode/${countries[0]._id}`);
-
-
     } else {
       console.error("No countries available to start the game.");
     }

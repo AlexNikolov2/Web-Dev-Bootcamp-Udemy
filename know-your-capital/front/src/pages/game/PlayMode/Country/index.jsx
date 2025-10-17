@@ -84,6 +84,7 @@ export const Country = () => {
 
   const handleSave = () => {
     // Save the game state or progress
+
     navigate("/");
   };
 
