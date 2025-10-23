@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const mongoose = require("mongoose");
 const Country = require("../models/Country");
+const gameService = require("../services/gameService");
 
 const router = Router();
 
@@ -66,12 +67,19 @@ router.get("/play-mode/:id", async (req, res) => {
 router.post("/play-mode/:id", async (req, res) => {
   const { game } = req.body;
   try {
-    const newGame = new Game(game);
-    await newGame.save();
+    console.log("Saving game with data:", game);
+
+    // Use gameService to save with unique ID generation
+    const newGame = await gameService.saveCurrentGame(game);
+
+    console.log("Game saved successfully:", newGame);
     res.status(201).json(newGame);
   } catch (error) {
     console.error("Error saving game:", error);
-    res.status(500).send("Internal Server Error");
+    res.status(500).json({
+      error: "Internal Server Error",
+      message: error.message,
+    });
   }
 });
 
