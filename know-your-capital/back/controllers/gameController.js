@@ -67,12 +67,8 @@ router.get("/play-mode/:id", async (req, res) => {
 router.post("/play-mode/:id", async (req, res) => {
   const { game } = req.body;
   try {
-    console.log("Saving game with data:", game);
-
-    // Use gameService to save with unique ID generation
     const newGame = await gameService.saveCurrentGame(game);
 
-    console.log("Game saved successfully:", newGame);
     res.status(201).json(newGame);
   } catch (error) {
     console.error("Error saving game:", error);
