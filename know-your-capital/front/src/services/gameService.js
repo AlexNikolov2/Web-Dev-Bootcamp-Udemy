@@ -36,3 +36,31 @@ export const searchCountry = async (query) => {
     throw error;
   }
 };
+
+export const createNewGame = async (gameData) => {
+  try {
+    const response = await axios.post(
+      `${API_URL}/play-mode/${gameData.currentCountryId}`,
+      { game: gameData }
+    );
+    console.log("Response data:", response.data);
+    return response.data;
+  } catch (error) {
+    console.error("Error creating new game:", error);
+    throw error;
+  }
+};
+
+export const saveGame = async (gameData) => {
+  try {
+    const response = await axios.post(
+      `${API_URL}/play-mode/${gameData.currentCountryId}`,
+      { game: gameData }
+    );
+    console.log("Response data:", response.data);
+    return response.data;
+  } catch (error) {
+    console.error("Error saving game:", error);
+    throw error;
+  }
+};
