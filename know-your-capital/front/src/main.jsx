@@ -26,7 +26,7 @@ const router = createBrowserRouter([
             element: <PlayMode />,
           },
           {
-            path: "play-mode/:id",
+            path: "play-mode/:gameId/:countryId",
             element: <Country />,
           },
           {

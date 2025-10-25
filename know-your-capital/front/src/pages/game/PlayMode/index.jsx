@@ -1,14 +1,16 @@
 import { useNavigate } from "react-router-dom";
 import "./style.css";
 import { useState, useEffect } from "react";
-import { getCountries } from "../../../services/gameService";
+import { getCountries, createNewGame } from "../../../services/gameService";
 import { useTimer } from "../../../contexts/TimerContext";
+import { useAuth } from "../../../contexts/AuthContext";
 
 export function PlayMode() {
   const navigate = useNavigate();
   const [countries, setCountries] = useState([]);
-  const [gameId, setGameId] = useState(null);
+  const [, setGameId] = useState(null);
   const { startTimer } = useTimer();
+  const { user } = useAuth();
 
   useEffect(() => {
     const fetchCountries = async () => {
@@ -24,9 +26,20 @@ export function PlayMode() {
 
   const handleStart = () => {
     if (countries.length > 0) {
-      setGameId(gameId);
-      startTimer();
-      navigate(`/game/play-mode/${countries[0]._id}`);
+      const gameData = {
+        currentCountryId: countries[0]._id,
+      };
+
+      // Add userId if user is authenticated
+      if (user && user._id) {
+        gameData.userId = user._id;
+      }
+
+      createNewGame(gameData).then((data) => {
+        setGameId(data.gameId);
+        startTimer();
+        navigate(`/game/play-mode/${data.gameId}/${countries[0]._id}`);
+      });
     } else {
       console.error("No countries available to start the game.");
     }

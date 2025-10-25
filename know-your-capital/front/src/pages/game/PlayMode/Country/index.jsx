@@ -11,11 +11,14 @@ import { ChronometerDisplay } from "../Timer/index";
 import { ResultDisplay } from "../Result";
 import { useTimer } from "../../../../contexts/TimerContext";
 import { getTotalCountries } from "../../../../utils/getTotalCountries";
+import { saveGame } from "../../../../services/gameService";
+import { useAuth } from "../../../../contexts/AuthContext";
 
 export const Country = () => {
-  const { id } = useParams();
+  const { gameId, countryId } = useParams();
   const navigate = useNavigate();
-  const { stopTimer } = useTimer();
+  const { stopTimer, getElapsedTime } = useTimer();
+  const { user } = useAuth();
   const [country, setCountry] = useState({});
   const [capital, setCapital] = useState("");
   const [isCorrect, setIsCorrect] = useState(false);
@@ -39,14 +42,14 @@ export const Country = () => {
   useEffect(() => {
     const fetchCountryInfo = async () => {
       try {
-        const countryData = await getCountryInfo(id);
+        const countryData = await getCountryInfo(gameId, countryId);
         setCountry(countryData);
       } catch (error) {
         console.error("Error fetching country information:", error);
       }
     };
     fetchCountryInfo();
-  }, [id]);
+  }, [gameId, countryId]);
 
   const handleAnswer = (e) => {
     e.preventDefault();
@@ -62,7 +65,7 @@ export const Country = () => {
     setTimeout(() => {
       const nextCountryId = country.nextCountryId;
       if (nextCountryId) {
-        navigate(`/game/play-mode/${nextCountryId}`);
+        navigate(`/game/play-mode/${gameId}/${nextCountryId}`);
         setCapital("");
         setIsFilled(false);
       } else {
@@ -79,15 +82,31 @@ export const Country = () => {
 
   const confirmStop = () => {
     stopTimer();
+    handleSave();
     setOpen(false);
   };
 
   const handleSave = () => {
-    // Save the game state or progress
+    // Get the elapsed time from the timer
+    const elapsedTime = getElapsedTime();
+
+    // Build the game data object
+    const gameData = {
+      gameId,
+      correctCountries,
+      timeTaken: elapsedTime,
+    };
+
+    // Add userId if user is authenticated
+    if (user && user._id) {
+      gameData.userId = user._id;
+    }
+
+    // Save the game state with correct countries and time taken
+    saveGame(gameData);
 
     navigate("/");
   };
-
   return (
     <section className="game-wrapper" id="game-wrapper">
       {isFilled && (

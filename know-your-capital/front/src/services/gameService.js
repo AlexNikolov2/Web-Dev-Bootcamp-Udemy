@@ -13,9 +13,11 @@ export const getCountries = async () => {
   }
 };
 
-export const getCountryInfo = async (id) => {
+export const getCountryInfo = async (gameId, countryId) => {
   try {
-    const response = await axios.get(`${API_URL}/play-mode/${id}`);
+    const response = await axios.get(
+      `${API_URL}/games/${gameId}/countries/${countryId}`
+    );
     console.log("Response data:", response.data);
     return response.data;
   } catch (error) {
@@ -39,10 +41,7 @@ export const searchCountry = async (query) => {
 
 export const createNewGame = async (gameData) => {
   try {
-    const response = await axios.post(
-      `${API_URL}/play-mode/${gameData.currentCountryId}`,
-      { game: gameData }
-    );
+    const response = await axios.post(`${API_URL}/games`, { game: gameData });
     console.log("Response data:", response.data);
     return response.data;
   } catch (error) {
@@ -53,10 +52,7 @@ export const createNewGame = async (gameData) => {
 
 export const saveGame = async (gameData) => {
   try {
-    const response = await axios.post(
-      `${API_URL}/play-mode/${gameData.currentCountryId}`,
-      { game: gameData }
-    );
+    const response = await axios.post(`${API_URL}/games`, { game: gameData });
     console.log("Response data:", response.data);
     return response.data;
   } catch (error) {
