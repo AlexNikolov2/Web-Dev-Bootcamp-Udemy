@@ -18,10 +18,10 @@ export const HeaderComponent = ({ user = null }) => {
         {isAuthenticated ? (
           <ul>
             <li>
-              <Link to="/game/play-mode">Play</Link>
+              <Link to="/games/play-mode">Play</Link>
             </li>
             <li>
-              <Link to="/game/learn-mode">Learn</Link>
+              <Link to="/games/learn-mode">Learn</Link>
             </li>
             <li>
               <Link to={`/user/${user._id}`}>User</Link>
