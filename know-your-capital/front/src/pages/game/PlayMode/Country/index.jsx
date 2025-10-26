@@ -11,11 +11,14 @@ import { ChronometerDisplay } from "../Timer/index";
 import { ResultDisplay } from "../Result";
 import { useTimer } from "../../../../contexts/TimerContext";
 import { getTotalCountries } from "../../../../utils/getTotalCountries";
+import { saveGame } from "../../../../services/gameService";
+import { useAuth } from "../../../../contexts/AuthContext";
 
 export const Country = () => {
-  const { id } = useParams();
+  const { gameId, countryId } = useParams();
   const navigate = useNavigate();
-  const { stopTimer } = useTimer();
+  const { stopTimer, getElapsedTime } = useTimer();
+  const { user } = useAuth();
   const [country, setCountry] = useState({});
   const [capital, setCapital] = useState("");
   const [isCorrect, setIsCorrect] = useState(false);
@@ -36,24 +39,23 @@ export const Country = () => {
     fetchTotalCountries();
   }, []);
 
-
   useEffect(() => {
     const fetchCountryInfo = async () => {
       try {
-        const countryData = await getCountryInfo(id);
+        const countryData = await getCountryInfo(gameId, countryId);
         setCountry(countryData);
       } catch (error) {
         console.error("Error fetching country information:", error);
       }
     };
     fetchCountryInfo();
-  }, [id]);
-
+  }, [gameId, countryId]);
 
   const handleAnswer = (e) => {
     e.preventDefault();
     setIsFilled(true);
-    const isAnswerCorrect = capital.toLowerCase() === country.capital?.toLowerCase();
+    const isAnswerCorrect =
+      capital.toLowerCase() === country.capital?.toLowerCase();
     setIsCorrect(isAnswerCorrect);
 
     if (isAnswerCorrect) {
@@ -63,11 +65,10 @@ export const Country = () => {
     setTimeout(() => {
       const nextCountryId = country.nextCountryId;
       if (nextCountryId) {
-        navigate(`/game/play-mode/${nextCountryId}`);
+        navigate(`/games/${gameId}/${nextCountryId}`);
         setCapital("");
         setIsFilled(false);
       } else {
-        console.log("End of the game!");
         stopTimer();
       }
     }, 3000);
@@ -75,19 +76,34 @@ export const Country = () => {
 
   const handleStopModal = () => setOpen(true);
   const handleClose = () => {
-    setOpen(false)
+    setOpen(false);
   };
 
   const confirmStop = () => {
     stopTimer();
+    handleSave();
     setOpen(false);
-    navigate("/");
   };
 
+  const handleSave = () => {
+    const elapsedTime = getElapsedTime();
 
+    const gameData = {
+      gameId,
+      correctCountries,
+      timeTaken: elapsedTime,
+    };
 
+    if (user && user._id) {
+      gameData.userId = user._id;
+    }
+
+    saveGame(gameData);
+
+    navigate("/");
+  };
   return (
-    <section className="play-mode" id="play-mode">
+    <section className="game-wrapper" id="game-wrapper">
       {isFilled && (
         <Result className="result" isCorrect={isCorrect}>
           {isCorrect
@@ -112,7 +128,10 @@ export const Country = () => {
         <button onClick={handleAnswer}>Submit</button>
       </section>
       <ChronometerDisplay />
-      <ResultDisplay correctCountries={correctCountries} totalCountries={totalCountries} />
+      <ResultDisplay
+        correctCountries={correctCountries}
+        totalCountries={totalCountries}
+      />
       <button className="red" onClick={handleStopModal}>
         Stop Game
       </button>

@@ -13,7 +13,6 @@ export const editUser = async (formData, userId) => {
     email: formData.email,
   };
 
-  // Convert image to base64 if present
   if (formData.image && formData.image instanceof File) {
     const base64Image = await convertToBase64(formData.image);
     data.image = base64Image;
@@ -27,7 +26,6 @@ export const editUser = async (formData, userId) => {
   return response.data;
 };
 
-// Helper function to convert file to base64
 const convertToBase64 = (file) => {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();

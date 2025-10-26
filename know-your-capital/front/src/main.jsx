@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "game",
+        path: "games",
         element: <Outlet />,
         children: [
           {
@@ -26,7 +26,7 @@ const router = createBrowserRouter([
             element: <PlayMode />,
           },
           {
-            path: "play-mode/:id",
+            path: ":gameId/:countryId",
             element: <Country />,
           },
           {
