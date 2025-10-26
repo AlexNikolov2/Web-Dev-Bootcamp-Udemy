@@ -1,0 +1,42 @@
+[
+  {
+    "country": "Afghanistan",
+    "capital": "Kabul",
+    "capitalInfo": "Kabul, Afghanistan's capital, sits in a valley surrounded by the Hindu Kush mountains. The city's historic areas include the restored Babur's Gardens, created by the first Mughal emperor, and the old city's bazaars. The Darul Aman Palace represents early 20th-century modernization attempts, while the Gardens of Babur showcase Mughal landscape architecture.\n\nThe National Museum houses artifacts from various periods of Afghan history. The Kabul University campus represents educational development, while the Pul-e-Khishti Mosque serves as the city's largest mosque. Traditional markets like Mandawi maintain historic trading practices, while newer areas reflect ongoing urban development..",
+    "flag": "https://flagcdn.com/w320/af.png",
+    "capitalPopulation": 4601789,
+    "capitalYearFounded": -1500
+  },
+  {
+    "country": "Albania",
+    "capital": "Tirana",
+    "capitalInfo": "Tirana, Albania's capital, represents dramatic post-communist transformation. The city features Skanderbeg Square with its distinctive National History Museum and Et'hem Bey Mosque. The Pyramid, originally a museum for communist leader Hoxha, awaits innovative repurposing. Modern developments include the New Bazaar restoration and the artificial Tirana Lake park.\n\nCultural institutions include the National Art Gallery and the House of Leaves museum. The painting of building facades in bright colors symbolizes post-communist renewal, while the Block area, once restricted to communist elite, now hosts vibrant nightlife. Contemporary Tirana emphasizes pedestrian zones and green spaces, while maintaining Ottoman and Italian architectural heritage.\n\nThe New Boulevard development extends the Italian-designed central axis, while the Dajti Express cable car connects to mountain recreation..",
+    "flag": "https://flagcdn.com/w320/al.png",
+    "capitalPopulation": 557422,
+    "capitalYearFounded": 1614
+  },
+  {
+    "country": "Algeria",
+    "capital": "Algiers",
+    "capitalInfo": "Algiers, Algeria's capital and largest city, is a historic Mediterranean port city with distinctive white-painted buildings cascading down hillsides towards the sea. The city's Casbah, a UNESCO World Heritage site, is a maze of narrow streets and traditional houses dating back to the Ottoman period.\n\nThe city seamlessly blends French colonial architecture with Islamic influences, featuring notable landmarks like the Notre-Dame d'Afrique basilica and the Great Mosque. As a cultural and economic hub, Algiers hosts numerous museums, including the National Museum of Fine Arts, and serves as the country's administrative center..",
+    "flag": "https://flagcdn.com/w320/dz.png",
+    "capitalPopulation": 3415811,
+    "capitalYearFounded": 944
+  },
+  {
+    "country": "Andorra",
+    "capital": "Andorra la Vella",
+    "capitalInfo": "Andorra la Vella, the highest capital city in Europe, nestles in the Pyrenees Mountains. The city features the historic Casa de la Vall, the former parliament building, and the modern government complex. The Romanesque Sant Esteve Church represents religious heritage, while the Meritxell Avenue showcases modern commercial development.\n\nCultural institutions include the Carmen Thyssen Museum and the National Automobile Museum. The city's thermal spa complex, Caldea, demonstrates innovative architecture, while the historic quarter preserves medieval character. Modern developments include the Pyrénées Department Store and extensive shopping districts.\n\nContemporary Andorra la Vella balances its role as a tax-free shopping destination with cultural preservation, while maintaining its position as a winter sports gateway. The city's location provides dramatic mountain views, while recent pedestrianization improves urban living quality..",
+    "flag": "https://flagcdn.com/w320/ad.png",
+    "capitalPopulation": 22256,
+    "capitalYearFounded": 1278
+  },
+  {
+    "country": "Angola",
+    "capital": "Luanda",
+    "capitalInfo": "Luanda, Angola's capital and largest city, is a major port city on the Atlantic coast. The city combines Portuguese colonial architecture with modern skyscrapers, particularly in the Baixa de Luanda (lower Luanda) district. Historical sites include the 16th-century Fortress of São Miguel and the Iron Palace, designed by Gustave Eiffel.\n\nThe city experienced rapid growth following Angola's independence and civil war, becoming one of Africa's most expensive cities. Notable features include the Ilha do Cabo peninsula, with its beaches and restaurants, the National Museum of Natural History, and the Mausoleum of Agostinho Neto..",
+    "flag": "https://flagcdn.com/w320/ao.png",
+    "capitalPopulation": 2571861,
+    "capitalYearFounded": 1576
+  }
+]
