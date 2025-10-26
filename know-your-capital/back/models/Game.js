@@ -10,7 +10,7 @@ const gameSchema = mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",
   },
-  score: {
+  correctCountries: {
     type: Number,
     default: 0,
   },

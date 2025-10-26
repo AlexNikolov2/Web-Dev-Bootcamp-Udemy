@@ -26,38 +26,29 @@ router.get("/play-mode", async (req, res) => {
   }
 });
 
-// Get a specific country within a game context
 router.get("/games/:gameId/countries/:countryId", async (req, res) => {
   const { gameId, countryId } = req.params;
 
-  console.log("Game ID: ", gameId);
-  console.log("Country ID: ", countryId);
-
-  // Validate if countryId is a valid MongoDB ObjectId
   if (!mongoose.Types.ObjectId.isValid(countryId)) {
     return res.status(400).json({ error: "Invalid country ID format" });
   }
 
   try {
-    // Verify the game exists
     const game = await Game.findOne({ gameId });
     if (!game) {
       return res.status(404).json({ error: "Game not found" });
     }
 
-    // Find all countries to determine current index and next country
     const allCountries = await Country.find();
     if (allCountries.length === 0) {
       return res.status(404).json({ error: "No countries found" });
     }
 
-    // Find the current country by ID
     const currentCountry = await Country.findById(countryId);
     if (!currentCountry) {
       return res.status(404).json({ error: "Country not found" });
     }
 
-    // Find the index to get the next country
     const currentIndex = allCountries.findIndex(
       (country) => country._id.toString() === countryId
     );
@@ -76,7 +67,6 @@ router.get("/games/:gameId/countries/:countryId", async (req, res) => {
 
 // ==================== GAMES ENDPOINTS ====================
 
-// Get a specific game by gameId
 router.get("/games/:gameId", async (req, res) => {
   const { gameId } = req.params;
 
@@ -97,25 +87,7 @@ router.get("/games/:gameId", async (req, res) => {
   }
 });
 
-// Save a new game
 router.post("/games", async (req, res) => {
-  const { game } = req.body;
-  try {
-    console.log("Saving game with data:", game);
-    const newGame = await gameService.saveCurrentGame(game);
-    console.log("Game saved successfully:", newGame);
-    res.status(201).json(newGame);
-  } catch (error) {
-    console.error("Error saving game:", error);
-    res.status(500).json({
-      error: "Internal Server Error",
-      message: error.message,
-    });
-  }
-});
-
-// Legacy endpoint: Save game (POST to play-mode for backwards compatibility)
-router.post("/play-mode/:countryId", async (req, res) => {
   const { game } = req.body;
   try {
     console.log("Saving game with data:", game);

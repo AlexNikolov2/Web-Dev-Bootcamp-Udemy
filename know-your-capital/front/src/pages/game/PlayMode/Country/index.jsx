@@ -65,11 +65,10 @@ export const Country = () => {
     setTimeout(() => {
       const nextCountryId = country.nextCountryId;
       if (nextCountryId) {
-        navigate(`/game/play-mode/${gameId}/${nextCountryId}`);
+        navigate(`/games/${gameId}/${nextCountryId}`);
         setCapital("");
         setIsFilled(false);
       } else {
-        console.log("End of the game!");
         stopTimer();
       }
     }, 3000);
@@ -87,22 +86,18 @@ export const Country = () => {
   };
 
   const handleSave = () => {
-    // Get the elapsed time from the timer
     const elapsedTime = getElapsedTime();
 
-    // Build the game data object
     const gameData = {
       gameId,
       correctCountries,
       timeTaken: elapsedTime,
     };
 
-    // Add userId if user is authenticated
     if (user && user._id) {
       gameData.userId = user._id;
     }
 
-    // Save the game state with correct countries and time taken
     saveGame(gameData);
 
     navigate("/");

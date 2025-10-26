@@ -2,8 +2,7 @@ const Game = require("../models/Game");
 const { generateGameId } = require("../utils/idGenerator");
 
 const gameService = {
-  saveCurrentGame: async (gameData) => {
-    // Generate unique gameId if not provided
+  createGame: async (gameData) => {
     const gameWithId = {
       ...gameData,
       gameId: gameData.gameId || generateGameId(),
@@ -13,21 +12,30 @@ const gameService = {
     return game;
   },
 
+  saveCurrentGame: async (gameData) => {
+    if (gameData.gameId) {
+      return await Game.findOneAndUpdate(
+        { gameId: gameData.gameId },
+        gameData,
+        { new: true }
+      );
+    } else {
+      const gameWithId = {
+        ...gameData,
+        gameId: generateGameId(),
+      };
+      const game = new Game(gameWithId);
+      await game.save();
+      return game;
+    }
+  },
+
   getAllGames: async () => {
     return await Game.find();
   },
 
   getLatestGame: async () => {
     return await Game.findOne().sort({ createdAt: -1 });
-  },
-
-  createGame: async (gameData) => {
-    const game = new Game({
-      gameId: generateGameId(),
-      ...gameData,
-    });
-    await game.save();
-    return game;
   },
 
   getGameById: async (gameId) => {

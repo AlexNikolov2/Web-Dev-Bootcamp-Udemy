@@ -20,8 +20,10 @@ function AppContent() {
               Learn and Know the capitals of all the countries in the world!
             </p>
             <section className="buttons">
-              <Link to="/game/play-mode">Play Mode - Guess All Capitals</Link>
-              <Link to="/game/learn-mode">Learn Mode - Learn The Capitals</Link>
+              <Link to="/games/play-mode">Play Mode - Guess All Capitals</Link>
+              <Link to="/games/learn-mode">
+                Learn Mode - Learn The Capitals
+              </Link>
             </section>
           </section>
         )}

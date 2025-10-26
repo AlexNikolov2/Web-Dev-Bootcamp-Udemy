@@ -52,8 +52,9 @@ export const createNewGame = async (gameData) => {
 
 export const saveGame = async (gameData) => {
   try {
+    console.log("saveGame - Sending gameData:", gameData);
     const response = await axios.post(`${API_URL}/games`, { game: gameData });
-    console.log("Response data:", response.data);
+    console.log("saveGame - Response data from backend:", response.data);
     return response.data;
   } catch (error) {
     console.error("Error saving game:", error);

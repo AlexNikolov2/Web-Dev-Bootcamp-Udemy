@@ -30,7 +30,6 @@ export function PlayMode() {
         currentCountryId: countries[0]._id,
       };
 
-      // Add userId if user is authenticated
       if (user && user._id) {
         gameData.userId = user._id;
       }
@@ -38,7 +37,7 @@ export function PlayMode() {
       createNewGame(gameData).then((data) => {
         setGameId(data.gameId);
         startTimer();
-        navigate(`/game/play-mode/${data.gameId}/${countries[0]._id}`);
+        navigate(`/games/${data.gameId}/${countries[0]._id}`);
       });
     } else {
       console.error("No countries available to start the game.");
