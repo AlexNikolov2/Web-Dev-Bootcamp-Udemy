@@ -13,6 +13,7 @@ import { useTimer } from "../../../../contexts/TimerContext";
 import { getTotalCountries } from "../../../../utils/getTotalCountries";
 import { saveGame } from "../../../../services/gameService";
 import { useAuth } from "../../../../contexts/AuthContext";
+import { GameCompletion } from "../GameCompletion";
 
 export const Country = () => {
   const { gameId, countryId } = useParams();
@@ -26,6 +27,8 @@ export const Country = () => {
   const [open, setOpen] = useState(false);
   const [correctCountries, setCorrectCountries] = useState(0);
   const [totalCountries, setTotalCountries] = useState(0);
+
+  const elapsedTime = getElapsedTime();
 
   useEffect(() => {
     const fetchTotalCountries = async () => {
@@ -83,11 +86,16 @@ export const Country = () => {
     stopTimer();
     handleSave();
     setOpen(false);
+    return (
+      <GameCompletion
+        correctCountries={correctCountries}
+        totalCountries={totalCountries}
+        timeTaken={elapsedTime}
+      />
+    );
   };
 
   const handleSave = () => {
-    const elapsedTime = getElapsedTime();
-
     const gameData = {
       gameId,
       correctCountries,
