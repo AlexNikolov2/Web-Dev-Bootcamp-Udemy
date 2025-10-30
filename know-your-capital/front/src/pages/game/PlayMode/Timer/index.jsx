@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useTimer } from "../../../../contexts/TimerContext";
+import { formatTime } from "../Timer/utils.js";
 
 export const ChronometerDisplay = () => {
   const [elapsed, setElapsed] = useState(0);
@@ -17,21 +18,13 @@ export const ChronometerDisplay = () => {
     return () => clearInterval(interval);
   }, [startTime, isTimerActive]);
 
-  const seconds = Math.floor((elapsed / 1000) % 60);
-  const minutes = Math.floor((elapsed / (1000 * 60)) % 60);
-  const hours = Math.floor((elapsed / (1000 * 60 * 60)) % 24);
-
   if (!isTimerActive) {
     return null;
   }
 
   return (
     <div className="chronometer-display">
-      <span>{String(hours).padStart(2, "0")}</span>
-      <span>:</span>
-      <span>{String(minutes).padStart(2, "0")}</span>
-      <span>:</span>
-      <span>{String(seconds).padStart(2, "0")}</span>
+      <span>{formatTime(elapsed)}</span>
     </div>
   );
 };
