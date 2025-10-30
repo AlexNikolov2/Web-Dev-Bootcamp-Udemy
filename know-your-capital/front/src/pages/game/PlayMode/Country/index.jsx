@@ -110,6 +110,7 @@ export const Country = () => {
 
     navigate("/");
   };
+
   return (
     <section className="game-wrapper" id="game-wrapper">
       {isFilled && (
