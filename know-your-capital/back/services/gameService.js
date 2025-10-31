@@ -5,7 +5,7 @@ const gameService = {
   createGame: async (gameData) => {
     const gameWithId = {
       ...gameData,
-      gameId: gameData.gameId || generateGameId(),
+      gameId: gameData.gameId || (await generateGameId()),
     };
     const game = new Game(gameWithId);
     await game.save();
@@ -22,7 +22,7 @@ const gameService = {
     } else {
       const gameWithId = {
         ...gameData,
-        gameId: generateGameId(),
+        gameId: await generateGameId(),
       };
       const game = new Game(gameWithId);
       await game.save();

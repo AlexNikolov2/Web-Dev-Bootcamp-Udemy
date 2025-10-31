@@ -1,4 +1,8 @@
-export function GameCompletion(correctCountries, totalCountries, timeTaken) {
+export function GameCompletion({
+  correctCountries,
+  totalCountries,
+  timeTaken,
+}) {
   return (
     <section className="game-completion">
       {correctCountries === totalCountries ? (
