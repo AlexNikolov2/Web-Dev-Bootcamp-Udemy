@@ -86,6 +86,8 @@ export const Country = () => {
     stopTimer();
     handleSave();
     setOpen(false);
+
+    //display the endgame component
     return (
       <GameCompletion
         correctCountries={correctCountries}
