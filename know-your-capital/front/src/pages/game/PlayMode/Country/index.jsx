@@ -28,8 +28,7 @@ export const Country = () => {
   const [correctCountries, setCorrectCountries] = useState(0);
   const [totalCountries, setTotalCountries] = useState(0);
   const [gameEnded, setGameEnded] = useState(false);
-
-  const elapsedTime = getElapsedTime();
+  const [finalTime, setFinalTime] = useState(0);
 
   useEffect(() => {
     const fetchTotalCountries = async () => {
@@ -73,8 +72,12 @@ export const Country = () => {
         setCapital("");
         setIsFilled(false);
       } else {
+        const currentTime = getElapsedTime();
+        setFinalTime(currentTime);
         stopTimer();
-        handleSave();
+        handleSave(currentTime);
+        console.log("do we reach here?");
+
         setGameEnded(true);
       }
     }, 3000);
@@ -86,17 +89,19 @@ export const Country = () => {
   };
 
   const confirmStop = () => {
+    const currentTime = getElapsedTime();
+    setFinalTime(currentTime);
     stopTimer();
-    handleSave();
+    handleSave(currentTime);
     setOpen(false);
     setGameEnded(true);
   };
 
-  const handleSave = () => {
+  const handleSave = (time) => {
     const gameData = {
       gameId,
       correctCountries,
-      timeTaken: elapsedTime,
+      timeTaken: time,
     };
 
     if (user && user._id) {
@@ -105,7 +110,7 @@ export const Country = () => {
 
     saveGame(gameData);
 
-    navigate("/");
+    setGameEnded(true);
   };
 
   return (
@@ -114,7 +119,7 @@ export const Country = () => {
         <GameCompletion
           correctCountries={correctCountries}
           totalCountries={totalCountries}
-          timeTaken={elapsedTime}
+          timeTaken={finalTime}
         />
       ) : (
         <section className="game-wrapper" id="game-wrapper">

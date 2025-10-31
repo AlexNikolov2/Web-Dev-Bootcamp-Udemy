@@ -13,7 +13,7 @@ export function GameCompletion({
       ) : (
         <h2>
           Game Over! You answered {correctCountries} out of {totalCountries}{" "}
-          correctly.
+          countries countries correctly.
         </h2>
       )}
     </section>
