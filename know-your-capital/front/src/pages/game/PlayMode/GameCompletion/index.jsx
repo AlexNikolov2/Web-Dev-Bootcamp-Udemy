@@ -1,6 +1,8 @@
 import { formatTime } from "../Timer/utils";
 import { useNavigate } from "react-router";
 
+import "./styles.css";
+
 export function GameCompletion({
   correctCountries,
   totalCountries,
@@ -22,7 +24,7 @@ export function GameCompletion({
         <>
           <h2>Congratulations! You&apos;ve matched all the capitals!</h2>
           <span>Time taken: {formatTime(timeTaken * 1000)}</span>
-          <section className="buttons">
+          <section className="game-completion buttons">
             <button onClick={handleTryAgain}>Try Again</button>
             <button onClick={handleGoToMainMenu}>Go to Main Menu</button>
           </section>
@@ -34,7 +36,7 @@ export function GameCompletion({
             countries correctly.
           </h2>
           <span>Time taken: {formatTime(timeTaken * 1000)}</span>
-          <section className="buttons">
+          <section className="game-completion buttons">
             <button onClick={handleTryAgain}>Try Again</button>
             <button onClick={handleGoToMainMenu}>Go to Main Menu</button>
           </section>
