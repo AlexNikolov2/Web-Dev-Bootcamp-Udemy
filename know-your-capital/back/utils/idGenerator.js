@@ -1,10 +1,9 @@
-const { v4: uuidv4 } = require("uuid");
-
 /**
  * Generates a unique game ID using UUID v4
- * @returns {string} A unique game ID in format: GAME_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+ * @returns {Promise<string>} A unique game ID in format: GAME_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
  */
-const generateGameId = () => {
+const generateGameId = async () => {
+  const { v4: uuidv4 } = await import("uuid");
   return `GAME_${uuidv4()}`;
 };
 
