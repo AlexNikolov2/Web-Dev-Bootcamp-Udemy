@@ -2,7 +2,8 @@ import "./style.css";
 import { useAuth } from "../../contexts/AuthContext";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { getLastGameByUserId } from "../../services/gameService";
+import { getLastGameByUserId } from "../../services/userService";
+import { formatTime } from "../game/PlayMode/Timer/utils";
 
 export function User() {
   const { user } = useAuth();
@@ -20,6 +21,8 @@ export function User() {
     const fetchLastGame = async () => {
       try {
         const game = await getLastGameByUserId(user._id);
+        console.log(game);
+
         setLatestGame(game);
       } catch (error) {
         console.error("Error fetching latest game:", error);
@@ -27,8 +30,6 @@ export function User() {
     };
     fetchLastGame();
   }, [user]);
-
-  console.log(user);
 
   return (
     <section className="user-wrap">
@@ -42,13 +43,15 @@ export function User() {
           <section className="lg-result">
             <p>Result</p>
             <p className="stat">
-              {latestGame ? `${latestGame.score}/5` : "Loading..."}
+              {latestGame ? `${latestGame.correctCountries}/5` : "Loading..."}
             </p>
           </section>
           <section className="lg-time">
             <p>Time</p>
             <p className="stat">
-              {latestGame ? latestGame.timeTaken : "Loading..."}{" "}
+              {latestGame
+                ? formatTime(latestGame.timeTaken * 1000)
+                : "Loading..."}{" "}
             </p>
           </section>
         </section>

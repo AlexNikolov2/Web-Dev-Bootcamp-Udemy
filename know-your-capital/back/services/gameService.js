@@ -35,7 +35,7 @@ const gameService = {
   },
 
   getLatestGameByUserId: async (userId) => {
-    return await Game.findOne({ userId }).sort({ createdAt: -1 });
+    return await Game.findOne({ userId }).sort({ date: -1 });
   },
 
   getGameById: async (gameId) => {

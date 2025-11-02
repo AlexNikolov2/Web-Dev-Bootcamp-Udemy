@@ -4,7 +4,18 @@ const API_URL = "http://localhost:5000/user";
 
 export const getUser = async (userId) => {
   const response = await axios.get(`${API_URL}/${userId}`);
-  return response.data;
+  return response.data.user;
+};
+
+export const getLastGameByUserId = async (userId) => {
+  try {
+    const response = await axios.get(`${API_URL}/${userId}`);
+    console.log("Response data:", response.data);
+    return response.data.lastGame;
+  } catch (error) {
+    console.error("Error fetching last game by user ID:", error);
+    throw error;
+  }
 };
 
 export const editUser = async (formData, userId) => {
