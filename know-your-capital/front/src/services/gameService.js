@@ -61,3 +61,14 @@ export const saveGame = async (gameData) => {
     throw error;
   }
 };
+
+export const getLastGameByUserId = async (userId) => {
+  try {
+    const response = await axios.get(`${API_URL}/users/${userId}`);
+    console.log("Response data:", response.data);
+    return response.data.lastGame;
+  } catch (error) {
+    console.error("Error fetching last game by user ID:", error);
+    throw error;
+  }
+};

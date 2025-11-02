@@ -1,12 +1,14 @@
 const { Router } = require("express");
 const userService = require("../services/userService");
+const gameService = require("../services/gameService");
 
 const router = Router();
 
 router.get("/:id", async (req, res) => {
   try {
     const user = await userService.getUser(req.params.id);
-    res.status(200).json(user);
+    const lastGame = await gameService.getLatestGameByUserId(req.params.id);
+    res.status(200).json({ user, lastGame });
   } catch (error) {
     res.status(400).json({ message: error.message });
   }

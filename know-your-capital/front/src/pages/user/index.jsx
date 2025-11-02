@@ -1,11 +1,14 @@
 import "./style.css";
 import { useAuth } from "../../contexts/AuthContext";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { getLastGameByUserId } from "../../services/userService";
+import { formatTime } from "../game/PlayMode/Timer/utils";
 
 export function User() {
   const { user } = useAuth();
   const navigate = useNavigate();
+  const [latestGame, setLatestGame] = useState(null);
 
   const redirectToEdit = () => {
     navigate(`/user/${user._id}/edit`);
@@ -15,9 +18,18 @@ export function User() {
     if (!user) {
       window.location.href = "/auth/login";
     }
-  }, [user]);
+    const fetchLastGame = async () => {
+      try {
+        const game = await getLastGameByUserId(user._id);
+        console.log(game);
 
-  console.log(user);
+        setLatestGame(game);
+      } catch (error) {
+        console.error("Error fetching latest game:", error);
+      }
+    };
+    fetchLastGame();
+  }, [user]);
 
   return (
     <section className="user-wrap">
@@ -30,11 +42,17 @@ export function User() {
         <section className="latest-game">
           <section className="lg-result">
             <p>Result</p>
-            <p className="stat">188/195</p>
+            <p className="stat">
+              {latestGame ? `${latestGame.correctCountries}/5` : "Loading..."}
+            </p>
           </section>
           <section className="lg-time">
             <p>Time</p>
-            <p className="stat">17:44</p>
+            <p className="stat">
+              {latestGame
+                ? formatTime(latestGame.timeTaken * 1000)
+                : "Loading..."}{" "}
+            </p>
           </section>
         </section>
       </section>
