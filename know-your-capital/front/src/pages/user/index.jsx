@@ -1,11 +1,13 @@
 import "./style.css";
 import { useAuth } from "../../contexts/AuthContext";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { getLastGameByUserId } from "../../services/gameService";
 
 export function User() {
   const { user } = useAuth();
   const navigate = useNavigate();
+  const [latestGame, setLatestGame] = useState(null);
 
   const redirectToEdit = () => {
     navigate(`/user/${user._id}/edit`);
@@ -15,6 +17,15 @@ export function User() {
     if (!user) {
       window.location.href = "/auth/login";
     }
+    const fetchLastGame = async () => {
+      try {
+        const game = await getLastGameByUserId(user._id);
+        setLatestGame(game);
+      } catch (error) {
+        console.error("Error fetching latest game:", error);
+      }
+    };
+    fetchLastGame();
   }, [user]);
 
   console.log(user);
@@ -30,11 +41,15 @@ export function User() {
         <section className="latest-game">
           <section className="lg-result">
             <p>Result</p>
-            <p className="stat">188/195</p>
+            <p className="stat">
+              {latestGame ? `${latestGame.score}/5` : "Loading..."}
+            </p>
           </section>
           <section className="lg-time">
             <p>Time</p>
-            <p className="stat">17:44</p>
+            <p className="stat">
+              {latestGame ? latestGame.timeTaken : "Loading..."}{" "}
+            </p>
           </section>
         </section>
       </section>

@@ -6,7 +6,8 @@ const router = Router();
 router.get("/:id", async (req, res) => {
   try {
     const user = await userService.getUser(req.params.id);
-    res.status(200).json(user);
+    const lastGame = await userService.getLatestGameByUserId(req.params.id);
+    res.status(200).json({ user, lastGame });
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
