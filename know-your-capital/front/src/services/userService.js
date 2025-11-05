@@ -18,6 +18,16 @@ export const getLastGameByUserId = async (userId) => {
   }
 };
 
+export const getAllGamesByUserId = async (userId) => {
+  try {
+    const response = await axios.get(`${API_URL}/${userId}/all-games`);
+    return response.data;
+  } catch (error) {
+    console.error("Error fetching all games by user ID:", error);
+    throw error;
+  }
+};
+
 export const editUser = async (formData, userId) => {
   const data = {
     username: formData.username,
