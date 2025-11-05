@@ -27,4 +27,13 @@ router.put("/:id/edit", async (req, res) => {
   }
 });
 
+router.get("/:id/all-games", async (req, res) => {
+  try {
+    const games = await gameService.getAllGamesByUserId(req.params.id);
+    res.status(200).json(games);
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+});
+
 module.exports = router;
