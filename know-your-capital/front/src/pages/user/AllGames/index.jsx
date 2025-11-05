@@ -19,8 +19,6 @@ export const AllGames = () => {
     fetchAllGames();
   }, [user._id]);
 
-  games.map((game) => console.log(game));
-
   return (
     <section className="all-games">
       <h2>All Games</h2>
