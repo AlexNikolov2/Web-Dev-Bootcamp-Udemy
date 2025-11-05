@@ -38,6 +38,10 @@ const gameService = {
     return await Game.findOne({ userId }).sort({ date: -1 });
   },
 
+  getAllGamesByUserId: async (userId) => {
+    return await Game.find({ userId }).sort({ date: -1 });
+  },
+
   getGameById: async (gameId) => {
     return await Game.findOne({ gameId });
   },
