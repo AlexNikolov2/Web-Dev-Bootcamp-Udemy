@@ -14,6 +14,10 @@ export function User() {
     navigate(`/user/${user._id}/edit`);
   };
 
+  const redirectToAllGames = () => {
+    navigate(`/user/${user._id}/all-games`);
+  };
+
   useEffect(() => {
     if (!user) {
       window.location.href = "/auth/login";
@@ -60,7 +64,9 @@ export function User() {
         <button className="edit-profile-btn" onClick={redirectToEdit}>
           Edit Profile
         </button>
-        <button className="change-plan-btn">Change plan</button>
+        <button className="change-plan-btn" onClick={redirectToAllGames}>
+          See All Games
+        </button>
       </section>
     </section>
   );

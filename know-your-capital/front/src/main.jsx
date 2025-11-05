@@ -11,6 +11,7 @@ import { User } from "./pages/user";
 import { AuthProvider } from "./contexts/AuthContext.jsx";
 import { Country } from "./pages/game/PlayMode/Country/index.jsx";
 import { EditUser } from "./pages/user/EditUser/index.jsx";
+import { AllGames } from "./pages/user/AllGames/index.jsx";
 
 const router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
           {
             path: ":id/edit",
             element: <EditUser />,
+          },
+          {
+            path: ":id/all-games",
+            element: <AllGames />,
           },
         ],
       },
