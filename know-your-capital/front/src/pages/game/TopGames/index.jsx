@@ -3,6 +3,8 @@ import { formatTime } from "../../game/PlayMode/Timer/utils";
 import dayjs from "dayjs";
 import { getTopGames } from "../../../services/gameService";
 
+import "./style.css";
+
 export const TopGames = () => {
   const [topGames, setTopGames] = useState([]);
 
@@ -44,7 +46,7 @@ export const TopGames = () => {
           const userDisplay = getImageDisplayName(game.userId);
 
           return (
-            <li key={game._id} className="all-games item">
+            <li key={game._id} className="top-games item">
               <section className="top-games item stat user">
                 <p>User</p>
                 {userImage ? (
@@ -61,15 +63,15 @@ export const TopGames = () => {
                   <p>{userDisplay}</p>
                 )}
               </section>
-              <section className="all-games item stat date">
+              <section className="top-games item stat date">
                 <p>Date</p>
                 <p>{dayjs(game.date).format("DD/MM/YYYY")}</p>
               </section>
-              <section className="all-games item stat score">
+              <section className="top-games item stat score">
                 <p>Score</p>
                 <p>{game.correctCountries}/5</p>
               </section>
-              <section className="all-games item stat time">
+              <section className="top-games item stat time">
                 <p>Time</p>
                 <p>{formatTime(game.timeTaken * 1000)}</p>
               </section>

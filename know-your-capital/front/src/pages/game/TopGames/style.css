@@ -1,0 +1,37 @@
+.top-games h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.top-games.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.top-games.item {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+  align-items: center;
+  background-color: var(--primary);
+  padding: 10px;
+  border-radius: 8px;
+  color: var(--secondary);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat p:last-child {
+  background-color: var(--secondary);
+  color: var(--primary);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
