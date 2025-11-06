@@ -9,7 +9,7 @@ export const TopGames = () => {
   const [topGames, setTopGames] = useState([]);
 
   const getImageDisplayName = (user) => {
-    if (!user) return "Unknown User";
+    if (!user) return "Guest User";
     if (user.image && user.image.data) {
       return `${user.username}'s Image`;
     }
@@ -18,8 +18,8 @@ export const TopGames = () => {
 
   const getImageDisplayValue = (user) => {
     if (!user) return null;
-    if (user.image && user.image.data) {
-      return user.image.data;
+    if (user.image) {
+      return user.image;
     }
     return null;
   };

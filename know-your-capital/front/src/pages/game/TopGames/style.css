@@ -21,6 +21,7 @@
   padding: 10px;
   border-radius: 8px;
   color: var(--secondary);
+  width: 800px;
 }
 
 .stat {
