@@ -15,33 +15,38 @@ export const HeaderComponent = ({ user = null }) => {
         </h2>
       </div>
       <nav>
-        {isAuthenticated ? (
-          <ul>
-            <li>
-              <Link to="/games/play-mode">Play</Link>
-            </li>
-            <li>
-              <Link to="/games/learn-mode">Learn</Link>
-            </li>
-            <li>
-              <Link to={`/user/${user._id}`}>User</Link>
-            </li>
-            <li>
-              <Link to="/" onClick={logout}>
-                Logout
-              </Link>
-            </li>
-          </ul>
-        ) : (
-          <ul>
-            <li>
-              <Link to="/auth/login">Login</Link>
-            </li>
-            <li>
-              <Link to="/auth/register">Sign up</Link>
-            </li>
-          </ul>
-        )}
+        <ul>
+          <li>
+            <Link to="/games/play-mode">Play</Link>
+          </li>
+          <li>
+            <Link to="/games/learn-mode">Learn</Link>
+          </li>
+          <li>
+            <Link to="/games/top">Top Games</Link>
+          </li>
+          {isAuthenticated ? (
+            <>
+              <li>
+                <Link to={`/user/${user._id}`}>User</Link>
+              </li>
+              <li>
+                <Link to="/" onClick={logout}>
+                  Logout
+                </Link>
+              </li>
+            </>
+          ) : (
+            <>
+              <li>
+                <Link to="/auth/login">Login</Link>
+              </li>
+              <li>
+                <Link to="/auth/register">Sign up</Link>
+              </li>
+            </>
+          )}
+        </ul>
       </nav>
     </header>
   );

@@ -49,6 +49,13 @@ const gameService = {
   updateGame: async (gameId, updateData) => {
     return await Game.findOneAndUpdate({ gameId }, updateData, { new: true });
   },
+
+  getTopGames: async () => {
+    return await Game.find()
+      .populate("userId", "username image")
+      .sort({ correctCountries: -1, timeTaken: 1 })
+      .limit(20);
+  },
 };
 
 module.exports = gameService;

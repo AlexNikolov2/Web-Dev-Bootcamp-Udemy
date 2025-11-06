@@ -67,6 +67,19 @@ router.get("/games/:gameId/countries/:countryId", async (req, res) => {
 
 // ==================== GAMES ENDPOINTS ====================
 
+router.get("/games/top", async (req, res) => {
+  try {
+    const topGames = await gameService.getTopGames();
+    res.status(200).json(topGames);
+  } catch (error) {
+    console.error("Error fetching top games:", error);
+    res.status(500).json({
+      error: "Internal Server Error",
+      message: error.message,
+    });
+  }
+});
+
 router.get("/games/:gameId", async (req, res) => {
   const { gameId } = req.params;
 
