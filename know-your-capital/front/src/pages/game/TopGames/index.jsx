@@ -1,3 +1,7 @@
 export const TopGames = () => {
-  return <div>Top Games Page</div>;
+  return (
+    <section className="top-games">
+      <h2>Top Games</h2>
+    </section>
+  );
 };

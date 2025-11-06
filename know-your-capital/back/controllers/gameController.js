@@ -129,4 +129,17 @@ router.get("/search", async (req, res) => {
   }
 });
 
+router.get("/games/top", async (req, res) => {
+  try {
+    const topGames = await gameService.getTopGames();
+    res.status(200).json(topGames);
+  } catch (error) {
+    console.error("Error fetching top games:", error);
+    res.status(500).json({
+      error: "Internal Server Error",
+      message: error.message,
+    });
+  }
+});
+
 module.exports = router;
