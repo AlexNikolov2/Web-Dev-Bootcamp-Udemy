@@ -75,7 +75,7 @@ export const getLastGameByUserId = async (userId) => {
 
 export const getTopGames = async () => {
   try {
-    const response = await axios.get(`${API_URL}/top`);
+    const response = await axios.get(`${API_URL}/games/top`);
     console.log("Response data:", response.data);
     return response.data;
   } catch (error) {

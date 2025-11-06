@@ -52,6 +52,7 @@ const gameService = {
 
   getTopGames: async () => {
     return await Game.find()
+      .populate("userId", "username image")
       .sort({ correctCountries: -1, timeTaken: 1 })
       .limit(20);
   },
