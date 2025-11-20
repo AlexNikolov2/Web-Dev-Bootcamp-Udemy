@@ -75,12 +75,12 @@ export const Country = () => {
         const currentTime = getElapsedTime();
         setFinalTime(currentTime);
         stopTimer();
-        handleSave(currentTime);
+        handleSave(currentTime, correctCountries + (isAnswerCorrect ? 1 : 0));
         console.log("do we reach here?");
 
         setGameEnded(true);
       }
-    }, 3000);
+    }, 1500);
   };
 
   const handleStopModal = () => setOpen(true);
@@ -97,10 +97,10 @@ export const Country = () => {
     setGameEnded(true);
   };
 
-  const handleSave = (time) => {
+  const handleSave = (time, score) => {
     const gameData = {
       gameId,
-      correctCountries,
+      correctCountries: score !== undefined ? score : correctCountries,
       timeTaken: time,
     };
 
