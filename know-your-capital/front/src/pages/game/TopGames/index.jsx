@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { formatTime } from "../../game/PlayMode/Timer/utils";
 import dayjs from "dayjs";
 import { getTopGames } from "../../../services/gameService";
+import { Link } from "react-router-dom";
 
 import "./style.css";
 
@@ -45,24 +46,37 @@ export const TopGames = () => {
           const userImage = getImageDisplayValue(game.userId);
           const userDisplay = getImageDisplayName(game.userId);
 
+          console.log(game.userId);
+
           return (
             <li key={game._id} className="top-games item">
-              <section className="top-games item stat user">
-                <p>User</p>
-                {userImage ? (
-                  <img
-                    src={userImage}
-                    alt={userDisplay}
-                    style={{
-                      width: "50px",
-                      height: "50px",
-                      borderRadius: "50%",
-                    }}
-                  />
-                ) : (
+              {game.userId?._id ? (
+                <section className="top-games item stat user">
+                  <p>User</p>
+                  {userImage ? (
+                    <Link to={`/user/${game.userId._id}`}>
+                      <img
+                        src={userImage}
+                        alt={userDisplay}
+                        style={{
+                          width: "50px",
+                          height: "50px",
+                          borderRadius: "50%",
+                        }}
+                      />
+                    </Link>
+                  ) : (
+                    <Link to={`/user/${game.userId._id}`}>
+                      <p>{userDisplay}</p>
+                    </Link>
+                  )}
+                </section>
+              ) : (
+                <section className="top-games item stat user">
+                  <p>User</p>
                   <p>{userDisplay}</p>
-                )}
-              </section>
+                </section>
+              )}
               <section className="top-games item stat date">
                 <p>Date</p>
                 <p>{dayjs(game.date).format("DD/MM/YYYY")}</p>
