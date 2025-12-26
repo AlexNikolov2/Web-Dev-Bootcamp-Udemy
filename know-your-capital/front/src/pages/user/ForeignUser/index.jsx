@@ -1,10 +1,27 @@
 import { getUser } from "../../../services/userService";
 import { useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { getLastGameByUserId } from "../../../services/userService";
+import { formatTime } from "../../game/PlayMode/Timer/utils";
 
 export const ForeignUser = () => {
   const { id } = useParams();
   const { user } = getUser(id);
   const [latestGame, setLatestGame] = useState(null);
+
+  useEffect(() => {
+    const fetchLastGame = async () => {
+      try {
+        const game = await getLastGameByUserId(id);
+        console.log(game);
+
+        setLatestGame(game);
+      } catch (error) {
+        console.error("Error fetching latest game:", error);
+      }
+    };
+    fetchLastGame();
+  }, [id]);
 
   return (
     <section className="user-wrap">
