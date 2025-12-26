@@ -7,10 +7,6 @@ export const User = () => {
   const { id } = useParams();
   const { user: localUser } = useAuth();
 
-  console.log("Id: ", id);
-
-  console.log("Local user id: ", localUser?._id);
-
   if (localUser && localUser._id === id) {
     return <MyUser />;
   } else {
