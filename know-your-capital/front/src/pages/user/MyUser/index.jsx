@@ -1,16 +1,14 @@
 import "../style.css";
 import { useAuth } from "../../../contexts/AuthContext";
 import { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { getLastGameByUserId } from "../../../services/userService";
 import { formatTime } from "../../game/PlayMode/Timer/utils";
-import { getNonOwnedUser } from "../utils";
 
 export function MyUser() {
   const { user } = useAuth();
   const navigate = useNavigate();
   const [latestGame, setLatestGame] = useState(null);
-  const { id } = useParams();
 
   const redirectToEdit = () => {
     navigate(`/user/${user._id}/edit`);
@@ -40,7 +38,7 @@ export function MyUser() {
   return (
     <section className="user-wrap">
       <section className="user-title-wrap">
-        <h2>{user.username ? user.username : getNonOwnedUser(id)}</h2>
+        <h2>{user.username}</h2>
         <img src={user.image ? user.image : ""} alt="" />
       </section>
       <section className="games-summary-wrap">
