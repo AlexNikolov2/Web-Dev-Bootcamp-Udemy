@@ -1,10 +1,10 @@
-import "./style.css";
-import { useAuth } from "../../contexts/AuthContext";
+import "../style.css";
+import { useAuth } from "../../../contexts/AuthContext";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { getLastGameByUserId } from "../../services/userService";
-import { formatTime } from "../game/PlayMode/Timer/utils";
-import { getNonOwnedUser } from "./utils";
+import { getLastGameByUserId } from "../../../services/userService";
+import { formatTime } from "../../game/PlayMode/Timer/utils";
+import { getNonOwnedUser } from "../utils";
 
 export function MyUser() {
   const { user } = useAuth();

@@ -7,10 +7,19 @@ import "../style.css";
 
 export const ForeignUser = () => {
   const { id } = useParams();
-  const { user } = getUser(id);
+  const [user, setUser] = useState(null);
   const [latestGame, setLatestGame] = useState(null);
 
   useEffect(() => {
+    const fetchUserData = async () => {
+      try {
+        const userData = await getUser(id);
+        setUser(userData);
+      } catch (error) {
+        console.error("Error fetching user:", error);
+      }
+    };
+
     const fetchLastGame = async () => {
       try {
         const game = await getLastGameByUserId(id);
@@ -21,14 +30,16 @@ export const ForeignUser = () => {
         console.error("Error fetching latest game:", error);
       }
     };
+
+    fetchUserData();
     fetchLastGame();
   }, [id]);
 
   return (
     <section className="user-wrap">
       <section className="user-title-wrap">
-        <h2>{user.username}</h2>
-        <img src={user.image} alt="" />
+        <h2>{user ? user.username : "Loading..."}</h2>
+        {user && <img src={user.image} alt="" />}
       </section>
       <section className="games-summary-wrap">
         <p>Your latest game</p>

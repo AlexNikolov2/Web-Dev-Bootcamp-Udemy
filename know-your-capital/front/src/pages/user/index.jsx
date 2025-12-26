@@ -1,11 +1,15 @@
 import { useParams } from "react-router-dom";
-import { useAuth } from "../../../hooks/useAuth";
-import { MyUser } from "../MyUser";
-import { ForeignUser } from "../ForeignUser";
+import { useAuth } from "../../contexts/AuthContext";
+import { MyUser } from "./MyUser";
+import { ForeignUser } from "./ForeignUser";
 
 export const User = () => {
   const { id } = useParams();
-  const { localUser } = useAuth();
+  const { user: localUser } = useAuth();
+
+  console.log("Id: ", id);
+
+  console.log("Local user id: ", localUser?._id);
 
   if (localUser && localUser._id === id) {
     return <MyUser />;
