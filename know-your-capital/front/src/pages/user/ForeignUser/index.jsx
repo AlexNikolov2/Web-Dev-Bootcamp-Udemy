@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getLastGameByUserId } from "../../../services/userService";
 import { formatTime } from "../../game/PlayMode/Timer/utils";
+import "../style.css";
 
 export const ForeignUser = () => {
   const { id } = useParams();
