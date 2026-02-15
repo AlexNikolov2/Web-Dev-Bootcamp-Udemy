@@ -8,5 +8,8 @@ export const modalStyle = {
   borderRadius: "16px",
   boxShadow: 24,
   p: 4,
+  "@media (max-width: 768px)": {
+    width: 280,
+  },
 };
 export const font = "var(--font)";

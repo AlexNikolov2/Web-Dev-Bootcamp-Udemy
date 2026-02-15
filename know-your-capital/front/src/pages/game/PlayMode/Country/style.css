@@ -35,3 +35,13 @@
   color: var(--primary);
   border: 4px solid var(--primary);
 }
+
+@media screen and (max-width: 768px) {
+  .country {
+    padding-top: 25px;
+    margin: 20px;
+  }
+  .country img {
+    width: 75%;
+  }
+}
