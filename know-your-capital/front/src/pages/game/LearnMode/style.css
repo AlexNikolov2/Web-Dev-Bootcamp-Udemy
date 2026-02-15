@@ -23,3 +23,16 @@
   margin-top: 25px;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .search-wrap {
+    padding: 0.75rem;
+    margin: 20px;
+  }
+  .search-wrap h2 {
+    font-size: 1.5rem;
+  }
+  .search-wrap .title p {
+    font-size: 0.75rem;
+  }
+}

@@ -43,3 +43,25 @@ img {
 .back-btn {
   margin-bottom: 3rem;
 }
+
+@media screen and (max-width: 768px) {
+  .capital-wrap {
+    flex-direction: column;
+    padding: 0.5rem;
+    padding-top: 2rem;
+    gap: 2rem;
+    margin: 20px;
+  }
+  .container-right {
+    max-width: 100%;
+  }
+  .container-left p {
+    font-size: 1.2rem;
+  }
+  .container-left img {
+    max-width: 100%;
+  }
+  .container-right p {
+    font-size: 0.75rem;
+  }
+}

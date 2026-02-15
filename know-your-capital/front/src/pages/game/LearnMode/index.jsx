@@ -42,8 +42,6 @@ export function LearnMode() {
     }
   };
 
-  console.log(country);
-
   return !searched ? (
     <section className="search-wrap">
       <section className="title">
