@@ -28,6 +28,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--primary);
+  color: var(--secondary);
 }
 
 .stat p:last-child {
@@ -35,4 +37,17 @@
   color: var(--primary);
   padding: 5px 10px;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .top-games.item {
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  .stat {
+    flex-direction: column;
+    gap: 10px;
+  }
 }

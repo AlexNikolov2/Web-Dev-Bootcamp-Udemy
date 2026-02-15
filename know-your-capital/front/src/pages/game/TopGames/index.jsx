@@ -47,7 +47,7 @@ export const TopGames = () => {
 
           return (
             <li key={game._id} className="top-games item">
-              <section className="top-games item stat user">
+              <section className="stat user">
                 <p>User</p>
                 {userImage ? (
                   <img
@@ -63,15 +63,15 @@ export const TopGames = () => {
                   <p>{userDisplay}</p>
                 )}
               </section>
-              <section className="top-games item stat date">
+              <section className="stat date">
                 <p>Date</p>
                 <p>{dayjs(game.date).format("DD/MM/YYYY")}</p>
               </section>
-              <section className="top-games item stat score">
+              <section className="stat score">
                 <p>Score</p>
                 <p>{game.correctCountries}/5</p>
               </section>
-              <section className="top-games item stat time">
+              <section className="stat time">
                 <p>Time</p>
                 <p>{formatTime(game.timeTaken * 1000)}</p>
               </section>
