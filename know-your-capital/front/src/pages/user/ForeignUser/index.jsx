@@ -42,7 +42,7 @@ export const ForeignUser = () => {
         {user && <img src={user.image} alt="" />}
       </section>
       <section className="games-summary-wrap">
-        <p>Your latest game</p>
+        <p>{user ? `${user.username}'s` : "Loading..."} latest game</p>
         <section className="latest-game">
           <section className="lg-result">
             <p>Result</p>
